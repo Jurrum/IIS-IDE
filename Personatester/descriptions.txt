@@ -1,0 +1,12 @@
+A mid‐sized workshop operates 50 desktop FFF printers arranged in racks. Operators manually load filament spools, start print jobs via each printer’s onboard touchscreen, and visually inspect parts as they finish. When a print fails or a nozzle clogs, the technician notices the error on-site, pauses the job, clears the jam, and restarts. Build plates are removed by hand, parts are cleaned in an ultrasonic bath, and completed pieces are sorted into bins for post-processing. All scheduling, maintenance logs and inventory counts are recorded in a spreadsheet at the end of each shift—demanding constant context-switching and repetitive data entry from staff.
+
+
+In a next-generation facility, operators wear lightweight AR glasses that project a live digital twin of the entire farm over their field of view. As they walk the aisles, the system highlights each printer’s status via color-coded halos (green for printing, yellow for attention soon, red for intervention). When a print finishes, a prompt appears floating next to the machine showing the part ID and the planned post-process step; the worker simply taps a virtual button to acknowledge and remove the build plate. If a nozzle begins to clog, the AR overlay automatically zooms in on the affected printer, displays an animated guide for clearing the jam, and updates the maintenance log in real time—eliminating the need for manual record-keeping. Inventory levels for filament and consumables are tracked visually on demand, reducing time spent looking up stock and minimizing mental overhead for the technician.
+
+
+
+
+
+
+
+
