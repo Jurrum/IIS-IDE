@@ -1,0 +1,13 @@
+Metric,Original_Mean,Original_Median,Original_Std,Original_Variance,Adaptive_Mean,Adaptive_Median,Adaptive_Std,Adaptive_Variance,Mean_Difference,Avg_Percent_Change (%)
+SUS Score,36.33,35.00,5.11,26.07,86.72,87.50,10.97,120.42,50.40,145.76
+TLX Overall,3.24,3.25,1.04,1.07,3.33,3.50,1.06,1.13,0.09,4.95
+Errors Subtask1 Count,0.04,0.00,0.28,0.08,0.00,0.00,0.00,0.00,-0.04,-2.00
+Errors Subtask2 Count,0.41,0.00,0.55,0.30,0.78,1.00,0.42,0.17,0.37,-4.52
+Errors Subtask3 Count,0.49,0.00,0.54,0.29,0.09,0.00,0.29,0.08,-0.40,-43.75
+Time Subtask1 Seconds,49.90,45.00,14.18,201.00,44.75,45.00,2.06,4.23,-5.15,-5.20
+Time Subtask2 Seconds,57.65,60.00,13.13,172.45,59.70,60.00,2.23,4.96,2.05,11.27
+Time Subtask3 Seconds,42.93,40.00,6.82,46.47,39.85,40.00,2.07,4.27,-3.08,-3.56
+TLX Mental Demand,3.83,4.00,1.10,1.21,3.65,4.00,1.13,1.28,-0.18,-3.42
+TLX Effort,3.33,3.00,1.16,1.34,3.23,3.00,1.32,1.75,-0.11,-5.14
+TLX Frustration,3.56,4.00,1.14,1.30,2.23,2.00,1.10,1.21,-1.33,-34.50
+TLX Perceived Performance,2.20,2.00,1.07,1.15,4.28,5.00,1.00,1.00,2.08,125.00

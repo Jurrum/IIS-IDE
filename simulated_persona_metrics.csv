@@ -1,0 +1,4649 @@
+id,name,age,role,experience_years,tech_savvy,stress_tolerance,shift,outlook,openness,conscientiousness,extraversion,agreeableness,neuroticism,learning_style,region,education,gender,prior_tech_experience,prior_change_experience,Original_Errors_Subtask1_count,Original_Errors_Subtask2_count,Original_Errors_Subtask3_count,Original_SUS_1,Original_SUS_10,Original_SUS_2,Original_SUS_3,Original_SUS_4,Original_SUS_5,Original_SUS_6,Original_SUS_7,Original_SUS_8,Original_SUS_9,Original_SUS_Score,Original_TLX_Effort,Original_TLX_Frustration,Original_TLX_Mental_Demand,Original_TLX_Overall,Original_TLX_Perceived_Performance,Original_Time_Subtask1_seconds,Original_Time_Subtask2_seconds,Original_Time_Subtask3_seconds,Adaptive_Errors_Subtask1_count,Adaptive_Errors_Subtask2_count,Adaptive_Errors_Subtask3_count,Adaptive_SUS_1,Adaptive_SUS_10,Adaptive_SUS_2,Adaptive_SUS_3,Adaptive_SUS_4,Adaptive_SUS_5,Adaptive_SUS_6,Adaptive_SUS_7,Adaptive_SUS_8,Adaptive_SUS_9,Adaptive_SUS_Score,Adaptive_TLX_Effort,Adaptive_TLX_Frustration,Adaptive_TLX_Mental_Demand,Adaptive_TLX_Overall,Adaptive_TLX_Perceived_Performance,Adaptive_Time_Subtask1_seconds,Adaptive_Time_Subtask2_seconds,Adaptive_Time_Subtask3_seconds,Errors_Subtask1_count_Change,Errors_Subtask2_count_Change,Errors_Subtask3_count_Change,SUS_Score_Change,TLX_Effort_Change,TLX_Frustration_Change,TLX_Mental_Demand_Change,TLX_Overall_Change,TLX_Perceived_Performance_Change,Time_Subtask1_seconds_Change,Time_Subtask2_seconds_Change,Time_Subtask3_seconds_Change,Adaptive_Raw_Performance,Adaptive_Raw_SUS,Adaptive_Raw_TLX,Original_Raw_Performance,Original_Raw_SUS,Original_Raw_TLX
+0,Persona_0,60,Operator,1,High,Medium,Day,optimistic,2,1,5,1,5,Reading/Writing,North America,High School,Male,6,None,0,0,0,3,5,5,4,4,3,5,4,5,4,35.00,4.00,3.00,5.00,4.00,4.00,45,60,40,0,1,0,5,2,2,5,2,5,2,5,2,5,87.50,5.00,3.00,4.00,4.25,5.00,45,60,40,0,1,0,52.50,1.00,0.00,-1.00,0.25,1.00,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Tasks:
+1. Log into the tablet and observe the dashboard adapting to your current role and location.
+2. Navigate through the dashboard to view different printers or part bins based on your location.
+3. Trigger the system to simplify the interface when it detects stress or overload.
+4. Use the AR overlays activated by the tablet's camera to guide you through a task like replacing a nozzle.
+
+Scores:
+TLX_Mental_Demand: 3
+TLX_Effort: 4
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","Task 1: Check the current print queue on the dashboard.
+Task 2: Review the status of each printer in the 3D print farm.
+Task 3: Identify any alerts that require immediate attention.
+
+Task 1:
+The current print queue is displayed in a list format, showing the order of prints in progress and upcoming prints.
+Task 2:
+Each printer's status is indicated by color-coded icons next to the printer's name, showing whether it's idle, printing, or has an issue.
+Task 3:
+Alerts are highlighted with pop-up notifications and a separate section on the dashboard for quick identification.
+
+TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 3"
+1,Persona_1,52,Supervisor,1,High,Low,Night,optimistic,4,5,3,1,2,Reading/Writing,Asia,Bachelor's,Male,6,Some,0,1,0,4,5,5,5,5,4,5,5,5,4,42.50,5.00,5.00,5.00,4.75,4.00,45,60,40,0,1,0,5,3,3,5,3,5,3,5,3,5,75.00,5.00,4.00,5.00,4.75,5.00,45,60,40,0,0,0,32.50,0.00,-1.00,0.00,0.00,1.00,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task: You are currently in the printer bay, and the dashboard displays only relevant information for this location. You need to replace a printer cartridge. The dashboard provides you with a step-by-step checklist for this task, along with AR overlays to guide you through the process.
+
+Task Simulation:
+1. Check the step-by-step checklist provided on the dashboard for replacing the printer cartridge.
+2. Use the AR overlays activated by the tablet's camera to guide you through the process of replacing the printer cartridge.
+
+Rating:
+TLX_Mental_Demand: 3
+TLX_Effort: 4
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 3","TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 3
+TLX_Perceived_Performance: 2"
+2,Persona_2,26,Operator,13,Low,Medium,Night,pessimistic,3,1,4,5,1,Reading/Writing,North America,PhD,Female,26,Extensive,0,1,0,2,4,4,3,4,2,4,3,4,3,32.50,3.00,4.00,4.00,3.25,2.00,45,60,50,0,0,1,5,1,1,5,1,5,1,5,1,5,100.00,4.00,2.00,3.00,3.50,5.00,45,60,40,0,-1,1,67.50,1.00,-2.00,-1.00,0.25,3.00,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task 1: Log into the tablet and observe the dashboard.
+Task 2: Navigate through the dashboard to check the real-time data from the Empatica E4 wristband.
+Task 3: Trigger the system to simplify the interface by simulating stress or overload.
+Task 4: Move around to different task stages to observe the dashboard adapting based on BLE beacon detection.
+Task 5: Activate the camera for AR overlays to guide through a task like replacing a nozzle.
+
+TLX_Mental_Demand: 3
+TLX_Effort: 4
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+3,Persona_3,59,Technician,19,Low,High,Day,optimistic,2,3,1,2,1,Reading/Writing,Asia,Master's,Other,26,Some,0,0,1,3,5,5,4,5,3,4,4,5,4,35.00,4.00,5.00,5.00,4.25,3.00,45,60,50,0,1,0,5,2,2,5,2,5,2,5,2,5,87.50,4.00,3.00,5.00,4.25,5.00,45,60,40,0,1,-1,52.50,0.00,-2.00,0.00,0.00,2.00,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+4,Persona_4,30,Technician,12,Low,High,Night,pessimistic,1,5,2,5,2,Auditory,South America,Master's,Female,29,Extensive,0,0,0,1,2,2,1,2,1,1,1,2,1,40.00,2.00,1.00,2.00,1.50,1.00,45,60,50,0,0,1,3,1,1,3,1,3,1,3,1,3,75.00,1.00,1.00,2.00,1.75,3.00,45,60,40,0,0,1,35.00,-1.00,0.00,0.00,0.25,2.00,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 3
+TLX_Perceived_Performance: 2"
+5,Persona_5,55,Operator,22,Medium,Low,Day,optimistic,3,4,3,1,2,Kinesthetic,Europe,Master's,Female,28,Extensive,0,1,0,4,5,5,5,5,4,5,5,5,4,42.50,5.00,5.00,5.00,4.75,4.00,45,60,40,0,1,0,5,3,3,5,3,5,3,5,3,5,75.00,5.00,4.00,5.00,4.75,5.00,45,60,40,0,0,0,32.50,0.00,-1.00,0.00,0.00,1.00,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Tasks:
+1. Log into the tablet and observe the dashboard.
+2. Navigate through the dashboard to check the current task stage.
+3. Trigger the stress detection mechanism by simulating a high-stress scenario.
+4. Observe the simplification of the interface in response to high stress.
+5. Request guidance for replacing a nozzle and observe the AR overlays.
+
+---
+
+TLX_Mental_Demand: 4  
+TLX_Effort: 3  
+TLX_Frustration: 2  
+TLX_Perceived_Performance: 4","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 3
+TLX_Perceived_Performance: 2"
+6,Persona_6,49,Operator,9,Low,Low,Night,pessimistic,5,4,5,4,3,Auditory,Europe,PhD,Female,2,None,0,1,0,3,5,5,4,5,3,5,4,5,3,30.00,,,,,,90,60,45,0,1,0,5,2,2,5,2,5,2,5,2,5,87.50,4.00,3.00,5.00,4.25,5.00,45,60,40,0,0,0,57.50,,,,,,-45,0,-5,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task 1: Log into the tablet and observe the dashboard.
+Task 2: Navigate through the dashboard to check the real-time data from the Empatica E4 wristband.
+Task 3: Trigger the system to simplify the interface when it detects stress or overload.
+Task 4: Verify the system's ability to display only compatible printers or part bins based on your location.
+Task 5: Activate the AR overlays using the tablet's camera to guide you through a task, such as replacing a nozzle.
+
+TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 4","Time_Subtask1_seconds: 90
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 45
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","Task 1: Check the current print queue on the dashboard.
+Task 2: Identify a printer with an alert that requires attention.
+Task 3: Locate a specific job in the print queue for priority handling.
+
+Mental_Demand: 4
+Effort: 4
+Frustration: 3
+Perceived_Performance: 2"
+7,Persona_7,27,Operator,21,Low,High,Night,pessimistic,1,4,4,5,4,Kinesthetic,Africa,High School,Other,23,None,0,0,1,1,2,2,1,2,1,1,1,2,1,40.00,2.00,1.00,2.00,1.50,1.00,45,60,50,0,1,0,3,1,1,3,1,3,1,3,1,3,75.00,1.00,1.00,2.00,1.75,3.00,45,60,40,0,1,-1,35.00,-1.00,0.00,0.00,0.25,2.00,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 3
+TLX_Perceived_Performance: 2"
+8,Persona_8,54,Technician,25,High,Medium,Day,neutral,4,2,4,1,3,Auditory,Africa,High School,Other,9,Extensive,0,1,0,3,5,5,4,5,3,4,4,5,4,35.00,4.00,5.00,5.00,4.25,3.00,45,60,40,0,1,0,5,3,2,5,2,5,2,5,2,5,85.00,4.00,3.00,5.00,4.25,5.00,45,60,40,0,0,0,50.00,0.00,-2.00,0.00,0.00,2.00,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 4
+SUS_10: 2","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 4","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+9,Persona_9,52,Supervisor,7,Low,Medium,Day,pessimistic,5,1,5,3,4,Visual,North America,Bachelor's,Female,7,None,0,1,0,2,4,4,3,4,2,4,3,4,2,30.00,3.00,3.00,4.00,3.00,2.00,45,60,40,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,3.00,2.00,4.00,3.25,4.00,45,60,40,0,0,0,70.00,0.00,-1.00,0.00,0.25,2.00,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task: You are currently in the printer bay, and the dashboard displays only relevant information for this location. You need to replace a printer cartridge.
+
+1. What are the step-by-step instructions displayed on the dashboard for replacing the printer cartridge?
+2. How does the dashboard assist you in identifying the correct printer cartridge for replacement?
+3. How does the dashboard adapt if it detects you are feeling stressed or overloaded during the task?
+
+Please provide your responses clearly, one per line.
+
+---
+
+1. The step-by-step instructions displayed on the dashboard for replacing the printer cartridge are:
+- Step 1: Open the printer cover.
+- Step 2: Remove the old cartridge.
+- Step 3: Insert the new cartridge.
+- Step 4: Close the printer cover.
+
+2. The dashboard assists me in identifying the correct printer cartridge for replacement by:
+- Displaying a visual guide with images of the compatible cartridges.
+- Providing a barcode scanner option to scan the cartridge for verification.
+
+3. The dashboard adapts if it detects I am feeling stressed or overloaded during the task by:
+- Simplifying the interface to focus only on the essential steps for cartridge replacement.
+- Providing calming visual cues or messages to reduce stress levels.
+
+---
+
+TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 4","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","Task 1: Check the current print queue on the dashboard.
+Task 2: Check the status of Printer 1 on the dashboard.
+Task 3: Identify any alerts that require immediate attention on the dashboard.
+
+Task 1:
+- The current print queue shows 10 pending jobs, with estimated completion times ranging from 1 to 6 hours.
+- The print queue is displayed in a list format, showing job names, priorities, and progress bars for each job.
+
+Task 2:
+- Printer 1 is currently idle, with no active jobs assigned.
+- The status indicator for Printer 1 shows a green light, indicating that it is online and ready for printing.
+
+Task 3:
+- An alert icon is displayed next to Job #7 in the print queue.
+- Clicking on the alert icon reveals that Job #7 has encountered a filament jam and requires immediate attention.
+
+TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 3
+TLX_Perceived_Performance: 2"
+10,Persona_10,35,Supervisor,3,Low,High,Night,optimistic,5,2,2,4,5,Auditory,Asia,PhD,Other,13,None,0,1,0,2,4,4,3,3,2,4,3,4,3,35.00,3.00,4.00,4.00,3.25,2.00,45,60,50,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,3.00,2.00,4.00,3.50,5.00,45,60,40,0,0,0,65.00,0.00,-2.00,0.00,0.25,3.00,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task 1: Log into the tablet and observe the dashboard.
+
+Task 2: Navigate through the dashboard to check the real-time data from the Empatica E4 wristband.
+
+Task 3: Trigger the system to simplify the interface by simulating stress or overload.
+
+Task 4: Simulate moving between different task stages to observe the dashboard's adaptation based on BLE beacon detection.
+
+Task 5: Activate the AR overlays using the tablet's camera to guide through a task, such as replacing a nozzle.
+
+---
+
+TLX_Mental_Demand: 4
+
+TLX_Effort: 3
+
+TLX_Frustration: 2
+
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+11,Persona_11,54,Supervisor,23,Low,High,Night,neutral,3,4,5,4,1,Auditory,Europe,High School,Female,0,Extensive,0,0,0,4,5,5,5,5,4,5,5,5,5,45.00,5.00,5.00,5.00,4.75,4.00,90,60,45,0,1,0,5,3,3,5,3,5,3,5,3,5,75.00,,,,,,45,60,40,0,1,0,30.00,,,,,,-45,0,-5,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task 1: Log into the tablet and view the dashboard.
+- I log into the tablet and see the dashboard tailored to my role and location, providing only the necessary information.
+- The system tracks my interactions and stress levels to adjust the interface accordingly.
+- The location detection feature based on BLE beacons ensures I see only relevant information for my current task stage.
+- The AR overlays for guidance on tasks like replacing a nozzle are helpful and efficient.
+
+Task 2: Rate the aspects of the experience with the dashboard.
+- Mental_Demand: 3
+- Effort: 4
+- Frustration: 2
+- Perceived_Performance: 5","Time_Subtask1_seconds: 90
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 45
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 3
+TLX_Perceived_Performance: 2"
+12,Persona_12,55,Operator,19,Low,Low,Day,pessimistic,1,2,1,1,3,Visual,Africa,Associate Degree,Female,21,Some,0,1,0,1,1,1,1,1,1,1,1,1,1,50.00,,,,,,90,60,45,0,1,0,2,1,1,2,1,2,1,2,1,2,62.50,,,,,,40,50,45,0,0,0,12.50,,,,,,-50,-10,0,"Time_Subtask1_seconds: 40
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 50
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 45
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task: You are currently in the packaging station, and the dashboard has detected your location accurately.
+
+1. Please describe the information displayed on the dashboard related to the packaging station.
+2. What happens on the dashboard when your stress levels are detected to be high?
+3. How does the dashboard assist you in tasks like replacing a nozzle?
+4. Please rate the following aspects of your experience with the described dashboard on a 1 to 5 scale (1 being very low, 5 being very high).
+
+Subscales to rate:
+- Mental_Demand
+- Effort
+- Frustration
+- Perceived_Performance","Time_Subtask1_seconds: 90
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 45
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","Task 1: Check the current print queue on the dashboard.
+Task 2: Identify a printer with an alert that requires attention.
+Task 3: Locate a print job that encountered an error.
+Task 4: Determine the status of routine maintenance tasks.
+
+Mental_Demand: 4
+Effort: 4
+Frustration: 3
+Perceived_Performance: 2"
+13,Persona_13,33,Supervisor,5,High,High,Night,optimistic,4,4,2,1,1,Reading/Writing,Asia,Master's,Female,14,Extensive,0,0,0,4,5,5,5,5,4,5,5,5,5,45.00,5.00,5.00,5.00,4.75,4.00,45,60,50,0,0,0,5,3,3,5,3,5,3,5,3,5,75.00,5.00,4.00,5.00,4.75,5.00,45,60,40,0,0,0,30.00,0.00,-1.00,0.00,0.00,1.00,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task 1: Check the real-time stress level indication on the dashboard.
+Task 2: Review the step-by-step checklist provided on the dashboard.
+Task 3: Utilize the AR overlays for guidance on replacing a nozzle.
+
+---
+
+TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 3
+TLX_Perceived_Performance: 2"
+14,Persona_14,23,Supervisor,21,High,Low,Day,neutral,3,1,2,2,2,Reading/Writing,Europe,Master's,Male,8,Some,0,1,0,2,4,4,3,3,2,4,3,4,2,32.50,,,,,,45,60,40,0,1,0,5,2,1,5,1,5,1,5,1,4,95.00,4.00,2.00,3.00,3.50,5.00,45,60,40,0,0,0,62.50,,,,,,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 4
+SUS_10: 2","Task 1: Simulate checking the step-by-step checklist on the dashboard for your current task stage.
+Task 2: Simulate using the AR overlays to replace a nozzle on a physical machine.
+Task 3: Simulate the dashboard adapting to simplify itself when you appear overloaded.
+
+TLX_Mental_Demand: 3
+TLX_Effort: 4
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","**Task 1: Identify the printer with the longest remaining print time.**
+
+Printer A: 2 hours remaining
+Printer B: 1.5 hours remaining
+Printer C: 2.5 hours remaining
+
+**Task 2: Check for any printers displaying an error status.**
+
+Printer A: Ready
+Printer B: Error
+Printer C: Ready
+
+**Task 3: Determine the total number of prints currently in the queue.**
+
+Print Queue: 10 prints
+
+**Task 4: Identify the printer that has completed the most prints today.**
+
+Printer A: 5 prints
+Printer B: 3 prints
+Printer C: 4 prints
+
+**Task 5: Check if any printer needs filament refilling.**
+
+Printer A: Filament OK
+Printer B: Filament Low
+Printer C: Filament OK
+
+**Task 6: Review the alerts section for any critical issues.**
+
+Alerts: No critical issues
+
+**Task 7: Identify the printer that has been idle for the longest time.**
+
+Printer A: 30 minutes idle
+Printer B: 10 minutes idle
+Printer C: 45 minutes idle
+
+**Task 8: Check the maintenance schedule for the next upcoming task.**
+
+Maintenance Schedule: 
+- Printer A: Cleaning due in 2 days
+- Printer B: Calibration due in 1 day
+- Printer C: Lubrication due in 3 days
+
+**Task 9: Determine the average print completion time for all printers today.**
+
+Average Print Completion Time: 2 hours
+
+**Task 10: Review the overall print farm status for any anomalies.**
+
+Overall Status: All printers operational
+
+**Rating the experience with the described dashboard:**
+
+"
+15,Persona_15,35,Operator,15,High,Low,Day,pessimistic,5,1,1,2,2,Reading/Writing,South America,Master's,Male,27,Some,0,1,0,1,3,3,2,3,1,2,1,3,1,30.00,3.00,4.00,3.00,2.75,1.00,45,60,40,0,1,0,4,1,1,4,1,4,1,4,1,3,85.00,,,,,,45,60,40,0,0,0,55.00,,,,,,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 4
+SUS_10: 2","Task: You are currently in the printer bay, and you need to replace a nozzle on a specific printer. The dashboard has detected your location and task stage accurately.
+
+1. What specific guidance does the dashboard provide you with for replacing the nozzle?
+2. How does the dashboard utilize AR overlays to assist you in this task?
+3. How does the dashboard adapt to your stress levels during this task?
+
+Please provide your responses clearly, one per line, as requested.","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 2
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 5
+TLX_Perceived_Performance: 2"
+16,Persona_16,23,Operator,13,Low,Medium,Night,neutral,3,4,5,4,2,Auditory,Asia,Associate Degree,Male,18,Extensive,0,0,1,4,5,5,5,5,4,5,5,5,5,45.00,,,,,,45,60,50,0,1,0,5,3,3,5,3,5,3,5,3,5,75.00,,,,,,45,60,40,0,1,-1,30.00,,,,,,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task: You are currently in the printer bay, and the dashboard has adapted to show only relevant information for this location.
+
+1. You notice that the dashboard has simplified itself, showing only information related to the printers in the bay.
+2. You interact with the dashboard to check the status of the printers and select a printer for maintenance.
+3. The system tracks your interactions and adapts the display based on your actions and location.
+4. You use the AR overlays to replace a nozzle on one of the printers.
+
+Please provide the requested ratings for your experience with the described dashboard.","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","Task: As an operator using the described dashboard, please perform the following tasks:
+
+1. Check the current print queue status.
+2. Identify a printer that requires maintenance.
+3. Locate a job error that needs immediate attention.
+4. Review the overall status of all printers.
+
+Upon completion of the tasks, please rate the following aspects of your experience with the described dashboard on a 1 to 5 scale (1 being very low, 5 being very high).
+Please list your scores clearly, one per line, like 'TLX_Mental_Demand: [score]', 'TLX_Effort: [score]', etc. for all subscales provided.
+
+Subscales to rate:
+- Mental_Demand
+- Effort
+- Frustration
+- Perceived_Performance"
+17,Persona_17,54,Operator,24,Medium,Low,Day,pessimistic,4,5,5,2,1,Visual,Europe,High School,Other,2,Extensive,0,0,1,3,5,5,4,5,3,4,4,5,3,32.50,4.00,5.00,5.00,4.25,3.00,45,60,50,0,1,0,5,2,2,5,2,5,2,5,2,5,87.50,4.00,3.00,5.00,,,45,60,40,0,1,-1,55.00,0.00,-2.00,0.00,,,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task 1: Log into the tablet and observe the dashboard.
+
+Task 2: Navigate through the dashboard to locate information on a specific printer model.
+
+Task 3: Trigger the system to provide guidance on replacing a specific component in a machine.
+
+Task 4: Allow the system to adapt and simplify the interface when it detects high stress levels.
+
+Task 5: Verify the accuracy of the AR overlays when replacing the component in the machine.
+
+TLX_Mental_Demand: 4
+TLX_Physical_Demand: 2
+TLX_Temporal_Demand: 3
+TLX_Performance: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+
+Overall, my experience with the described dashboard was positive, with some areas needing improvement.","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","Task 1: Check the current print queue on the dashboard.
+Task 2: Review the status of each printer.
+Task 3: Identify any alerts that require immediate attention.
+
+Task 1:
+The current print queue is displayed in a list format, showing the order of prints and their status.
+Task 2:
+Each printer's status is indicated by color-coded icons next to their names, with green for idle, yellow for printing, and red for errors.
+Task 3:
+Alerts are highlighted in a separate section of the dashboard, with a brief description of the issue and the affected printer.
+
+TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+18,Persona_18,35,Technician,4,High,Low,Day,pessimistic,1,4,5,5,5,Kinesthetic,Asia,Associate Degree,Other,22,Some,0,1,0,1,2,2,1,1,1,2,1,2,1,40.00,1.00,2.00,2.00,1.50,1.00,45,60,40,0,1,0,3,1,1,3,1,3,1,3,1,3,75.00,1.00,1.00,2.00,1.75,3.00,45,60,40,0,0,0,35.00,0.00,-1.00,0.00,0.25,2.00,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+19,Persona_19,35,Technician,13,Low,High,Night,neutral,3,1,1,4,5,Visual,North America,PhD,Male,16,Some,0,0,1,1,2,2,1,2,1,1,1,2,1,40.00,1.00,2.00,2.00,1.50,1.00,60,45,50,0,1,0,3,1,1,3,1,3,1,3,1,3,75.00,1.00,1.00,2.00,1.75,3.00,45,60,40,0,1,-1,35.00,0.00,-1.00,0.00,0.25,2.00,-15,15,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 60
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 45
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+20,Persona_20,28,Technician,29,Low,Low,Night,neutral,2,4,5,3,5,Visual,Oceania,PhD,Female,29,Extensive,0,0,1,2,4,4,3,4,2,4,3,4,3,32.50,4.00,3.00,4.00,3.25,2.00,60,45,50,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,3.00,2.00,4.00,3.50,5.00,45,60,40,0,1,-1,67.50,-1.00,-1.00,0.00,0.25,3.00,-15,15,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task 1: Log into the tablet and observe the dashboard.
+
+Task 2: Navigate through the dashboard to check the real-time data from the Empatica E4 wristband.
+
+Task 3: Trigger the system to simplify the interface by simulating high stress or overload.
+
+Task 4: Move around the task stages to see how the dashboard adapts based on location.
+
+Task 5: Activate the AR overlays using the tablet's camera to guide through a nozzle replacement task.
+
+---
+
+TLX_Mental_Demand: 4
+
+TLX_Effort: 3
+
+TLX_Frustration: 2
+
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 60
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 45
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 3
+TLX_Perceived_Performance: 2"
+21,Persona_21,26,Operator,9,Low,Low,Day,neutral,3,5,2,3,2,Kinesthetic,Africa,Master's,Female,28,None,0,0,1,2,4,4,3,4,2,4,3,4,3,32.50,3.00,4.00,4.00,3.25,2.00,45,60,50,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,,,,,,45,60,40,0,1,-1,67.50,,,,,,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task 1: Replace a Nozzle
+1. Log into the tablet and navigate to the task list.
+2. Locate the nozzle replacement task and select it.
+3. Follow the step-by-step checklist provided on the dashboard.
+4. Use the tablet's camera to view AR overlays for guidance.
+5. Complete the task and mark it as done on the dashboard.
+
+Task 2: Check Printer Status
+1. Log into the tablet and navigate to the printer status section.
+2. Check the real-time data displayed for printer health.
+3. Identify any issues or maintenance requirements.
+4. Take necessary actions based on the information provided.
+5. Update the status on the dashboard once the check is complete.
+
+Task 3: Retrieve Parts from the Bin
+1. Log into the tablet and ensure the location is detected correctly.
+2. Navigate to the part bins section on the dashboard.
+3. Locate the specific bin for the required parts.
+4. Confirm the compatibility with the task stage.
+5. Retrieve the parts and update the inventory status on the dashboard.
+
+Task 4: Monitor Stress Levels
+1. Wear the Empatica E4 wristband for stress monitoring.
+2. Check the stress and overload gauge on the dashboard.
+3. Observe any interface simplifications triggered by high stress levels.
+4. Take necessary breaks or actions to reduce stress.
+5. Track stress levels throughout the work session for self-awareness.
+
+Task 5: Complete Daily Report
+1. Log into the tablet and access the reporting section.
+2. Review the data collected during the shift.
+3. Compile a concise daily report using the dashboard information.
+4. Ensure accuracy and completeness in the report.
+5. Submit the report through the dashboard for review.
+
+TL","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+22,Persona_22,25,Supervisor,14,Medium,Low,Day,neutral,2,3,2,4,5,Reading/Writing,Africa,High School,Male,2,Extensive,0,0,1,1,2,2,1,1,1,2,1,2,1,40.00,,,,,,45,60,50,0,1,0,3,1,1,3,1,3,1,3,1,3,75.00,1.00,1.00,2.00,1.75,3.00,45,60,40,0,1,-1,35.00,,,,,,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task: You are currently in the assembly area of the manufacturing plant, and the dashboard on your tablet has adapted to show only relevant information for this location.
+
+1. You notice that the dashboard is displaying a step-by-step checklist for assembling a specific product. The checklist is clear and easy to follow, guiding you through each task efficiently.
+
+2. You are required to replace a component in one of the machines. As you activate the camera for guidance, the AR overlays accurately highlight the components on the machine, making the replacement process smooth and error-free.
+
+3. While working, you feel a bit stressed due to the high workload. The dashboard responds by simplifying itself, hiding unnecessary information, and focusing only on the essential tasks, helping reduce your cognitive overload.
+
+4. The system accurately detects your location within the assembly area using BLE beacons, ensuring that it displays only the relevant printers and part bins compatible with your current task.
+
+5. Overall, you find the adaptive dashboard to be a valuable tool in enhancing your productivity and reducing errors in your assembly tasks.
+
+Please rate the following aspects of your experience with the described dashboard:
+
+TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","To begin, let's simulate tasks related to the 'Original' dashboard described previously.
+
+1. As a Supervisor, you need to check the current print queue on the dashboard to prioritize tasks. Please describe the steps you would take to identify the print queue status and determine which items require immediate attention. Be detailed in your response. 
+
+2. Next, you notice an alert indicating a job error on one of the printers. Please outline the actions you would take based on this alert and how you would navigate the dashboard to address this issue effectively.
+
+3. Lastly, you need to review the maintenance schedule for the printers on the dashboard. Describe how you would locate this information and ensure that routine maintenance tasks are being carried out efficiently.
+
+Once you have provided detailed responses to the tasks, please proceed to rate your experience with the described dashboard using the provided subscales. Thank you."
+23,Persona_23,29,Supervisor,2,Medium,High,Day,neutral,2,1,3,3,1,Kinesthetic,Europe,Associate Degree,Other,3,Some,0,0,1,3,5,5,4,4,3,5,4,5,4,35.00,4.00,5.00,5.00,4.25,3.00,45,60,40,0,1,0,5,2,2,5,2,5,2,5,2,5,87.50,,,,,,45,60,40,0,1,-1,52.50,,,,,,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task 1: You are currently in the assembly area, and the dashboard displays only relevant information for this location. What would you like to do next?","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+24,Persona_24,55,Technician,20,High,Low,Day,optimistic,2,4,1,2,3,Reading/Writing,Oceania,Associate Degree,Female,5,Extensive,0,0,1,2,4,4,3,4,2,4,3,4,2,30.00,3.00,4.00,4.00,3.25,2.00,45,60,40,0,1,0,5,2,1,5,1,5,1,5,1,4,95.00,,,,,,45,60,40,0,1,-1,65.00,,,,,,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 4
+SUS_10: 2","Task: Replace a printer cartridge in the printer bay.
+
+1. Check the dashboard for the step-by-step checklist on replacing the printer cartridge.
+2. Follow the AR overlays to identify and replace the cartridge.
+3. Note any stress or overload indications from the dashboard during the task.
+
+Please provide the requested ratings for the experience.","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+25,Persona_25,26,Technician,28,Low,Medium,Day,optimistic,4,3,3,2,2,Visual,Oceania,Associate Degree,Female,10,Some,0,1,0,4,5,5,5,5,4,5,5,5,5,45.00,,,,,,45,60,40,0,1,0,5,4,3,5,3,5,3,5,3,5,72.50,,,,,,45,60,40,0,0,0,27.50,,,,,,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 4
+SUS_10: 2","Task: You are currently in the assembly area, working on a complex machine. The dashboard displays a step-by-step checklist for the current task, highlights components using AR overlays, and only shows compatible printers or part bins based on your location.
+
+Please describe the next step you would take using the dashboard described above.","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","**Tasks:**
+1. Check the status of Printer 1 in the print queue.
+2. Identify any alerts that require immediate attention.
+3. Determine the next maintenance task that needs to be performed.
+4. Locate any job errors that need to be addressed.
+
+**Dashboard Interaction:**
+- The dashboard displays the entire print queue, each printer's status, and all alerts simultaneously.
+- No contextual filtering is available, requiring operators to scan the full display to identify items needing attention.
+- Frequent context switching is necessary due to the lack of filtering options.
+- Operators may experience delays, missed maintenance tasks, and overlooked print errors.
+
+**Rating:**
+- Mental_Demand: 4
+- Effort: 4
+- Frustration: 3
+- Perceived_Performance: 2"
+26,Persona_26,24,Technician,12,High,High,Night,pessimistic,5,3,1,1,3,Auditory,Africa,Bachelor's,Male,3,Extensive,0,0,1,1,3,3,2,3,1,3,2,3,2,32.50,2.00,3.00,3.00,,,45,60,50,0,1,0,4,1,1,4,1,4,1,4,1,3,85.00,,,,,,45,60,40,0,1,-1,52.50,,,,,,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 4
+SUS_10: 2","Task: You are currently in the printer bay, and the dashboard displays only relevant information for this location. You need to replace a printer cartridge. The dashboard guides you step-by-step through the process using AR overlays.
+
+1. What is the next step the dashboard guides you to take in replacing the printer cartridge?
+2. How does the dashboard assist you in identifying the correct printer cartridge?
+3. How does the dashboard confirm each completed step in the process?
+
+Please provide your responses clearly, one per line, like 'Next step: [response]', 'Identification assistance: [response]', 'Step confirmation: [response]'.","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","**Task 1: Check the current print queue on the dashboard.**
+
+As a technician on the night shift, I log into the dashboard to check the current print queue. The dashboard displays a list of pending print jobs, their priority, estimated completion time, and any associated alerts or errors.
+
+**Output:**
+- Number of pending print jobs: 15
+- Priority of the highest-priority print job: High
+- Estimated completion time of the next print job: 2 hours
+- Any associated alerts or errors: Printer 3 offline
+
+**Task 2: Check the status of each printer in the 3D print farm.**
+
+I navigate to the section of the dashboard that shows the status of each printer in the 3D print farm. The status includes information on whether the printer is online, offline, printing, idle, or experiencing any issues.
+
+**Output:**
+- Printer 1 status: Online
+- Printer 2 status: Printing
+- Printer 3 status: Offline
+- Printer 4 status: Idle
+
+**Task 3: Identify any alerts or errors that require immediate attention.**
+
+I scan the dashboard for any alerts or errors that require immediate attention to ensure the smooth operation of the 3D print farm.
+
+**Output:**
+- Critical alerts: Printer 3 offline
+- Error notifications: None
+
+**Task 4: Rate the aspects of your experience with the described dashboard.**
+
+I reflect on my experience using the original dashboard and rate the following aspects based on my interaction with it.
+
+**Output:**
+- TLX_Mental_Demand: 4
+- TLX_Effort: 3
+- TLX_Frustration: 4
+- TLX_Per"
+27,Persona_27,47,Technician,24,Medium,Medium,Day,neutral,5,2,3,1,4,Visual,Africa,PhD,Other,23,Extensive,0,0,0,2,4,4,3,3,2,4,3,4,3,35.00,3.00,4.00,4.00,3.25,2.00,45,60,40,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,3.00,2.00,4.00,3.50,5.00,45,60,40,0,1,0,65.00,0.00,-2.00,0.00,0.25,3.00,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task: You are currently in the printer bay, and the dashboard has detected that you are replacing a printer nozzle. As you interact with the dashboard, it provides step-by-step guidance through AR overlays and simplifies the interface to focus on the task at hand.
+
+Please describe the steps you take on the dashboard to complete the task of replacing the printer nozzle in the printer bay. 
+
+1. Log into the tablet and confirm the task of replacing the printer nozzle.
+2. Follow the AR overlays that highlight components on the physical machine.
+3. Confirm each completed step as guided by the AR overlays.
+4. Complete the replacement of the printer nozzle.
+5. Log out of the tablet after task completion.
+
+Now, please rate the following aspects of your experience with the described dashboard:
+
+TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+28,Persona_28,32,Technician,14,Low,High,Night,pessimistic,3,1,3,5,3,Reading/Writing,Asia,Master's,Other,9,Extensive,0,0,1,1,3,3,2,3,1,2,2,3,2,35.00,3.00,4.00,3.00,2.75,1.00,45,60,50,0,1,0,4,1,1,4,1,4,1,4,1,4,87.50,2.00,1.00,3.00,2.50,4.00,45,60,40,0,1,-1,52.50,-1.00,-3.00,0.00,-0.25,3.00,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","As a Technician with a pessimistic outlook and low tech-savviness, I would likely find the described dashboard challenging to work with. Here are my ratings for the aspects of my experience with the 'Original' dashboard:
+
+TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 5
+TLX_Perceived_Performance: 2"
+29,Persona_29,28,Operator,14,High,Medium,Day,pessimistic,5,3,4,5,1,Kinesthetic,Asia,Associate Degree,Female,25,Extensive,0,0,1,3,5,5,4,5,3,4,4,5,4,35.00,,,,,,45,60,40,0,0,1,5,2,2,5,2,5,2,5,2,5,87.50,4.00,3.00,5.00,4.25,5.00,45,60,40,0,0,0,52.50,,,,,,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task 1: Log into the tablet and observe the dashboard.
+
+Task 2: Navigate through the dashboard to check the real-time data from the Empatica E4 wristband.
+
+Task 3: Trigger the system to simplify the interface by simulating high stress or overload.
+
+Task 4: Move around to different task stages to observe the dashboard adapting based on BLE beacon detection.
+
+Task 5: Activate the camera for AR overlays to guide through a nozzle replacement task.
+
+---
+
+TLX_Mental_Demand: 4
+
+TLX_Effort: 3
+
+TLX_Frustration: 2
+
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","Task 1: Check the current print queue status on the dashboard.
+Task 2: Identify a printer with an alert that requires immediate attention.
+Task 3: Locate a specific job in the print queue for troubleshooting.
+
+Task 1:
+- The current print queue status is scattered across the dashboard, requiring scanning multiple sections to gather information.
+- Mental demand: 4
+- Effort: 3
+- Frustration: 3
+- Perceived performance: 2
+
+Task 2:
+- The alert for the printer is not prominently displayed, leading to a search through all printer statuses.
+- Mental demand: 4
+- Effort: 4
+- Frustration: 4
+- Perceived performance: 2
+
+Task 3:
+- Locating a specific job involves scanning through the entire queue, as there is no search or filter option available.
+- Mental demand: 4
+- Effort: 3
+- Frustration: 3
+- Perceived performance: 2"
+30,Persona_30,58,Supervisor,11,Medium,Medium,Night,pessimistic,2,5,4,2,1,Kinesthetic,Africa,PhD,Female,2,None,0,0,1,2,4,4,3,4,2,3,3,4,2,32.50,4.00,5.00,4.00,3.75,2.00,90,60,45,0,1,0,5,2,1,5,1,5,1,5,1,4,95.00,5.00,,4.00,,,45,60,40,0,1,-1,62.50,1.00,,0.00,,,-45,0,-5,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 4
+SUS_10: 2","Task 1: Log into the tablet and observe the dashboard.
+
+Task description: Log into the tablet and observe the dashboard for your current role and location.
+
+Task steps:
+1. Turn on the tablet.
+2. Log in using your credentials.
+3. Observe the dashboard that automatically displays information based on your role and location.
+
+Please describe your observations of the dashboard layout and content. 
+
+---
+
+Observations:
+The dashboard layout is clean and organized, showing only relevant information for my current role and location. It provides a clear overview of tasks and resources needed.
+
+---
+
+Task 2: Interact with the dashboard features.
+
+Task description: Interact with the dashboard features to simulate tracking stress levels and receiving guidance for a task.
+
+Task steps:
+1. Simulate stress by increasing heart-rate variability and skin conductance.
+2. Observe the dashboard adapting to simplify itself in response to simulated stress.
+3. Simulate needing guidance for a task like replacing a nozzle and observe the AR overlays activating.
+
+Please describe your experience interacting with the dashboard features.
+
+---
+
+Observations:
+The dashboard responded effectively to simulated stress, simplifying itself to reduce cognitive overload. The AR overlays for task guidance were intuitive and helpful in completing the task accurately.
+
+---
+
+Task 3: Rate your experience with the dashboard.
+
+Please rate the following aspects of your experience with the described dashboard on a 1 to 5 scale (1 being very low, 5 being very high).
+
+Subscales to rate:
+- Mental_Demand
+- Effort
+- Frustration
+- Perceived_Performance
+
+Please provide your ratings clearly, one per line.
+
+---
+
+Ratings:
+TLX_Mental_Demand: 4
+TLX_Effort: 5
+TLX","Time_Subtask1_seconds: 90
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 45
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 5
+TLX_Perceived_Performance: 2"
+31,Persona_31,39,Operator,26,Low,Low,Day,optimistic,2,4,5,1,4,Reading/Writing,Oceania,PhD,Male,22,Extensive,0,0,1,3,5,5,4,5,3,5,4,5,3,30.00,5.00,4.00,5.00,4.25,3.00,40,25,35,0,1,0,5,2,2,5,2,5,2,5,2,5,87.50,,,,,,45,60,40,0,1,-1,57.50,,,,,,5,35,5,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task: You are currently in the assembly area of the manufacturing plant, working on a complex machine assembly task. The dashboard has detected that you are in the assembly area and has adapted to show only relevant information for your task.
+
+1. Display the step-by-step checklist for the current assembly task.
+2. Check your stress and overload levels based on the data from your Empatica E4 wristband.
+3. Activate the AR overlays to guide you through the process of replacing a specific component on the machine.
+
+Please provide the requested data points.","Time_Subtask1_seconds: 40
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 25
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 35
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 3
+TLX_Perceived_Performance: 2"
+32,Persona_32,44,Technician,13,Low,Low,Day,optimistic,4,2,2,5,4,Visual,Africa,Associate Degree,Male,14,None,0,1,0,2,4,4,3,4,2,3,3,4,3,35.00,3.00,4.00,4.00,3.25,2.00,90,60,45,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,3.00,2.00,4.00,3.25,4.00,45,60,40,0,0,0,65.00,0.00,-2.00,0.00,0.00,2.00,-45,0,-5,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task 1: Log into the tablet and observe the dashboard.
+
+Task 2: Navigate through the dashboard to check the real-time data from the Empatica E4 wristband.
+
+Task 3: Trigger the system to simplify the interface by simulating a state of overload.
+
+Task 4: Move around the different task stages to observe how the dashboard adapts based on location.
+
+Task 5: Use the camera to activate AR overlays for guidance on a specific task.
+
+---
+
+TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 4","Time_Subtask1_seconds: 90
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 45
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+33,Persona_33,49,Supervisor,17,High,High,Night,neutral,5,5,4,5,4,Auditory,Oceania,Master's,Female,8,None,0,0,0,3,5,5,4,4,3,5,4,5,4,35.00,4.00,5.00,5.00,4.25,3.00,40,25,35,0,0,0,5,2,2,5,2,5,2,5,2,5,87.50,,,,,,45,60,40,0,0,0,52.50,,,,,,5,35,5,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task: You are currently in the printer bay, and the dashboard displays only relevant information for this location. You need to replace a printer cartridge following the step-by-step checklist provided on the dashboard.
+
+1. What is the next step in replacing the printer cartridge according to the dashboard checklist?
+2. How does the dashboard assist you in identifying the correct components for the printer cartridge replacement?
+3. Perform a simulated action of confirming the completion of a step using the AR overlays activated by the tablet's camera.
+
+Please provide the requested data points one per line.","Time_Subtask1_seconds: 40
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 25
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 35
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+34,Persona_34,60,Technician,25,High,Medium,Day,neutral,4,1,3,2,3,Kinesthetic,Asia,PhD,Male,4,None,0,1,0,2,4,4,3,4,2,3,3,4,3,35.00,,,,,,45,60,40,0,1,0,5,2,1,5,1,5,1,5,1,4,95.00,4.00,2.00,3.00,3.50,5.00,45,60,40,0,0,0,60.00,,,,,,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 4
+SUS_10: 2","Tasks:
+1. Log into the tablet and observe the dashboard adapting to your current role and location.
+2. Navigate through different sections of the dashboard based on your location and task stage.
+3. Trigger the system to simplify the interface when it detects stress or overload.
+4. Receive guidance using the AR overlays for a specific task like replacing a nozzle.
+5. Complete a task using the step-by-step checklist provided by the dashboard.
+
+Scores:
+TLX_Mental_Demand: 3
+TLX_Effort: 4
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","**Tasks:**
+1. Check the print queue for pending jobs.
+2. Monitor the status of each printer.
+3. Address any alerts or errors that may arise.
+
+**Simulation:**
+1. You start by checking the print queue for pending jobs. You notice there are three pending jobs.
+2. Next, you monitor the status of each printer. Printer 1 is idle, Printer 2 is printing, and Printer 3 is in an error state.
+3. You address the error on Printer 3 by restarting it and clearing the error.
+
+**Scores:**
+- Mental_Demand: 4
+- Effort: 3
+- Frustration: 3
+- Perceived_Performance: 2"
+35,Persona_35,34,Technician,23,Low,High,Day,optimistic,4,4,3,5,4,Reading/Writing,North America,Associate Degree,Female,12,Extensive,0,0,1,3,5,5,4,4,3,5,4,5,4,35.00,5.00,4.00,5.00,4.25,3.00,45,60,50,0,0,1,5,2,2,5,2,5,2,5,2,5,87.50,4.00,3.00,5.00,4.25,5.00,45,60,40,0,0,0,52.50,-1.00,-1.00,0.00,0.00,2.00,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 3
+TLX_Perceived_Performance: 2"
+36,Persona_36,21,Supervisor,13,Medium,Low,Night,neutral,4,4,5,5,5,Auditory,South America,Associate Degree,Female,13,Some,0,1,0,2,4,4,3,4,2,4,3,4,3,32.50,4.00,3.00,4.00,3.50,3.00,45,60,40,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,3.00,2.00,4.00,3.50,5.00,45,60,40,0,0,0,67.50,-1.00,-1.00,0.00,0.00,2.00,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 3
+TLX_Perceived_Performance: 3"
+37,Persona_37,21,Technician,11,High,High,Night,pessimistic,2,4,2,5,5,Visual,South America,PhD,Other,21,None,0,0,0,1,1,1,1,1,1,1,1,1,1,50.00,1.00,1.00,1.00,1.00,1.00,45,60,40,0,0,0,2,1,1,2,1,2,1,2,1,2,62.50,1.00,1.00,1.00,1.00,1.00,45,60,40,0,0,0,12.50,0.00,0.00,0.00,0.00,0.00,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task: You are currently tasked with replacing a printer cartridge in the printer bay. The dashboard has adapted to show you the step-by-step checklist for this task.
+
+1. TLX_Mental_Demand: 4
+2. TLX_Effort: 3
+3. TLX_Frustration: 2
+4. TLX_Perceived_Performance: 4","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+38,Persona_38,25,Supervisor,14,Low,Medium,Day,optimistic,3,4,3,2,4,Kinesthetic,Asia,Master's,Female,24,Some,0,1,0,2,4,4,3,3,2,4,3,4,3,35.00,4.00,3.00,4.00,3.25,2.00,45,60,40,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,3.00,2.00,4.00,3.25,4.00,45,60,40,0,0,0,65.00,-1.00,-1.00,0.00,0.00,2.00,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","To interact with the 'Adaptive' dashboard described previously, I would perform the following tasks:
+
+1. Log into the tablet.
+2. Navigate through different task stages in the printer bay, assembly area, or packaging station.
+3. Monitor stress levels and overload indicators based on real-time data from the Empatica E4 wristband.
+4. Follow step-by-step checklists provided by the interface when appearing overloaded.
+5. Receive location-specific guidance through BLE beacons for tasks like replacing a nozzle.
+6. Utilize AR overlays from the tablet's camera for component highlighting and step confirmation.
+
+Now, I will rate my experience with the described dashboard:
+
+TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 4","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 3
+TLX_Perceived_Performance: 2"
+39,Persona_39,36,Operator,16,Low,High,Day,neutral,2,1,1,1,2,Auditory,North America,PhD,Male,7,None,0,0,0,1,3,3,2,3,1,2,2,3,2,35.00,2.00,3.00,3.00,2.25,1.00,50,40,45,0,1,0,4,1,1,4,1,4,1,4,1,4,87.50,2.00,1.00,3.00,2.25,3.00,45,60,40,0,1,0,52.50,0.00,-2.00,0.00,0.00,2.00,-5,20,-5,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task 1: You are currently in the printer bay working on a machine. The dashboard displays only relevant information for this location and task stage. You need to replace a nozzle on the printer.
+
+Task 2: Your Empatica E4 wristband data indicates a slight increase in stress levels as you start the nozzle replacement process.
+
+Task 3: The tablet's camera activates AR overlays to assist you in identifying and replacing the nozzle on the printer.
+
+Task 4: After completing the task, the dashboard provides a checklist of completed steps and updates your task stage.
+
+Task 5: You notice the dashboard simplifying itself as your stress levels decrease post-task.
+
+TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 4","Time_Subtask1_seconds: 50
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 40
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 45
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+40,Persona_40,50,Supervisor,4,High,Low,Night,pessimistic,3,3,2,5,5,Visual,Europe,Bachelor's,Male,18,None,0,1,0,1,2,2,1,2,1,2,1,2,1,37.50,2.00,1.00,2.00,1.50,1.00,45,60,40,0,1,0,3,1,1,3,1,3,1,3,1,3,75.00,1.00,1.00,2.00,1.50,2.00,45,60,40,0,0,0,37.50,-1.00,0.00,0.00,0.00,1.00,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task 1: Log into the tablet and observe the dashboard.
+
+Task 2: Navigate through the dashboard to check the real-time data from the Empatica E4 wristband.
+
+Task 3: Trigger the system to simplify the interface by simulating a state of overload.
+
+Task 4: Verify the system's ability to detect your location accurately using BLE beacons.
+
+Task 5: Engage with the AR overlays activated by the tablet's camera for guidance on replacing a nozzle.
+
+---
+
+TLX_Mental_Demand: 4  
+TLX_Effort: 3  
+TLX_Frustration: 2  
+TLX_Perceived_Performance: 4","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","Task 1: Check the current print queue on the dashboard.
+Task 2: Identify a printer with an alert status.
+Task 3: Locate a print job that requires attention.
+Task 4: Determine the maintenance schedule for a specific printer.
+
+---
+
+TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 3
+TLX_Perceived_Performance: 2"
+41,Persona_41,39,Supervisor,22,Medium,Medium,Day,optimistic,5,2,1,3,5,Visual,Africa,High School,Female,17,Some,0,1,0,2,4,4,3,4,2,4,3,4,3,32.50,3.00,4.00,4.00,3.25,2.00,45,60,40,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,4.00,3.00,4.00,4.00,5.00,45,60,40,0,0,0,67.50,1.00,-1.00,0.00,0.75,3.00,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","To begin, I log into my tablet and observe the dashboard adapting to my current role and location, providing only the necessary information tailored to my tasks in real-time. The system tracks my interactions and stress levels, simplifying the interface when needed. It accurately detects my location and guides me through tasks with AR overlays, enhancing efficiency and reducing errors.
+
+TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 3
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+42,Persona_42,43,Operator,17,High,Medium,Day,neutral,4,1,4,3,4,Auditory,South America,Associate Degree,Other,16,Extensive,0,1,0,2,4,4,3,4,2,3,3,4,3,35.00,4.00,3.00,4.00,3.25,2.00,45,60,40,0,1,0,5,2,1,5,1,5,1,5,1,4,95.00,,,,,,45,60,40,0,0,0,60.00,,,,,,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 4
+SUS_10: 2","To interact with the 'Adaptive' dashboard described previously, I would perform the following tasks:
+
+1. Log into the tablet.
+2. Navigate through different task stages in the printer bay, assembly area, or packaging station.
+3. Monitor stress and overload indicators from the Empatica E4 wristband data.
+4. Trigger the system to simplify the interface in case of overload.
+5. Utilize BLE beacons for location detection and task-specific information display.
+6. Seek guidance for tasks like replacing a nozzle using AR overlays from the tablet's camera.
+
+Rating of my experience with the described dashboard:
+- Mental_Demand: 4
+- Effort: 3
+- Frustration: 2
+- Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 3
+TLX_Perceived_Performance: 2"
+43,Persona_43,37,Supervisor,26,High,Medium,Night,neutral,5,3,3,2,1,Kinesthetic,South America,Associate Degree,Female,18,Extensive,0,0,1,4,5,5,5,5,4,5,5,5,4,42.50,5.00,5.00,5.00,4.75,4.00,45,60,40,0,1,0,5,4,3,5,3,5,3,5,3,5,72.50,5.00,4.00,5.00,4.75,5.00,45,60,40,0,1,-1,30.00,0.00,-1.00,0.00,0.00,1.00,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 4
+SUS_10: 2","Task 1: Check the current task stage displayed on the dashboard.
+Task 2: Review the step-by-step checklist provided on the dashboard.
+Task 3: Activate the AR overlays to replace a nozzle on a machine.
+
+TLX_Mental_Demand: 3
+TLX_Effort: 4
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+44,Persona_44,44,Technician,1,Medium,Medium,Day,neutral,2,3,3,3,3,Kinesthetic,Africa,High School,Other,30,None,0,1,0,2,4,4,3,3,2,4,3,4,3,35.00,3.00,4.00,4.00,3.25,2.00,45,60,40,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,3.00,2.00,3.00,3.00,4.00,45,60,40,0,0,0,65.00,0.00,-2.00,-1.00,-0.25,2.00,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task: You are currently in the printer bay, and the dashboard on your tablet displays only the relevant information for this location. You need to replace a printer cartridge.
+
+Simulated Task:
+1. Log into the tablet and locate the step-by-step checklist for replacing the printer cartridge.
+2. Follow the checklist instructions to replace the printer cartridge.
+3. Use the tablet's camera to activate AR overlays to assist in identifying and replacing the cartridge.
+
+Please provide ratings for the requested subscales based on your experience with the described dashboard during the simulated task.
+
+Results:
+TLX_Mental_Demand: 3
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 4","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+45,Persona_45,25,Operator,24,Medium,Medium,Day,pessimistic,4,4,4,1,1,Kinesthetic,Europe,Master's,Other,7,Some,0,1,0,3,5,5,4,5,3,4,3,5,4,32.50,5.00,4.00,5.00,4.25,3.00,45,60,40,0,1,0,5,3,2,5,2,5,2,5,2,5,85.00,5.00,4.00,5.00,4.75,5.00,45,60,40,0,0,0,52.50,0.00,0.00,0.00,0.50,2.00,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 4
+SUS_10: 2","Task: You are currently in the assembly area working on a complex machine. The dashboard has detected a high level of stress based on your physiological data and has simplified the interface to guide you through a checklist for a critical maintenance task on the machine.
+
+Action: Follow the step-by-step checklist provided by the dashboard to complete the maintenance task on the machine.
+
+Results: After completing the maintenance task, reflect on your experience with the adaptive dashboard and provide ratings for the specified subscales.
+
+TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 3
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 2
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 3
+TLX_Perceived_Performance: 2"
+46,Persona_46,57,Technician,16,High,High,Night,neutral,5,3,3,4,3,Kinesthetic,Asia,Associate Degree,Male,23,None,0,0,0,3,5,5,4,4,3,5,4,5,4,35.00,4.00,5.00,5.00,4.25,3.00,45,60,40,0,0,1,5,2,2,5,2,5,2,5,2,5,87.50,,,,,,45,60,40,0,0,1,52.50,,,,,,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task: You are currently in the printer bay, and the dashboard shows you the relevant information for this location. You need to replace a printer cartridge following the step-by-step checklist provided on the dashboard.
+
+Action: Simulate the task of replacing a printer cartridge using the step-by-step checklist on the dashboard.
+
+1. Log into the tablet and navigate to the printer bay section.
+2. Follow the step-by-step checklist on the dashboard to replace the printer cartridge.
+3. Use the AR overlays activated by the tablet's camera to highlight components on the physical printer and confirm each completed step.
+
+Please provide the requested ratings for your experience with the described dashboard.","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+47,Persona_47,40,Operator,24,High,High,Day,optimistic,2,4,3,5,5,Kinesthetic,North America,Associate Degree,Female,7,Some,0,0,1,2,4,4,3,3,2,4,3,4,3,35.00,,,,,,45,60,40,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,3.00,2.00,4.00,3.50,5.00,45,60,40,0,1,-1,65.00,,,,,,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","**Simulated Tasks:**
+1. Check the entire print queue to identify any prints that have errors.
+2. Review the status of each printer to ensure they are all functioning properly.
+3. Monitor alerts to address any issues that may arise during the printing process.
+
+**Rating of Experience with the Dashboard:**
+- Mental_Demand: 4
+- Effort: 3
+- Frustration: 4
+- Perceived_Performance: 2"
+48,Persona_48,31,Technician,1,High,High,Day,neutral,1,1,5,3,2,Reading/Writing,North America,High School,Other,9,Some,0,0,0,3,5,5,4,4,3,5,4,5,4,35.00,4.00,4.00,5.00,4.00,3.00,45,25,20,0,1,0,5,2,2,5,2,5,2,5,2,5,87.50,,,,,,45,60,40,0,1,0,52.50,,,,,,0,35,20,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task 1: Check the status of the printers in the printer bay.
+Task 2: Replace a nozzle in a printer in the assembly area.
+Task 3: Package finished products in the packaging station.
+
+Please provide the following data points for each task:
+- Task Completion Time (in minutes)
+- Number of Interactions with the dashboard
+- Stress Level during the task (1 to 5, 1 being very low, 5 being very high)
+
+After completing the tasks, please rate the following aspects of your experience with the described dashboard:
+- Mental_Demand
+- Effort
+- Frustration
+- Perceived_Performance","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 25
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 20
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 3
+TLX_Perceived_Performance: 2"
+49,Persona_49,50,Technician,11,Low,Low,Night,neutral,1,1,4,4,1,Visual,Europe,Associate Degree,Other,30,Some,0,0,1,3,5,5,4,5,3,4,4,5,4,35.00,,,,,,60,45,50,0,1,0,5,2,2,5,2,5,2,5,2,5,87.50,,,,,,45,60,40,0,1,-1,52.50,,,,,,-15,15,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","**Tasks:**
+1. Log into the tablet and observe the dashboard.
+2. Navigate through the dashboard to check task-specific information.
+3. Trigger the stress detection feature and observe the dashboard simplifying.
+4. Move around to different task stages and observe the dashboard adapting.
+5. Use the AR overlays for guidance on a specific task.
+
+**TLX Ratings:**
+1. Mental_Demand: 4
+2. Effort: 3
+3. Frustration: 2
+4. Perceived_Performance: 5","Time_Subtask1_seconds: 60
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 45
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","Task: Refilling filament for Printer 2
+1. Locate Printer 2 on the dashboard.
+2. Check the filament status for Printer 2.
+3. Determine the type and amount of filament needed.
+4. Retrieve the appropriate filament.
+5. Refill Printer 2 with the filament.
+6. Update the status on the dashboard.
+
+Please rate the following aspects of your experience with the described dashboard on a 1 to 5 scale (1 being very low, 5 being very high).
+Please list your scores clearly, one per line, like 'TLX_Mental_Demand: [score]', 'TLX_Effort: [score]', etc. for all subscales provided.
+
+Subscales to rate:
+- Mental_Demand
+- Effort
+- Frustration
+- Perceived_Performance"
+50,Persona_50,25,Operator,4,High,Medium,Day,pessimistic,4,4,4,3,5,Reading/Writing,Asia,PhD,Other,1,Extensive,0,0,1,1,3,3,2,3,1,2,2,3,2,35.00,3.00,2.00,3.00,2.25,1.00,45,60,40,0,0,1,4,1,1,4,1,4,1,4,1,4,87.50,2.00,1.00,3.00,2.25,3.00,45,60,40,0,0,0,52.50,-1.00,-1.00,0.00,0.00,2.00,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task 1: Log into the tablet and observe the dashboard.
+
+1. What printers or part bins are displayed on the dashboard?
+- Printers: Printer A, Printer B, Printer C
+- Part bins: Bin X, Bin Y
+
+2. What information is shown on the dashboard related to your current task stage?
+- Task stage: Assembly
+- Information: Step-by-step checklist for assembly process
+
+3. How is your stress or overload level indicated on the dashboard?
+- Stress level: Low
+- Overload: Not overloaded
+
+Task 2: Request guidance for replacing a nozzle.
+
+1. How does the dashboard provide guidance for replacing a nozzle?
+- Guidance: AR overlays on the tablet's camera highlighting components on the physical machine
+- Confirmation: Each completed step is confirmed
+
+2. How does the dashboard adapt to your location during the task?
+- Location: Assembly area
+- Compatible printers or part bins displayed: Printer A, Bin X
+
+3. How does the dashboard simplify itself if you appear overloaded?
+- Simplification: Hides unrelated printers or analytics, presents a concise checklist
+
+Rating the experience:
+
+TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 4","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","**Task 1: Check the current print queue on the dashboard.**
+
+1. Open the dashboard.
+2. Locate the section displaying the current print queue.
+3. Count the number of print jobs currently in the queue.
+4. Note any specific details or alerts related to the print queue.
+
+**Task 2: Check the status of a specific printer on the dashboard.**
+
+1. Identify the section that shows the status of individual printers.
+2. Select a specific printer to focus on.
+3. Check the status of the selected printer (e.g., idle, printing, error).
+4. Look for any alerts or maintenance notifications related to the selected printer.
+
+**Task 3: Identify and address a job error on the dashboard.**
+
+1. Scan the dashboard for any highlighted job errors or alerts.
+2. Click on the specific job showing an error to view more details.
+3. Determine the nature of the error (e.g., filament issue, print failure).
+4. Take necessary actions to address the job error (e.g., refilling filament, restarting print).
+
+**Task 4: Assess the overall workload and prioritize tasks on the dashboard.**
+
+1. Review the entire dashboard to get an overview of the workload.
+2. Identify any critical tasks that require immediate attention.
+3. Prioritize tasks based on urgency and importance.
+4. Plan the sequence of tasks to optimize efficiency and productivity.
+
+---
+
+TLX_Mental_Demand: 4  
+TLX_Effort: 4  
+TLX_Frustration: 3  
+TLX_Perceived_Performance: 2"
+51,Persona_51,26,Operator,21,Low,Medium,Day,optimistic,2,2,5,1,2,Visual,South America,Master's,Other,19,Some,0,0,1,5,5,5,4,5,4,5,5,5,4,42.50,5.00,5.00,5.00,4.75,4.00,45,60,50,0,1,0,5,3,3,5,3,5,3,5,3,5,75.00,5.00,4.00,5.00,4.75,5.00,45,60,40,0,1,-1,32.50,0.00,-1.00,0.00,0.00,1.00,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task: Replace a printer cartridge in the printer bay.
+
+1. Log into the tablet and navigate to the printer bay section.
+2. Locate the printer that needs the cartridge replaced.
+3. Follow the step-by-step checklist provided on the dashboard.
+4. Use the AR overlays activated by the tablet's camera to assist in replacing the cartridge.
+
+---
+
+TLX_Mental_Demand: 3  
+TLX_Effort: 4  
+TLX_Frustration: 2  
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 3
+SUS_2: 4
+SUS_3: 2
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 3
+TLX_Perceived_Performance: 2"
+52,Persona_52,38,Operator,8,Medium,High,Night,pessimistic,4,1,2,3,5,Auditory,South America,High School,Other,7,Extensive,0,0,1,1,2,2,1,2,1,1,1,2,1,40.00,2.00,3.00,2.00,2.00,1.00,45,60,50,0,0,1,3,1,1,3,1,3,1,3,1,2,72.50,1.00,1.00,2.00,1.50,2.00,45,60,40,0,0,0,32.50,-1.00,-2.00,0.00,-0.50,1.00,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 4
+SUS_10: 2","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 4","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 5
+TLX_Perceived_Performance: 2"
+53,Persona_53,29,Technician,27,Low,Low,Day,optimistic,3,5,5,3,4,Visual,South America,Bachelor's,Other,12,Some,0,0,1,4,5,5,5,5,4,5,5,5,5,45.00,5.00,5.00,5.00,4.75,4.00,60,45,50,0,1,0,5,3,3,5,3,5,3,5,3,5,75.00,5.00,4.00,5.00,4.75,5.00,45,60,40,0,1,-1,30.00,0.00,-1.00,0.00,0.00,1.00,-15,15,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 60
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 45
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 3
+TLX_Perceived_Performance: 2"
+54,Persona_54,52,Supervisor,16,Medium,Low,Day,neutral,3,5,3,1,1,Auditory,Oceania,PhD,Other,30,None,0,1,0,3,5,5,4,5,3,4,4,5,3,32.50,4.00,5.00,5.00,4.25,3.00,45,60,40,0,1,0,5,2,2,5,2,5,2,5,2,5,87.50,4.00,3.00,5.00,4.25,5.00,45,60,40,0,0,0,55.00,0.00,-2.00,0.00,0.00,2.00,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task: You are currently in the assembly area of the manufacturing plant, working on a complex machine assembly. The dashboard on your tablet displays a step-by-step checklist for the assembly process, highlighting the components you need to install next. The system detects your stress levels through your Empatica E4 wristband and simplifies the interface when necessary. You need to replace a specific part that requires guidance. The tablet's camera activates AR overlays to assist you in identifying and replacing the part correctly.
+
+Please provide the requested ratings for your experience with the described dashboard.
+
+TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+55,Persona_55,37,Supervisor,2,Low,Medium,Night,neutral,2,5,4,4,1,Reading/Writing,Asia,Master's,Female,10,Extensive,0,0,1,3,5,5,4,4,3,5,4,5,4,35.00,5.00,4.00,5.00,4.25,3.00,45,60,50,0,0,0,5,2,2,5,2,5,2,5,2,5,87.50,,,,,,45,60,40,0,0,-1,52.50,,,,,,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task 1: Simulate checking stress levels on the dashboard.
+
+I log into my tablet and observe the dashboard. I notice that my stress levels are being monitored through real-time data from my Empatica E4 wristband, tracking my heart-rate variability and skin conductance. The system is designed to gauge my stress or overload levels and adapt the interface accordingly to simplify it if needed.
+
+Output:
+Stress Level: Moderate
+
+---
+
+Task 2: Simulate receiving guidance for replacing a nozzle using the AR overlays.
+
+I navigate to the section where guidance is provided for replacing a nozzle. I activate the tablet's camera to experience the AR overlays that highlight components on the physical machine and confirm each completed step.
+
+Output:
+AR Guidance for Nozzle Replacement: Activated
+
+---
+
+Task 3: Rate the aspects of my experience with the described dashboard.
+
+Mental_Demand: 4
+Effort: 3
+Frustration: 2
+Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 3
+TLX_Perceived_Performance: 2"
+56,Persona_56,26,Operator,11,Medium,High,Night,neutral,4,5,1,4,1,Kinesthetic,Asia,Bachelor's,Male,24,Some,0,0,1,2,4,4,3,3,2,4,3,4,3,35.00,,,,,,45,60,50,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,4.00,2.00,3.00,3.50,5.00,45,60,40,0,1,-1,65.00,,,,,,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task 1: Log into the tablet and observe the dashboard.
+
+Task 2: Navigate through the dashboard to check the real-time data from the Empatica E4 wristband.
+
+Task 3: Trigger the system to simplify the interface by simulating high stress or overload.
+
+Task 4: Move around the different task stages to observe how the dashboard adapts based on BLE beacon detection.
+
+Task 5: Activate the AR overlays using the tablet's camera to guide through a nozzle replacement task.
+
+---
+
+TLX_Mental_Demand: 3
+
+TLX_Effort: 4
+
+TLX_Frustration: 2
+
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","**Tasks:**
+1. Check the status of Printer 1 in the queue.
+2. Identify any alerts that require immediate attention.
+3. Determine the number of completed prints awaiting removal.
+4. Locate the next maintenance task that needs to be performed.
+5. Identify any job errors that need to be addressed.
+
+**Requested Data:**
+1. Printer 1 Status: Online
+2. Alerts: 2
+3. Completed Prints: 5
+4. Next Maintenance Task: Clean Printer 3 nozzle
+5. Job Errors: None
+
+**Experience Ratings:**
+- Mental_Demand: 4
+- Effort: 4
+- Frustration: 3
+- Perceived_Performance: 2"
+57,Persona_57,52,Operator,22,High,Medium,Night,optimistic,2,5,3,5,4,Reading/Writing,North America,Associate Degree,Female,17,None,0,0,0,2,4,4,3,3,2,4,3,4,3,35.00,3.00,4.00,4.00,3.25,2.00,45,60,50,0,0,0,5,1,1,5,1,5,1,5,1,5,100.00,4.00,2.00,3.00,3.50,5.00,45,60,40,0,0,0,65.00,1.00,-2.00,-1.00,0.25,3.00,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task 1: Simulate checking the step-by-step checklist on the dashboard for your current task stage.
+Task 2: Simulate receiving guidance on replacing a nozzle using the AR overlays on the tablet's camera.
+
+---
+
+Task 1: 
+- Current task stage: Assembly area
+- Check the step-by-step checklist on the dashboard for the assembly area.
+
+Task 2:
+- Receive guidance on replacing a nozzle using the AR overlays on the tablet's camera.
+
+---
+
+TLX_Mental_Demand: 3
+TLX_Effort: 4
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+58,Persona_58,38,Technician,29,High,Medium,Day,optimistic,5,2,2,3,5,Visual,Africa,Master's,Male,7,None,0,1,0,2,4,4,3,3,2,4,3,4,3,35.00,3.00,4.00,4.00,3.25,2.00,45,60,40,0,1,0,5,2,1,5,1,5,1,5,1,4,95.00,,,,,,45,60,40,0,0,0,60.00,,,,,,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 4
+SUS_10: 2","Task: You are currently in the printer bay, and the dashboard displays only relevant information for this location. You need to replace a printer cartridge. The dashboard guides you through the process step-by-step using AR overlays and highlights the components on the physical machine.
+
+1. Identify the next step in the printer cartridge replacement process according to the dashboard.
+2. Follow the AR overlays to locate and replace the printer cartridge.
+3. Confirm the completion of each step as guided by the AR overlays.
+
+Please provide the requested ratings for the dashboard experience.","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+59,Persona_59,49,Operator,21,Low,Medium,Night,pessimistic,3,4,4,4,2,Reading/Writing,Africa,Associate Degree,Female,6,Extensive,0,0,1,2,4,4,3,4,2,3,3,4,3,35.00,3.00,4.00,4.00,3.25,2.00,50,40,45,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,4.00,2.00,3.00,3.25,4.00,45,60,40,0,1,-1,65.00,1.00,-2.00,-1.00,0.00,2.00,-5,20,-5,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task 1: Log into the tablet and observe the dashboard.
+
+Observations:
+- The dashboard automatically adjusts to my role and location.
+- Real-time data from my Empatica E4 wristband is integrated to gauge stress levels.
+- The system tracks my navigation patterns and simplifies the interface if I appear overloaded.
+- Location detection via BLE beacons ensures relevant information is displayed based on my task stage.
+- AR overlays are available for guidance when needed.
+
+Task 2: Interact with the dashboard to complete a task, such as replacing a nozzle.
+
+Overall, the dashboard provides a streamlined and context-aware interface that enhances efficiency and reduces cognitive overload.
+
+Rating:
+TLX_Mental_Demand: 3
+TLX_Effort: 4
+TLX_Frustration: 2
+TLX_Perceived_Performance: 4","Time_Subtask1_seconds: 50
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 40
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 45
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","To begin, I will simulate interacting with the described dashboard.
+
+As an Operator, I log into the dashboard to check the print queue and printer statuses. I notice that the display shows all printers at once without any filtering options. I have to scan through the entire list to identify which printers need attention, leading to potential delays and missed tasks.
+
+After spending some time scanning the dashboard, I identify a printer that requires filament refilling. I proceed to attend to that task and then return to the dashboard to check for any alerts or errors.
+
+Upon reviewing the dashboard again, I notice an alert for a print error on a different printer. I address the issue promptly and mark it as resolved on the dashboard.
+
+Finally, I complete my tasks for the shift and log out of the dashboard.
+
+Now, I will provide ratings for my experience with the described dashboard:
+
+TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+60,Persona_60,52,Supervisor,29,Low,Low,Night,neutral,3,5,3,1,3,Kinesthetic,Africa,PhD,Other,15,None,0,1,0,2,4,4,3,4,2,3,3,4,2,32.50,4.00,3.00,4.00,3.25,2.00,90,60,45,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,3.00,2.00,4.00,3.50,5.00,45,60,40,0,0,0,67.50,-1.00,-1.00,0.00,0.25,3.00,-45,0,-5,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task 1: Log into the tablet and observe the dashboard.
+
+Task 2: Navigate through the dashboard to check the real-time data from the Empatica E4 wristband.
+
+Task 3: Trigger the system to simplify the interface by simulating high stress or overload.
+
+Task 4: Move around the different task stages to see how the dashboard adapts based on location.
+
+Task 5: Activate the AR overlays using the tablet's camera to guide through a nozzle replacement task.
+
+---
+
+TLX_Mental_Demand: 4
+
+TLX_Effort: 3
+
+TLX_Frustration: 2
+
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 90
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 45
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 3
+TLX_Perceived_Performance: 2"
+61,Persona_61,48,Supervisor,16,Medium,Medium,Night,neutral,3,2,2,5,4,Auditory,South America,High School,Female,23,Some,0,1,0,1,3,3,2,2,1,3,2,3,2,35.00,2.00,3.00,3.00,2.25,1.00,50,40,45,0,1,0,4,1,1,4,1,4,1,4,1,4,87.50,,,,,,45,60,40,0,0,0,52.50,,,,,,-5,20,-5,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task 1: Log into the tablet and view the dashboard.
+Task 2: Navigate to the checklist for the current task.
+Task 3: Activate the AR overlays for guidance on replacing a nozzle.
+
+Please provide ratings for the requested aspects of your experience with the described dashboard.","Time_Subtask1_seconds: 50
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 40
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 45
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+62,Persona_62,44,Technician,22,High,Low,Night,optimistic,2,5,5,3,1,Reading/Writing,North America,PhD,Female,0,Extensive,0,0,1,5,5,5,5,5,5,5,5,5,5,50.00,5.00,5.00,5.00,5.00,5.00,45,60,40,0,1,0,5,4,4,5,4,5,4,5,4,5,62.50,5.00,5.00,5.00,5.00,5.00,45,60,40,0,1,-1,12.50,0.00,0.00,0.00,0.00,0.00,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+63,Persona_63,29,Technician,28,High,Low,Day,neutral,3,3,5,4,1,Kinesthetic,Oceania,PhD,Female,30,Some,0,1,0,4,5,5,5,5,4,5,5,5,5,45.00,5.00,4.00,5.00,4.75,5.00,45,60,40,0,1,0,5,3,3,5,3,5,3,5,3,5,75.00,,,,,,45,60,40,0,0,0,30.00,,,,,,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task 1: You are currently in the printer bay, and the dashboard displays only the relevant information for this location. You need to replace a toner cartridge in one of the printers. Use the AR overlays activated by the tablet's camera to guide you through the process.
+
+Task 2: The system detects an increase in your stress levels while you are navigating through the dashboard. Observe how the interface simplifies itself and presents a step-by-step checklist to help you manage the situation.
+
+Task 3: Move to the assembly area, and notice how the dashboard updates to show information specific to this location. Your task here is to assemble a new prototype using the instructions displayed on the dashboard.
+
+Task 4: Transition to the packaging station, and see how the dashboard adapts once again to provide you with the necessary details for this area. Your task now is to pack the finished prototypes into designated boxes following the instructions on the screen.
+
+Task 5: Reflect on your overall experience with the adaptive dashboard and provide ratings for the specified aspects.
+
+Please proceed with the tasks and provide the requested ratings for each aspect.","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","Task 1: Check the current print queue on the dashboard.
+Task 2: Identify a printer with an alert that requires attention.
+Task 3: Locate the maintenance schedule for the 3D printers on the dashboard.
+
+Task 1:
+- The current print queue is visible on the dashboard.
+- The print queue is easily accessible and clearly displayed.
+- The print queue shows details such as job status, completion time, and priority.
+
+Task 2:
+- Alerts for each printer are distinguishable on the dashboard.
+- The alert indicates the specific issue that needs attention.
+- The location of the printer with the alert is clearly indicated.
+
+Task 3:
+- The maintenance schedule for each printer is clearly outlined on the dashboard.
+- Maintenance tasks are organized by priority and due date.
+- Instructions for each maintenance task are provided for easy reference.
+
+TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 4"
+64,Persona_64,60,Supervisor,29,Medium,High,Day,pessimistic,1,2,3,2,1,Reading/Writing,North America,High School,Female,5,Extensive,0,0,1,1,3,3,2,3,1,2,2,3,2,35.00,3.00,4.00,3.00,3.00,2.00,45,60,40,0,0,1,4,1,1,4,1,4,1,4,1,3,85.00,2.00,1.00,3.00,2.50,4.00,45,60,40,0,0,0,50.00,-1.00,-3.00,0.00,-0.50,2.00,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 4
+SUS_10: 2","Task 1: Check the current task stage displayed on the dashboard.
+Task 2: Review the checklist provided by the dashboard for the current task.
+Task 3: Activate the AR overlays to replace a nozzle on a machine.
+Task 4: Monitor the stress or overload gauge on the dashboard.
+
+TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 5
+TLX_Perceived_Performance: 3"
+65,Persona_65,39,Operator,2,Medium,Low,Night,neutral,3,4,2,2,5,Reading/Writing,Africa,Associate Degree,Male,5,None,0,1,0,1,2,2,1,2,1,1,1,2,1,40.00,2.00,1.00,2.00,1.50,1.00,45,60,40,0,1,0,3,1,1,3,1,3,1,3,1,3,75.00,1.00,1.00,2.00,1.75,3.00,45,60,40,0,0,0,35.00,-1.00,0.00,0.00,0.25,2.00,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","Task 1: Check the current print queue on the dashboard.
+Task 2: Identify a printer with an alert that requires attention.
+Task 3: Locate the maintenance schedule for the printers on the dashboard.
+
+---
+
+TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 3
+TLX_Perceived_Performance: 2"
+66,Persona_66,59,Technician,20,High,Low,Night,pessimistic,2,2,4,3,4,Kinesthetic,Oceania,High School,Female,28,Some,0,1,0,1,3,3,2,3,1,2,2,3,1,32.50,2.00,3.00,3.00,2.25,1.00,45,60,40,0,1,0,4,1,1,4,1,4,1,4,1,3,85.00,,,,,,45,60,40,0,0,0,52.50,,,,,,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 4
+SUS_10: 2","Task: You are currently in the printer bay, and the dashboard displays only the relevant information for this location. You need to replace a printer cartridge. The dashboard provides you with a step-by-step checklist and activates AR overlays to guide you through the process.
+
+1. Begin by checking the step-by-step checklist provided on the dashboard.
+2. Use the AR overlays to identify and replace the printer cartridge.
+3. Confirm each completed step using the AR overlays.
+
+Please rate the following aspects of your experience with the described dashboard:
+
+Mental_Demand: 4
+Effort: 3
+Frustration: 2
+Perceived_Performance: 4","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+67,Persona_67,54,Operator,3,Medium,Medium,Night,pessimistic,4,3,4,3,2,Reading/Writing,South America,High School,Male,12,Extensive,0,0,1,2,4,4,3,3,2,4,3,4,3,35.00,4.00,3.00,4.00,3.25,2.00,45,60,40,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,4.00,3.00,4.00,4.00,5.00,45,60,40,0,1,-1,65.00,0.00,0.00,0.00,0.75,3.00,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task 1: You are currently in the printer bay and need to replace a printer cartridge. The dashboard recognizes your location and provides you with a step-by-step guide on how to replace the cartridge, including AR overlays to assist you in the process.
+
+Task 2: You are now in the assembly area and need to assemble a complex component. The dashboard adjusts to your location and task, displaying only the relevant information and guiding you through each step with clear instructions and visual aids.
+
+Task 3: You have moved to the packaging station and are required to pack finished products. The dashboard adapts once again, simplifying the interface to show only the necessary details for packaging, ensuring you can complete the task efficiently.
+
+Task 4: You notice that the dashboard reacts promptly to your stress levels, simplifying the interface when it detects you are overloaded. This feature helps you focus on the task at hand and reduces the risk of errors due to cognitive overload.
+
+Task 5: The dashboard's use of real-time data from your Empatica E4 wristband to gauge stress and overload levels enhances your overall experience by providing personalized support and adapting the interface to your needs in real time.
+
+TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 3
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 3
+TLX_Perceived_Performance: 2"
+68,Persona_68,42,Supervisor,10,High,Medium,Day,pessimistic,4,3,1,5,1,Reading/Writing,Asia,Associate Degree,Other,25,Some,0,1,0,1,3,3,2,3,1,3,2,3,2,32.50,3.00,2.00,3.00,2.25,1.00,45,60,40,0,1,0,4,1,1,4,1,4,1,4,1,4,87.50,2.00,1.00,3.00,2.25,3.00,45,60,40,0,0,0,55.00,-1.00,-1.00,0.00,0.00,2.00,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 4","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 3
+TLX_Perceived_Performance: 2"
+69,Persona_69,34,Supervisor,7,High,Medium,Day,pessimistic,1,1,3,4,1,Kinesthetic,Oceania,Associate Degree,Male,29,Some,0,1,0,1,3,3,2,2,1,3,2,3,2,35.00,2.00,3.00,3.00,2.25,1.00,45,60,40,0,1,0,4,1,1,4,1,4,1,4,1,3,85.00,3.00,1.00,2.00,2.50,4.00,45,60,40,0,0,0,50.00,1.00,-2.00,-1.00,0.25,3.00,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 4
+SUS_10: 2","Task: You are currently in the printer bay, and the dashboard displays only the relevant information for this location. You need to replace a toner cartridge in one of the printers.
+
+1. What are the steps displayed on the concise, step-by-step checklist for replacing the toner cartridge?
+2. How does the AR overlay assist you in replacing the toner cartridge?
+3. What printers or part bins are shown on the dashboard for this task?
+
+Please provide the requested information clearly, one per line.
+
+---
+
+1. The steps displayed on the concise, step-by-step checklist for replacing the toner cartridge are as follows:
+   - Step 1: Open the printer cover.
+   - Step 2: Remove the old toner cartridge.
+   - Step 3: Insert the new toner cartridge.
+   - Step 4: Close the printer cover.
+
+2. The AR overlay assists in replacing the toner cartridge by highlighting the specific components on the physical printer that need attention, guiding you through each step visually and confirming completion before moving to the next step.
+
+3. The dashboard shows the following printers or part bins for this task:
+   - Printer A: Ready for toner cartridge replacement.
+   - Printer B: Ready for toner cartridge replacement.
+
+---
+
+Now, please provide your ratings for the aspects of your experience with the described dashboard:
+
+TLX_Mental_Demand: 3
+TLX_Effort: 4
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","**Task 1: Check the current print queue on the dashboard.**
+
+As a supervisor, I need to check the current print queue to ensure that all jobs are progressing smoothly and to identify any potential bottlenecks.
+
+**Task 2: Review the status of each printer in the 3D print farm.**
+
+It's essential to monitor the status of each printer to address any issues promptly and ensure optimal performance.
+
+**Task 3: Identify and address any alerts or errors displayed on the dashboard.**
+
+Being vigilant about alerts and errors is crucial to maintaining the efficiency of the 3D print farm and preventing any disruptions in the printing process.
+
+**Task 4: Evaluate the overall usability and effectiveness of the dashboard in providing real-time information.**
+
+Assessing the dashboard's usability and effectiveness is key to determining if it adequately supports operational tasks and decision-making.
+
+**Task 5: Rate your experience with the described dashboard.**
+
+Now, I will provide ratings for the specified subscales based on my experience with the 'Original' dashboard:
+
+TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+70,Persona_70,40,Supervisor,14,Low,Low,Day,pessimistic,3,5,5,3,2,Kinesthetic,South America,Bachelor's,Other,27,Some,0,0,1,2,4,4,3,4,2,4,3,4,2,30.00,4.00,3.00,4.00,3.25,2.00,60,45,50,0,1,0,5,2,1,5,1,5,1,5,1,4,95.00,3.00,2.00,4.00,3.50,5.00,45,60,40,0,1,-1,65.00,-1.00,-1.00,0.00,0.25,3.00,-15,15,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 4
+SUS_10: 2","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 60
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 45
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 3
+TLX_Perceived_Performance: 2"
+71,Persona_71,27,Technician,3,Low,Low,Night,pessimistic,3,1,4,1,3,Visual,South America,Bachelor's,Other,23,Extensive,0,1,0,2,4,4,3,4,2,4,3,4,2,30.00,4.00,3.00,4.00,3.25,2.00,45,60,40,0,1,0,5,2,1,5,1,5,1,5,1,4,95.00,,,,,,45,60,40,0,0,0,65.00,,,,,,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 4
+SUS_10: 2","Task: Replace a printer cartridge in the printer bay.
+
+1. Check the dashboard for the step-by-step checklist.
+2. Use the AR overlays to identify the cartridge replacement process.
+3. Follow the instructions to complete the task.
+
+Please provide the requested ratings for your experience with the described dashboard.","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 3
+TLX_Perceived_Performance: 2"
+72,Persona_72,36,Supervisor,13,High,Medium,Day,pessimistic,2,4,1,5,5,Kinesthetic,Africa,Associate Degree,Other,2,Extensive,0,0,1,1,1,1,1,1,1,1,1,1,1,50.00,1.00,1.00,1.00,1.00,1.00,45,60,40,0,0,0,2,1,1,2,1,2,1,2,1,2,62.50,1.00,1.00,1.00,1.25,2.00,45,60,40,0,0,-1,12.50,0.00,0.00,0.00,0.25,1.00,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task 1: Check the real-time stress level indication on the dashboard.
+Task 2: Review the step-by-step checklist provided when stress level is high.
+Task 3: Follow the AR overlays to replace a nozzle on a physical machine.
+Task 4: Navigate through different task stages and observe the compatibility of displayed printers or part bins.
+
+TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+73,Persona_73,49,Supervisor,10,High,Medium,Day,optimistic,1,1,3,4,1,Visual,Europe,PhD,Male,12,Some,0,0,0,3,5,5,4,4,3,5,4,5,4,35.00,4.00,5.00,5.00,4.25,3.00,45,60,40,0,1,0,5,2,2,5,2,5,2,5,2,5,87.50,4.00,3.00,5.00,4.25,5.00,25,40,20,0,1,0,52.50,0.00,-2.00,0.00,0.00,2.00,-20,-20,-20,"Time_Subtask1_seconds: 25
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 40
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 20
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+74,Persona_74,43,Supervisor,24,High,High,Night,pessimistic,2,4,1,4,5,Reading/Writing,Asia,High School,Other,11,None,0,1,0,1,1,1,1,1,1,1,1,1,1,50.00,1.00,2.00,1.00,1.25,1.00,45,60,40,0,0,1,1,1,1,2,1,2,1,1,1,1,55.00,,,,,,45,60,40,0,-1,1,5.00,,,,,,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 4
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 4
+SUS_8: 1
+SUS_9: 4
+SUS_10: 2","Task 1: Log into the tablet and observe the dashboard.
+
+Observations:
+- The dashboard automatically adjusts to show relevant information based on my role and location.
+- Real-time data from my Empatica E4 wristband is used to gauge stress levels and simplify the interface if needed.
+- Location detection via BLE beacons ensures only compatible printers or part bins are displayed.
+- AR overlays are activated when guidance is needed for tasks like replacing a nozzle.
+
+Task 2: Rate the aspects of my experience with the described dashboard.
+
+Scores:
+- Mental_Demand: 4
+- Effort: 3
+- Frustration: 2
+- Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 5
+TLX_Perceived_Performance: 2"
+75,Persona_75,48,Technician,8,Medium,Low,Night,pessimistic,3,1,4,3,2,Visual,South America,High School,Other,6,Extensive,0,1,0,2,4,4,3,4,2,3,3,4,2,32.50,3.00,4.00,4.00,3.25,2.00,45,60,40,0,1,0,5,2,1,5,1,5,1,5,1,4,95.00,,,,,,45,60,40,0,0,0,62.50,,,,,,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 4
+SUS_10: 2","Task: You are currently tasked with replacing a printer nozzle in the printer bay. The dashboard has detected your location and displayed the relevant information and checklist for this task.
+
+1. What are the step-by-step instructions displayed on the dashboard for replacing the printer nozzle?
+2. How does the AR overlay assist you in identifying and replacing the nozzle?
+3. What is your heart-rate variability and skin conductance data showing on the dashboard as you begin the task?
+4. How does the dashboard adapt if it detects an increase in stress or overload during the task?
+
+Please provide your responses to the tasks above.","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","As a reminder, the dashboard I am working with is the one described in the previous context.
+
+TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+76,Persona_76,60,Supervisor,1,Low,Medium,Day,optimistic,5,2,1,5,2,Auditory,Europe,Bachelor's,Male,25,Extensive,0,0,1,3,5,5,4,5,3,5,4,5,4,32.50,5.00,4.00,5.00,4.50,4.00,45,60,50,0,1,0,5,2,2,5,2,5,2,5,2,5,87.50,4.00,3.00,5.00,4.25,5.00,45,60,40,0,1,-1,55.00,-1.00,-1.00,0.00,-0.25,1.00,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task 1: Simulate checking the step-by-step checklist on the dashboard for your current task stage.
+
+Task 2: Simulate using the AR overlays to replace a nozzle on a physical machine.
+
+Task 3: Simulate navigating through the dashboard to find information on a specific printer model compatible with your current task stage.
+
+Task 4: Simulate the dashboard adapting to simplify itself when detecting high stress levels based on real-time data from your Empatica E4 wristband.
+
+Task 5: Simulate the dashboard displaying only compatible printers or part bins based on your detected location via BLE beacons.
+
+Task 6: Simulate the dashboard providing guidance on the next steps after completing a task.
+
+---
+
+TLX_Mental_Demand: 4  
+TLX_Effort: 3  
+TLX_Frustration: 2  
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 3
+TLX_Perceived_Performance: 3"
+77,Persona_77,20,Technician,28,Low,Low,Night,optimistic,1,1,2,1,3,Auditory,Africa,Bachelor's,Male,5,Some,0,1,0,2,4,4,3,4,2,3,3,4,3,35.00,3.00,4.00,4.00,3.25,2.00,45,60,40,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,,,,,,45,60,40,0,0,0,65.00,,,,,,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task 1: You are currently in the printer bay, and the dashboard displays only relevant information for this location. You need to replace a printer cartridge. The system detects this and provides you with a step-by-step checklist on the tablet.
+
+Task 2: Your stress levels are slightly elevated as indicated by the real-time data from your Empatica E4 wristband. The dashboard simplifies itself, hiding unrelated information and focusing on the task at hand, reducing cognitive overload.
+
+Task 3: You are now in the assembly area, and the system recognizes your location via BLE beacons. It displays only compatible printers and part bins for the assembly task you are about to perform.
+
+Task 4: You need guidance on how to replace a specific component in the printer. The tablet's camera activates AR overlays, highlighting the components on the physical machine and confirming each step as you complete it.
+
+Task 5: After completing the tasks, you reflect on your overall experience with the adaptive dashboard and its impact on your work efficiency and stress levels.
+
+Please rate the following aspects of your experience with the described dashboard on a 1 to 5 scale (1 being very low, 5 being very high).
+
+Subscales to rate:
+- Mental_Demand
+- Effort
+- Frustration
+- Perceived_Performance
+
+Please list your scores clearly, one per line, like 'TLX_Mental_Demand: [score]', 'TLX_Effort: [score]', etc. for all subscales provided.","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","Task 1: Identify the printer with the longest queue.
+Task 2: Determine the number of printers with an alert status.
+Task 3: Locate the printer that requires routine maintenance.
+Task 4: Find the print job with the highest priority in the queue.
+
+TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+78,Persona_78,23,Operator,24,Medium,High,Day,pessimistic,1,4,4,3,5,Visual,South America,PhD,Male,30,Extensive,0,0,1,1,2,2,1,2,1,2,1,2,1,37.50,2.00,3.00,2.00,2.00,1.00,45,60,50,0,1,0,3,1,1,3,1,3,1,3,1,2,72.50,,,,,,45,60,40,0,1,-1,35.00,,,,,,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 4
+SUS_10: 2","Task: You are currently in the printer bay, and you need to replace a nozzle on a specific printer model. The dashboard has detected your location and task stage accurately.
+
+1. Locate the step-by-step checklist for replacing the nozzle on the specific printer model.
+2. Follow the AR overlays to identify and replace the nozzle correctly.
+3. Monitor your stress and workload levels as you perform the task.
+
+Please provide the requested ratings for the dashboard experience.","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 5
+TLX_Perceived_Performance: 2"
+79,Persona_79,22,Supervisor,26,High,High,Night,neutral,1,1,4,4,4,Visual,South America,Master's,Male,28,None,0,0,0,1,3,3,2,3,1,2,2,3,2,35.00,,,,,,25,20,18,0,0,0,4,1,1,4,1,4,1,4,1,4,87.50,,,,,,45,60,40,0,0,0,52.50,,,,,,20,40,22,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task: You are currently in the assembly area of the manufacturing plant. Your tablet dashboard displays only the relevant information for this location. You need to check the status of the printers in your area and ensure they are functioning optimally.
+
+1. Check the status of the printers in the assembly area.
+2. Ensure the printers are functioning optimally.
+3. Make a note of any printers that require maintenance or attention.
+
+Please provide the requested ratings for the dashboard experience.","Time_Subtask1_seconds: 25
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 20
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 18
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","Task 1: Check the current print queue on the dashboard.
+Task 2: Identify a printer with an alert that requires attention.
+Task 3: Locate a printer that has completed a print and needs filament refilling.
+Task 4: Find the maintenance schedule for a specific printer.
+
+**TLX Ratings:**
+- Mental_Demand: 4
+- Effort: 3
+- Frustration: 4
+- Perceived_Performance: 2"
+80,Persona_80,40,Supervisor,5,Low,Low,Night,pessimistic,5,5,3,4,5,Kinesthetic,South America,PhD,Other,13,None,0,1,0,1,3,3,2,3,1,3,2,3,1,30.00,4.00,4.00,4.00,3.25,1.00,45,60,40,0,1,0,4,1,1,4,1,4,1,4,1,3,85.00,,,,,,45,60,40,0,0,0,55.00,,,,,,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 4
+SUS_10: 2","Task: You are currently in the assembly area, and the dashboard has detected that you are stressed based on your heart-rate variability and skin conductance levels. The interface has simplified itself to show only the step-by-step checklist for the current task.
+
+Please proceed with the task of replacing a specific component in the assembly area as guided by the AR overlays on the tablet.
+
+Upon completing the task, please provide the requested ratings for your experience with the dashboard.
+
+Task completion: You have successfully replaced the component in the assembly area with the assistance of the AR overlays.
+
+Please provide the requested ratings for your experience with the dashboard.
+
+Mental_Demand: 4
+Effort: 3
+Frustration: 2
+Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","Task 1: Check the current print queue on the dashboard.
+Task 2: Identify a printer with an alert that requires attention.
+Task 3: Locate a specific completed print in the queue for removal.
+Task 4: Check the status of routine maintenance tasks for all printers.
+
+Task 1: The mental demand for checking the current print queue on the dashboard is high due to the lack of contextual filtering and the need to scan the entire display.
+Task 2: The effort required to identify a printer with an alert that requires attention is high as operators need to sift through all alerts simultaneously.
+Task 3: The frustration level in locating a specific completed print in the queue for removal is high due to the time-consuming nature of finding individual prints.
+Task 4: The perceived performance of checking the status of routine maintenance tasks for all printers is low as the process is inefficient and prone to errors.
+
+TLX_Mental_Demand: 5
+TLX_Effort: 5
+TLX_Frustration: 5
+TLX_Perceived_Performance: 2"
+81,Persona_81,27,Supervisor,21,High,High,Day,neutral,4,2,4,3,4,Reading/Writing,South America,High School,Female,13,Some,0,0,1,2,4,4,3,3,2,4,3,4,3,35.00,4.00,3.00,4.00,3.25,2.00,45,60,50,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,4.00,3.00,4.00,4.00,5.00,45,60,40,0,1,-1,65.00,0.00,0.00,0.00,0.75,3.00,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task 1: Log into the tablet and observe the dashboard.
+
+Observing the dashboard, I notice that it displays relevant information based on my role and location. The system tracks my interactions and stress levels to adapt the interface for better usability. The BLE beacons accurately detect my location, ensuring I only see information relevant to my current task stage. The AR overlays for guidance seem promising for complex tasks.
+
+Task 2: Interact with the dashboard to complete a task.
+
+I proceed to interact with the dashboard to complete a task, replacing a nozzle on a machine. The AR overlays provide clear guidance, highlighting components and confirming each step. The step-by-step checklist simplifies the process, reducing cognitive load. The adaptive nature of the dashboard streamlines my workflow and minimizes distractions.
+
+Task 3: Reflect on the overall experience with the dashboard.
+
+Overall, the adaptive dashboard significantly enhances my productivity and reduces errors by providing context-aware information tailored to my needs. The real-time tracking of stress levels and location-based customization ensure a seamless user experience. The combination of technology, such as BLE beacons and AR overlays, creates a dynamic and efficient workflow environment.
+
+TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 3
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 3
+TLX_Perceived_Performance: 2"
+82,Persona_82,36,Technician,5,High,Medium,Day,optimistic,1,1,4,1,3,Auditory,Africa,High School,Other,30,Extensive,0,0,1,4,5,5,3,4,3,5,4,5,4,35.00,4.00,5.00,5.00,4.25,3.00,45,60,40,0,0,0,5,2,2,5,2,5,2,5,2,5,87.50,5.00,3.00,4.00,4.25,5.00,45,60,40,0,0,-1,52.50,1.00,-2.00,-1.00,0.00,2.00,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task: You are currently in the printer bay, and the dashboard has detected that you are stressed. It has simplified itself to show only the step-by-step checklist for printer maintenance. Your Empatica E4 wristband indicates high stress levels.
+
+Action: Follow the step-by-step checklist provided on the dashboard for printer maintenance.
+
+Result: Successfully complete the maintenance tasks on the printer with the assistance of the simplified checklist.
+
+TLX_Mental_Demand: 3
+TLX_Effort: 4
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 3
+SUS_2: 4
+SUS_3: 2
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+83,Persona_83,55,Technician,22,Low,Medium,Night,pessimistic,4,1,3,5,3,Kinesthetic,North America,PhD,Other,6,None,2,1,2,1,3,3,2,3,1,2,2,3,2,35.00,3.00,4.00,3.00,3.00,2.00,90,120,60,0,1,0,3,1,1,4,1,4,1,3,1,3,80.00,2.00,1.00,3.00,2.50,4.00,45,60,40,-2,0,-2,45.00,-1.00,-3.00,0.00,-0.50,2.00,-45,-60,-20,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 4
+SUS_2: 2
+SUS_3: 5
+SUS_4: 2
+SUS_5: 5
+SUS_6: 2
+SUS_7: 4
+SUS_8: 2
+SUS_9: 4
+SUS_10: 2","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 90
+Errors_Subtask1_count: 2
+Time_Subtask2_seconds: 120
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 60
+Errors_Subtask3_count: 2","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 5
+TLX_Perceived_Performance: 3"
+84,Persona_84,50,Operator,28,Low,Medium,Night,optimistic,3,5,2,4,5,Visual,Africa,Bachelor's,Male,5,Some,0,1,0,2,4,4,3,4,2,4,3,4,3,32.50,3.00,3.00,4.00,3.00,2.00,45,60,40,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,3.00,2.00,4.00,3.50,5.00,45,60,40,0,0,0,67.50,0.00,-1.00,0.00,0.50,3.00,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task 1: Check the current task stage displayed on the dashboard.
+Task 2: Review the step-by-step checklist provided on the dashboard for the current task.
+Task 3: Activate the AR overlays to guide nozzle replacement on a physical machine.
+
+TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","Task 1: Check the current print queue on the dashboard.
+Task 2: Review the status of each printer in the 3D print farm.
+Task 3: Identify any alerts that require immediate attention on the dashboard.
+
+---
+
+Task 1: The current print queue shows 10 pending jobs, with estimated completion times ranging from 1 to 6 hours.
+
+Task 2: Printer 1 is idle, Printer 2 is printing, and Printer 3 is offline for maintenance.
+
+Task 3: An alert is displayed for Printer 2 due to a filament jam.
+
+---
+
+TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 3
+TLX_Perceived_Performance: 2"
+85,Persona_85,39,Technician,12,Low,Low,Day,pessimistic,4,1,2,1,1,Auditory,South America,Master's,Female,10,None,2,3,2,2,4,4,3,4,2,4,2,4,2,27.50,4.00,3.00,4.00,3.25,2.00,90,120,60,0,1,0,4,1,1,5,1,5,1,4,1,4,92.50,,,,,,45,60,40,-2,-2,-2,65.00,,,,,,-45,-60,-20,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 4
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 4
+SUS_8: 1
+SUS_9: 4
+SUS_10: 1","Task 1: Log into the tablet and observe the dashboard.
+
+Observation:
+Upon logging into the tablet, the dashboard automatically adjusts to show only the relevant information based on my current role and location. The system tracks my interactions and stress levels to simplify the interface when needed. The use of BLE beacons to detect my location and provide task-specific guidance is impressive. The AR overlays for assistance in tasks like replacing a nozzle are particularly helpful.
+
+Task 2: Rate the aspects of the experience with the dashboard.
+
+Rating:
+Mental_Demand: 3
+Effort: 4
+Frustration: 2
+Perceived_Performance: 4","Time_Subtask1_seconds: 90
+Errors_Subtask1_count: 2
+Time_Subtask2_seconds: 120
+Errors_Subtask2_count: 3
+Time_Subtask3_seconds: 60
+Errors_Subtask3_count: 2","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 2
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","As a reminder, the dashboard I am using requires me to observe the full display to determine which items require attention, leading to frequent context switching and potential delays.
+
+TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 3
+TLX_Perceived_Performance: 2"
+86,Persona_86,43,Technician,24,Medium,High,Day,optimistic,2,2,5,1,1,Kinesthetic,South America,Master's,Female,19,Some,0,0,1,5,5,5,5,5,5,5,5,5,5,50.00,,,,,,45,60,40,0,1,0,5,4,4,5,4,5,4,5,4,5,62.50,5.00,5.00,5.00,5.00,5.00,45,60,40,0,1,-1,12.50,,,,,,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task: You are currently tasked with replacing a printer cartridge in the printer bay. The dashboard has detected your location and displayed the relevant checklist and AR overlays to guide you through the process.
+
+1. Begin by checking the checklist displayed on the dashboard for the steps involved in replacing the printer cartridge.
+2. Use the AR overlays activated by the tablet's camera to identify and replace the printer cartridge accurately.
+3. Confirm each completed step on the checklist as you progress through the replacement process.
+
+Please provide the requested ratings for the dashboard experience based on the tasks performed.
+
+---
+TLX_Mental_Demand: 3
+TLX_Effort: 4
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","Task 1: Check the current print queue on the dashboard.
+Task 2: Identify a printer with an alert status.
+Task 3: Locate the maintenance schedule for the day.
+
+Please proceed with the ratings for the dashboard experience."
+87,Persona_87,46,Technician,7,High,Low,Night,neutral,1,3,5,4,5,Kinesthetic,North America,Associate Degree,Female,19,None,0,0,1,1,3,3,2,3,1,2,2,3,2,35.00,2.00,3.00,3.00,2.25,1.00,45,60,40,0,0,0,4,1,1,4,1,4,1,4,1,4,87.50,2.00,1.00,3.00,2.50,4.00,45,60,40,0,0,-1,52.50,0.00,-2.00,0.00,0.25,3.00,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task 1: You are currently in the printer bay, and the dashboard shows you the relevant information for this location. You need to replace the ink cartridge in Printer A. The dashboard recognizes your location and the task at hand, providing you with a step-by-step guide on how to replace the ink cartridge.
+
+Task 2: While working on replacing the ink cartridge, the system detects an increase in your stress levels based on the data from your Empatica E4 wristband. The interface simplifies itself, focusing only on the essential steps of the ink cartridge replacement process, reducing unnecessary information to help you manage the task better.
+
+Task 3: After successfully replacing the ink cartridge, the dashboard prompts you to confirm the completion of the task. You use the tablet's camera to scan the barcode on the new ink cartridge, which triggers the system to update the inventory and mark the task as completed.
+
+Task 4: As you finish the task and move to the assembly area, the dashboard seamlessly transitions to display information relevant to the new location, ensuring that you have the necessary guidance for the next stage of production.
+
+Task 5: In the assembly area, you are tasked with assembling components for a new product. The dashboard provides you with real-time feedback on your progress, highlighting any potential errors or missed steps to improve your efficiency and accuracy.
+
+Task 6: Throughout your shift, the dashboard continues to adapt to your needs, providing support and guidance tailored to each task and location, ultimately enhancing your overall performance and reducing the risk of errors.
+
+TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+88,Persona_88,20,Operator,10,Low,Low,Night,neutral,3,1,1,4,4,Auditory,Europe,Master's,Other,22,None,0,0,0,1,2,2,1,2,1,1,1,2,1,40.00,1.00,2.00,2.00,1.50,1.00,90,60,45,0,1,0,3,1,1,3,1,3,1,3,1,3,75.00,,,,,,45,60,40,0,1,0,35.00,,,,,,-45,0,-5,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task: Replace a printer cartridge in the printer bay.
+
+1. Open the dashboard and locate the step-by-step checklist for replacing the printer cartridge.
+2. Follow the checklist to complete the task.
+3. Use the AR overlays to assist in identifying and replacing the cartridge.
+4. Complete the task and confirm each step on the checklist.
+
+Please provide the requested ratings for the experience with the described dashboard.","Time_Subtask1_seconds: 90
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 45
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+89,Persona_89,52,Supervisor,27,High,Medium,Day,neutral,1,4,1,4,1,Kinesthetic,Africa,Master's,Other,12,Extensive,0,0,1,1,3,3,2,2,1,3,2,3,2,35.00,3.00,2.00,3.00,2.25,1.00,45,60,40,0,0,0,4,1,1,4,1,4,1,4,1,4,87.50,2.00,1.00,3.00,2.50,4.00,45,60,40,0,0,-1,52.50,-1.00,-1.00,0.00,0.25,3.00,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 3
+TLX_Perceived_Performance: 2"
+90,Persona_90,60,Technician,10,Low,Medium,Day,neutral,2,5,4,3,1,Reading/Writing,North America,Associate Degree,Female,18,Some,0,0,1,3,5,5,4,4,3,5,4,5,4,35.00,4.00,5.00,5.00,4.25,3.00,90,60,45,0,1,0,5,3,2,5,2,5,2,5,2,5,85.00,,,,,,45,60,40,0,1,-1,50.00,,,,,,-45,0,-5,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 4
+SUS_10: 2","To interact with the 'Adaptive' dashboard, I would perform the following tasks:
+1. Log into the tablet.
+2. Navigate through different task stages in the printer bay, assembly area, or packaging station.
+3. Monitor stress levels and observe the interface simplifying itself in case of overload.
+4. Follow step-by-step checklists provided by the dashboard.
+5. Receive guidance through AR overlays for tasks like replacing a nozzle.
+
+Now, I will rate my experience with the described dashboard:
+- Mental_Demand: 3
+- Effort: 4
+- Frustration: 2
+- Perceived_Performance: 5","Time_Subtask1_seconds: 90
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 45
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+91,Persona_91,53,Operator,13,Medium,High,Night,optimistic,3,2,1,5,1,Auditory,Asia,Bachelor's,Other,30,Extensive,0,0,1,3,5,5,4,4,3,5,4,5,4,35.00,4.00,5.00,5.00,4.25,3.00,45,60,40,0,0,0,5,2,2,5,2,5,2,5,2,5,87.50,4.00,3.00,5.00,4.25,5.00,45,60,40,0,0,-1,52.50,0.00,-2.00,0.00,0.00,2.00,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+92,Persona_92,29,Operator,4,Low,Medium,Day,optimistic,5,2,1,2,4,Reading/Writing,Africa,PhD,Female,21,Extensive,0,0,1,2,4,4,3,4,2,3,3,4,3,35.00,3.00,4.00,4.00,3.25,2.00,45,60,50,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,,,,,,45,60,40,0,1,-1,65.00,,,,,,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task: Replace a printer cartridge in the printer bay.
+
+1. Access the step-by-step checklist for replacing the printer cartridge.
+2. Follow the checklist to complete the task.
+3. Use the AR overlays to assist in identifying and replacing the cartridge.
+4. Complete the task successfully.
+
+Please provide the requested ratings for the dashboard experience.","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+93,Persona_93,60,Supervisor,11,High,Medium,Day,neutral,1,4,4,3,3,Visual,Asia,PhD,Male,9,Some,0,0,1,2,4,4,3,3,2,4,3,4,3,35.00,4.00,3.00,4.00,3.25,2.00,45,25,35,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,3.00,2.00,4.00,3.25,4.00,45,60,40,0,1,-1,65.00,-1.00,-1.00,0.00,0.00,2.00,0,35,5,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task 1: Simulate checking the step-by-step checklist on the dashboard for a specific task.
+
+Task 2: Simulate using the AR overlays to replace a component on a physical machine.
+
+Task 3: Simulate the dashboard adapting to simplify itself when detecting high stress levels.
+
+---
+
+TLX_Mental_Demand: 4  
+TLX_Effort: 3  
+TLX_Frustration: 2  
+TLX_Perceived_Performance: 4","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 25
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 35
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 3
+TLX_Perceived_Performance: 2"
+94,Persona_94,48,Operator,2,Medium,Medium,Day,pessimistic,1,5,5,5,4,Reading/Writing,Africa,PhD,Other,28,None,0,0,1,1,3,3,2,2,1,3,2,3,2,35.00,2.00,3.00,3.00,2.25,1.00,45,60,40,0,0,0,4,1,1,4,1,4,1,4,1,4,87.50,3.00,2.00,3.00,3.00,4.00,45,60,40,0,0,-1,52.50,1.00,-1.00,0.00,0.75,3.00,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task 1: Log into the tablet and observe the dashboard.
+
+Task 2: Navigate through the dashboard to check the real-time data from the Empatica E4 wristband.
+
+Task 3: Trigger the system to simplify the interface by simulating high stress or overload.
+
+Task 4: Move around different task stages to observe the dashboard adapting based on BLE beacon detection.
+
+Task 5: Use the camera feature to activate AR overlays for guidance on replacing a nozzle.
+
+---
+
+TLX_Mental_Demand: 4
+
+TLX_Effort: 4
+
+TLX_Frustration: 3
+
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+95,Persona_95,48,Supervisor,21,Low,Medium,Night,pessimistic,2,1,4,1,3,Visual,Africa,Associate Degree,Male,7,Extensive,0,1,0,1,3,3,2,3,1,2,2,3,1,32.50,2.00,3.00,3.00,2.25,1.00,45,60,40,0,1,0,4,1,1,4,1,4,1,4,1,3,85.00,,,,,,45,60,40,0,0,0,52.50,,,,,,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 4
+SUS_10: 2","Task: You are currently in the printer bay, and the dashboard has detected that you are stressed based on your heart-rate variability and skin conductance. The interface has simplified itself to show only the checklist for the current task of calibrating a 3D printer. The AR overlays are highlighting the specific components you need to adjust.
+
+Please provide the requested ratings for your experience with the described dashboard.","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","**Task 1: Check the current print queue status on the dashboard.**
+
+As you look at the dashboard, you notice that there are 10 prints currently in the queue. Each print job is labeled with the file name, estimated time remaining, and printer assigned.
+
+**Task 2: Identify a printer that requires immediate attention due to an error.**
+
+You spot Printer 3 highlighted in red, indicating an error. The error message reads ""Filament Jam."" 
+
+**Task 3: Locate the maintenance schedule for Printer 5.**
+
+You navigate through the dashboard and find the maintenance schedule for Printer 5. It indicates that the next scheduled maintenance is in 3 days.
+
+**Task 4: Check for any high-priority alerts that need urgent action.**
+
+Scanning the dashboard, you see a flashing alert icon next to a print job labeled ""URGENT - Low Filament."" This alert requires immediate action to prevent print failure.
+
+**Task 5: Review the overall print farm performance metrics for the past week.**
+
+You access the performance metrics section of the dashboard and review the print farm's performance over the past week. The metrics include print success rate, average print time, and overall equipment efficiency.
+
+---
+
+**TLX_Mental_Demand: 4**  
+**TLX_Effort: 3**  
+**TLX_Frustration: 4**  
+**TLX_Perceived_Performance: 2**"
+96,Persona_96,48,Technician,17,High,High,Day,neutral,3,3,4,4,3,Visual,Oceania,Bachelor's,Male,10,None,0,0,0,2,4,4,3,3,2,4,3,4,3,35.00,3.00,3.00,4.00,3.00,2.00,45,60,40,0,0,0,5,1,1,5,1,5,1,5,1,5,100.00,4.00,2.00,3.00,3.50,5.00,45,60,40,0,0,0,65.00,1.00,-1.00,-1.00,0.50,3.00,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task: Replace a printer cartridge in the printer bay.
+
+1. Check the dashboard for the step-by-step checklist for replacing the printer cartridge.
+2. Follow the AR overlays to locate and replace the cartridge.
+3. Confirm each completed step using the AR overlays.
+
+**Rating:**
+TLX_Mental_Demand: 3
+TLX_Effort: 4
+TLX_Frustration: 2
+TLX_Perceived_Performance: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","Task 1: Check the current print queue on the dashboard.
+Task 2: Identify a printer with an alert that requires attention.
+Task 3: Locate the maintenance schedule for the printers on the dashboard.
+
+Task 1:
+- The current print queue is displayed prominently on the dashboard, with each job listed in order.
+- The color-coded status indicators make it easy to differentiate between active, paused, and completed prints.
+- The lack of contextual filtering means all jobs are visible at once, requiring a scan of the entire queue to find specific information.
+
+Task 2:
+- Alerts for each printer are shown alongside their status, but there is no prioritization based on severity or urgency.
+- Operators need to visually scan all printer alerts to identify the one requiring immediate attention, leading to potential delays in response time.
+
+Task 3:
+- The maintenance schedule for each printer is available but requires manual inspection to determine upcoming tasks.
+- There is no automated alert for pending maintenance, increasing the risk of missed or delayed servicing.
+
+TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 3
+TLX_Perceived_Performance: 2"
+97,Persona_97,55,Supervisor,13,Medium,Medium,Day,neutral,1,5,2,3,3,Reading/Writing,Europe,PhD,Other,30,None,0,0,1,1,3,3,2,2,1,3,2,3,2,35.00,2.00,3.00,3.00,2.25,1.00,45,60,40,0,1,0,4,1,1,4,1,4,1,4,1,4,87.50,2.00,1.00,3.00,2.25,3.00,45,60,40,0,1,-1,52.50,0.00,-2.00,0.00,0.00,2.00,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task 1: You are currently in the printer bay, and the dashboard displays only relevant information for this location. You need to replace a printer cartridge. The system detects your stress levels are slightly elevated and simplifies the interface to guide you through the process step-by-step.
+
+Task 2: You have moved to the assembly area, and the dashboard now shows information specific to this location. You are assembling a complex component, and the system provides AR overlays to assist you in identifying and placing each part correctly.
+
+Task 3: You have transitioned to the packaging station, and the dashboard adjusts to show relevant data for this area. You are required to pack different items into specific boxes, and the system highlights the correct packaging materials based on BLE beacon detection of your task stage.
+
+Task 4: You encounter a situation where the dashboard fails to update promptly as you move between locations, causing a brief delay in accessing the necessary information.
+
+Task 5: You experience a moment of cognitive overload while multitasking between different tasks in various locations, and the dashboard responds by simplifying the interface to reduce clutter and guide you through the priority actions.
+
+---
+
+TLX_Mental_Demand: 4  
+TLX_Effort: 3  
+TLX_Frustration: 2  
+TLX_Perceived_Performance: 4","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+98,Persona_98,39,Supervisor,13,High,Medium,Day,pessimistic,5,1,4,5,3,Visual,Asia,Bachelor's,Male,30,None,0,0,0,2,4,4,3,4,2,3,3,4,3,35.00,3.00,4.00,4.00,3.25,2.00,25,20,15,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,,,,,,45,60,40,0,1,0,65.00,,,,,,20,40,25,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task: You are currently in the printer bay, and the dashboard is displaying only the relevant information for this location. You need to replace a printer cartridge following the step-by-step checklist provided on the dashboard.
+
+1. What are the steps displayed on the dashboard for replacing the printer cartridge?
+2. How does the dashboard assist you in identifying the correct printer cartridge to replace?
+3. How does the dashboard utilize AR overlays to guide you through the process of replacing the printer cartridge?
+
+Please provide detailed responses to each question.","Time_Subtask1_seconds: 25
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 20
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 15
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 3
+TLX_Frustration: 4
+TLX_Perceived_Performance: 2"
+99,Persona_99,41,Technician,7,Low,Low,Day,optimistic,3,1,5,5,5,Visual,Oceania,Bachelor's,Other,4,Extensive,0,0,1,3,5,5,4,5,3,4,4,5,4,35.00,5.00,4.00,5.00,4.50,4.00,45,60,50,0,1,0,5,2,2,5,2,5,2,5,2,5,87.50,,,,,,45,60,40,0,1,-1,52.50,,,,,,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","Task: You are currently in the assembly area of the manufacturing plant, and you need to replace a specific component on a machine. The dashboard on your tablet recognizes your location and task, providing you with step-by-step instructions and AR overlays to assist you in the process.
+
+1. Identify the component you need to replace on the machine.
+2. Use the AR overlays on the tablet's camera to guide you through the replacement process.
+3. Follow the step-by-step instructions provided on the dashboard.
+
+Please provide ratings for the following aspects of your experience with the described dashboard:
+
+Subscales to rate:
+- Mental_Demand
+- Effort
+- Frustration
+- Perceived_Performance
+
+Remember to list your scores clearly, one per line, like 'TLX_Mental_Demand: [score]', 'TLX_Effort: [score]', etc. for all subscales provided.","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 4
+TLX_Effort: 4
+TLX_Frustration: 3
+TLX_Perceived_Performance: 3"

@@ -10,7 +10,7 @@ import os
 from dotenv import load_dotenv
 
 # Set the number of personas to simulate
-persona_count = 10
+persona_count = 100
 
 def main():
     load_dotenv()

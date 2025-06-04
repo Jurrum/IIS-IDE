@@ -1,0 +1,35 @@
+Characteristic,Value,Count
+role,Supervisor,35
+role,Technician,35
+role,Operator,30
+gender,Other,36
+gender,Female,35
+gender,Male,29
+region,Africa,23
+region,South America,20
+region,Asia,19
+region,North America,14
+region,Europe,13
+region,Oceania,11
+education,PhD,24
+education,Associate Degree,24
+education,Master's,19
+education,High School,18
+education,Bachelor's,15
+shift,Day,56
+shift,Night,44
+prior_change_experience,Extensive,37
+prior_change_experience,Some,32
+tech_savvy,Low,39
+tech_savvy,High,38
+tech_savvy,Medium,23
+stress_tolerance,Medium,40
+stress_tolerance,Low,33
+stress_tolerance,High,27
+outlook,pessimistic,36
+outlook,neutral,36
+outlook,optimistic,28
+learning_style,Reading/Writing,28
+learning_style,Kinesthetic,26
+learning_style,Visual,26
+learning_style,Auditory,20

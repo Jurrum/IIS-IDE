@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, or specifically the PersonaTester tool within this repository, please cite it. For a persistent citation, please use the Zenodo DOI."
+title: "IIS-IDE: Integrated IDE for Persona Simulation and Evaluation"
+authors:
+  - name: "Jurrum" # Please update with your preferred author name/details
+version: "1.0.0" # Please update with the actual version for release
+# doi: "10.5281/zenodo.YOUR_ACTUAL_DOI_HERE" # Uncomment and replace after archiving on Zenodo
+date-released: "2025-06-04" # Please update with the actual release date
+repository-code: "https://github.com/Jurrum/IIS-IDE"
+keywords:
+  - "PersonaTester"
+  - "persona generation"
+  - "synthetic users"
+  - "LLM evaluation"
+  - "user interface"
+  - "adaptive dashboard"
+  - "software engineering"
+  - "IDE"
+# license: "MIT" # Example: Uncomment and add your actual license if available

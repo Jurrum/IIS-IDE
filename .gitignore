@@ -51,8 +51,6 @@ coverage.xml
 .pytest_cache/
 
 # Simulation outputs
-simulated_persona_metrics.csv
-simulated_persona_analyzed_data.csv
 visualizations/
 cover/
 
