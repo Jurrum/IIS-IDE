@@ -2,42 +2,12 @@ import openai
 import os
 import re
 import time
-from questions import QUESTIONS
-
-def extract_score(response):
-    """
-    Extracts the first valid score (1-5) from the response string.
-    Handles digits, word numbers, and patterns like '4/5', 'four out of five', etc.
-    """
-    import re
-    word_to_num = {
-        'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5,
-        '1': 1, '2': 2, '3': 3, '4': 4, '5': 5
-    }
-    # Lowercase for easier matching
-    resp = response.lower()
-    # 1. Look for digit or word followed by '/5' or 'out of 5'
-    pattern = r'(\b[1-5]\b|one|two|three|four|five)\s*(/|out of)\s*5'
-    match = re.search(pattern, resp)
-    if match:
-        val = match.group(1)
-        return word_to_num.get(val, None)
-    # 2. Look for explicit 'rate ... as a X' or 'score ... X'
-    pattern2 = r'(?:rate|score|give|is|at|of|to|as)\D{0,10}(one|two|three|four|five|[1-5])\b'
-    match = re.search(pattern2, resp)
-    if match:
-        val = match.group(1)
-        return word_to_num.get(val, None)
-    # 3. Look for any standalone digit or word 1-5
-    pattern3 = r'\b(one|two|three|four|five|[1-5])\b'
-    match = re.search(pattern3, resp)
-    if match:
-        val = match.group(1)
-        return word_to_num.get(val, None)
-    return None
-
-
 import random
+from questions import (
+    PERFORMANCE_TASK_DESCRIPTION, PERFORMANCE_METRICS_PROMPT_INSTRUCTIONS,
+    SUS_STATEMENTS, SUS_PROMPT_INSTRUCTIONS,
+    NASA_TLX_SUBSCALES_PAPER, get_nasa_tlx_prompt_text
+)
 
 def get_persona_bias(persona):
     # Bias based on outlook and Big Five
@@ -52,95 +22,177 @@ def get_persona_bias(persona):
     bias -= (persona.get('neuroticism', 3) - 3) * 0.5
     return int(round(bias))
 
-def vary_question(q, persona):
-    # Vary phrasing based on learning style and random choice
-    variants = [q]
-    if persona.get('learning_style') == 'Visual':
-        variants.append(q + " (Please visualize your answer)")
-    if persona.get('learning_style') == 'Kinesthetic':
-        variants.append("Imagine acting out this scenario: " + q)
-    variants.append(f"{q} (Answer honestly, considering your {persona.get('outlook','')} outlook)")
-    variants.append(f"{q} (Keep in mind your prior experience: {persona.get('prior_change_experience','')})")
-    return random.choice(variants)
+def extract_performance_metrics_from_text(text):
+    metrics = {}
+    # Ensure keys match exactly what's asked in PERFORMANCE_METRICS_PROMPT_INSTRUCTIONS
+    # Example: Time_Subtask1_seconds, Errors_Subtask1_count
+    patterns = {
+        "Time_Subtask1_seconds": r"Time_Subtask1_seconds:\s*(\d+)",
+        "Errors_Subtask1_count": r"Errors_Subtask1_count:\s*(\d)",
+        "Time_Subtask2_seconds": r"Time_Subtask2_seconds:\s*(\d+)",
+        "Errors_Subtask2_count": r"Errors_Subtask2_count:\s*(\d)",
+        "Time_Subtask3_seconds": r"Time_Subtask3_seconds:\s*(\d+)",
+        "Errors_Subtask3_count": r"Errors_Subtask3_count:\s*(\d)"
+    }
+    for key, pattern in patterns.items():
+        match = re.search(pattern, text, re.IGNORECASE)
+        if match:
+            try:
+                metrics[key] = int(match.group(1))
+            except ValueError:
+                 metrics[key] = None # Handle if value is not an int
+        else:
+            metrics[key] = None
+    return metrics
 
-def run_persona_conversation(persona, original_state, new_state, delay=0.5, prev_answers=None, peer_stats=None, scenario_idx=None, feedback=None):
-    import openai
-    import os
+def extract_sus_scores_from_text(text):
+    scores = {}
+    for i in range(1, 11):
+        pattern = rf"SUS_{i}:\s*([1-5])"
+        match = re.search(pattern, text, re.IGNORECASE)
+        if match:
+            try:
+                scores[f"SUS_{i}"] = int(match.group(1))
+            except ValueError:
+                scores[f"SUS_{i}"] = None
+        else:
+            scores[f"SUS_{i}"] = None
+    return scores
+
+def extract_tlx_scores_from_text(text):
+    scores = {}
+    for subscale in NASA_TLX_SUBSCALES_PAPER: # Uses the list from questions.py
+        key_name = f"TLX_{subscale}" # Match the key format, e.g., TLX_Mental_Demand
+        pattern = rf"{key_name}:\s*([1-5])"
+        match = re.search(pattern, text, re.IGNORECASE)
+        if match:
+            try:
+                scores[key_name] = int(match.group(1))
+            except ValueError:
+                scores[key_name] = None
+        else:
+            scores[key_name] = None
+    return scores
+
+def run_persona_conversation(persona, scenario_description, scenario_type_label, delay=1.0):
     openai.api_key = os.getenv("OPENAI_API_KEY")
-    # System message includes richer persona context
+    if not openai.api_key:
+        print("Error: OPENAI_API_KEY not found in environment variables.")
+        # Return empty/error structure
+        error_results = {}
+        for i in range(1,4): error_results[f"{scenario_type_label}_Time_Subtask{i}_seconds"] = None; error_results[f"{scenario_type_label}_Errors_Subtask{i}_count"] = None
+        for i in range(1,11): error_results[f"{scenario_type_label}_SUS_{i}"] = None
+        for subscale in NASA_TLX_SUBSCALES_PAPER: error_results[f"{scenario_type_label}_TLX_{subscale}"] = None
+        error_results[f"{scenario_type_label}_Raw_Performance"] = "ERROR: API Key missing"
+        error_results[f"{scenario_type_label}_Raw_SUS"] = "ERROR: API Key missing"
+        error_results[f"{scenario_type_label}_Raw_TLX"] = "ERROR: API Key missing"
+        return error_results
+
     system_msg = (
         f"You are {persona['name']}, a {persona['age']}-year-old {persona['role']} from {persona.get('region','Unknown')}. "
         f"Education: {persona.get('education','Unknown')}, Gender: {persona.get('gender','Unknown')}. "
         f"Big Five: O={persona.get('openness',3)}, C={persona.get('conscientiousness',3)}, E={persona.get('extraversion',3)}, A={persona.get('agreeableness',3)}, N={persona.get('neuroticism',3)}. "
         f"Tech-savviness: {persona['tech_savvy']}, Stress tolerance: {persona['stress_tolerance']}, Learning style: {persona.get('learning_style','Unknown')}. "
         f"Prior tech experience: {persona.get('prior_tech_experience',0)} years. Prior change experience: {persona.get('prior_change_experience','Unknown')}. "
-        f"Outlook: {persona.get('outlook','neutral')}. You are currently on the {persona['shift']} shift."
+        f"Outlook: {persona.get('outlook','neutral')}. You are currently on the {persona['shift']} shift. "
+        f"You will be presented with a description of a dashboard and asked to simulate tasks and provide ratings. Please adhere strictly to the requested output formats, providing each requested data point on a new line as specified."
     )
-    user_msg = f"Here is your current work environment:\n{original_state}\n\nPlease acknowledge you understand your situation."
+
+    all_results_for_scenario = {}
+    parsed_metrics_accumulator = {}
+
+    # --- 1. Performance Metrics ---
+    perf_prompt_user = (
+        f"You are evaluating the '{scenario_type_label}' dashboard.\n"
+        f"Dashboard Description:\n{scenario_description}\n\n"
+        f"{PERFORMANCE_TASK_DESCRIPTION}\n"
+        f"{PERFORMANCE_METRICS_PROMPT_INSTRUCTIONS}"
+    )
     try:
-        openai.chat.completions.create(
+        response_perf = openai.chat.completions.create(
             model="gpt-3.5-turbo",
-            messages=[{"role": "system", "content": system_msg},
-                      {"role": "user", "content": user_msg}],
-            max_tokens=50,
-            temperature=0.7,
+            messages=[
+                {"role": "system", "content": system_msg},
+                {"role": "user", "content": perf_prompt_user}
+            ],
+            max_tokens=350, 
+            temperature=0.2 # Lowered temperature
         )
+        perf_text = response_perf.choices[0].message.content
+        all_results_for_scenario[f"{scenario_type_label}_Raw_Performance"] = perf_text
+        parsed_metrics_accumulator.update(extract_performance_metrics_from_text(perf_text))
+        time.sleep(delay)
     except Exception as e:
-        print(f"Error in priming: {e}")
-        return None, None
+        print(f"Error getting performance metrics for {persona['name']} ({scenario_type_label}): {e}")
+        all_results_for_scenario[f"{scenario_type_label}_Raw_Performance"] = f"ERROR: {e}"
+        for i in range(1,4): parsed_metrics_accumulator[f"Time_Subtask{i}_seconds"] = None; parsed_metrics_accumulator[f"Errors_Subtask{i}_count"] = None
 
-    # Feedback/peer influence
-    peer_text = ""
-    if peer_stats:
-        peer_text = f"\nHere is what your peers have answered so far: {peer_stats}"
-    feedback_text = ""
-    if feedback:
-        feedback_text = f"\nFeedback: {feedback}"
+    # --- 2. SUS Ratings ---
+    sus_full_prompt = SUS_PROMPT_INSTRUCTIONS + "\n" + "\n".join(SUS_STATEMENTS)
+    sus_prompt_user = (
+        f"Continuing with the '{scenario_type_label}' dashboard described previously.\n"
+        f"{sus_full_prompt}"
+    )
+    try:
+        response_sus = openai.chat.completions.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {"role": "system", "content": system_msg},
+                {"role": "user", "content": f"Dashboard Description (reminder for context):\n{scenario_description}"},
+                {"role": "user", "content": sus_prompt_user}
+            ],
+            max_tokens=500, 
+            temperature=0.2 # Lowered temperature
+        )
+        sus_text = response_sus.choices[0].message.content
+        all_results_for_scenario[f"{scenario_type_label}_Raw_SUS"] = sus_text
+        sus_scores = extract_sus_scores_from_text(sus_text)
+        bias = get_persona_bias(persona)
+        for i in range(1, 11):
+            key = f"SUS_{i}"
+            if sus_scores.get(key) is not None:
+                sus_scores[key] = min(5, max(1, sus_scores[key] + bias))
+        parsed_metrics_accumulator.update(sus_scores)
+        time.sleep(delay)
+    except Exception as e:
+        print(f"Error getting SUS scores for {persona['name']} ({scenario_type_label}): {e}")
+        all_results_for_scenario[f"{scenario_type_label}_Raw_SUS"] = f"ERROR: {e}"
+        for i in range(1,11): parsed_metrics_accumulator[f"SUS_{i}"] = None
 
-    # If prev_answers, reference them
-    prev_text = ""
-    if prev_answers:
-        prev_text = "\nYour previous answers: " + ", ".join([f'{k}: {v}' for k,v in prev_answers.items()])
+    # --- 3. NASA-TLX Ratings ---
+    tlx_full_prompt = get_nasa_tlx_prompt_text()
+    tlx_prompt_user = (
+        f"Continuing with the '{scenario_type_label}' dashboard described previously.\n"
+        f"{tlx_full_prompt}"
+    )
+    try:
+        response_tlx = openai.chat.completions.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {"role": "system", "content": system_msg},
+                {"role": "user", "content": f"Dashboard Description (reminder for context):\n{scenario_description}"},
+                {"role": "user", "content": tlx_prompt_user}
+            ],
+            max_tokens=350,
+            temperature=0.2 # Lowered temperature
+        )
+        tlx_text = response_tlx.choices[0].message.content
+        all_results_for_scenario[f"{scenario_type_label}_Raw_TLX"] = tlx_text
+        tlx_scores = extract_tlx_scores_from_text(tlx_text)
+        bias = get_persona_bias(persona)
+        for subscale_key in NASA_TLX_SUBSCALES_PAPER:
+            key = f"TLX_{subscale_key}"
+            if tlx_scores.get(key) is not None:
+                tlx_scores[key] = min(5, max(1, tlx_scores[key] + bias))
+        parsed_metrics_accumulator.update(tlx_scores)
+        time.sleep(delay)
+    except Exception as e:
+        print(f"Error getting TLX scores for {persona['name']} ({scenario_type_label}): {e}")
+        all_results_for_scenario[f"{scenario_type_label}_Raw_TLX"] = f"ERROR: {e}"
+        for subscale_key in NASA_TLX_SUBSCALES_PAPER: parsed_metrics_accumulator[f"TLX_{subscale_key}"] = None
 
-    user_msg2 = f"Now, your work environment has changed:\n{new_state}{prev_text}{peer_text}{feedback_text}\n\nPlease answer the following questions about this new environment."
-    scores = {}
-    raw_answers = {}
-    for q in QUESTIONS:
-        try:
-            # Vary question
-            varied_q = vary_question(q, persona)
-            # Add randomness/noise
-            noise = random.random()
-            if noise < 0.07:
-                varied_q += " (If unsure, it's okay to say so.)"
-            if noise < 0.03:
-                varied_q = "You may answer off-topic: " + varied_q
-            response = openai.chat.completions.create(
-                model="gpt-3.5-turbo",
-                messages=[
-                    {"role": "system", "content": system_msg},
-                    {"role": "user", "content": user_msg},
-                    {"role": "assistant", "content": "I understand my current situation."},
-                    {"role": "user", "content": user_msg2},
-                    {"role": "user", "content": varied_q}
-                ],
-                max_tokens=80,
-                temperature=0.9,
-            )
-            answer = response.choices[0].message.content
-            score = extract_score(answer)
-            # Bias score according to persona
-            bias = get_persona_bias(persona)
-            if score is not None:
-                score = min(5, max(1, score + bias))
-            # Add extra randomness
-            if random.random() < 0.03:
-                score = random.choice([1,2,3,4,5])
-            scores[q] = score
-            raw_answers[q] = answer
-            time.sleep(delay)
-        except Exception as e:
-            print(f"Error in question '{q}': {e}")
-            scores[q] = None
-            raw_answers[q] = ""
-    return scores, raw_answers
+    # Add scenario_type_label prefix to all parsed_metrics_accumulator keys before adding to all_results_for_scenario
+    for k, v in parsed_metrics_accumulator.items():
+        all_results_for_scenario[f"{scenario_type_label}_{k}"] = v
+    
+    return all_results_for_scenario
