@@ -3,6 +3,69 @@ import seaborn as sns
 import pandas as pd
 import os
 from questions import NASA_TLX_SUBSCALES_PAPER # Import for TLX subscale names
+from questions import NASA_TLX_SUBSCALES # Import for TLX subscale names
+
+def plot_nasa_tlx_subscales(df, output_dir):
+    # Check if we have any non-NaN TLX data before attempting to plot
+    tlx_data = df[[col for col in df.columns if col.startswith('Original_TLX_') or col.startswith('Adaptive_TLX_')]].dropna(how='all')
+    if not tlx_data.empty and not tlx_data.isna().all().all():
+        # Create a figure with two subplots
+        fig, axs = plt.subplots(1, 2, figsize=(15, 6))
+
+        # Plot the mean TLX subscale scores for Original and Adaptive conditions
+        for i, condition in enumerate(['Original', 'Adaptive']):
+            # Filter columns to only include TLX subscales (not TLX_Overall)
+            subscale_cols = [col for col in tlx_data.columns 
+                            if col.startswith(condition + '_TLX_') and 
+                            not col.endswith('_Overall')]
+            
+            # Get the means for these columns
+            means = tlx_data[subscale_cols].mean()
+            
+            # Create the bar plot
+            means.plot(kind='bar', ax=axs[i], color='skyblue' if condition == 'Original' else 'lightcoral')
+            axs[i].set_title(f'Mean {condition} NASA-TLX Subscale Scores')
+            axs[i].set_ylabel('Mean TLX Score')
+            axs[i].set_ylim(0, 21)  # Set y-axis limits for the 0-21 scale
+            
+            # Extract just the subscale names from the column names
+            subscale_names = [col.replace(f'{condition}_TLX_', '') for col in subscale_cols]
+            
+            # Make sure we have the right number of tick locations
+            axs[i].set_xticks(range(len(subscale_names)))
+            axs[i].set_xticklabels(subscale_names, rotation=45)
+
+        # Layout so plots do not overlap
+        fig.tight_layout()
+
+        # Save the plot
+        plt.savefig(os.path.join(output_dir, 'nasa_tlx_subscales.png'))
+        plt.close()
+        print("Generated: nasa_tlx_subscales.png")
+        
+        # Also create a comparison plot for TLX Overall scores
+        if 'Original_TLX_Overall' in df.columns and 'Adaptive_TLX_Overall' in df.columns:
+            plt.figure(figsize=(10, 6))
+            
+            # Calculate means
+            orig_mean = df['Original_TLX_Overall'].mean()
+            adap_mean = df['Adaptive_TLX_Overall'].mean()
+            
+            # Create bar chart
+            plt.bar(['Original', 'Adaptive'], [orig_mean, adap_mean], 
+                   color=['skyblue', 'lightcoral'])
+            plt.title('Mean NASA-TLX Overall Workload Score')
+            plt.ylabel('Mean TLX Overall Score (0-21)')
+            plt.ylim(0, 21)  # Set y-axis limits for the 0-21 scale
+            
+            # Add value labels on top of bars
+            plt.text(0, orig_mean + 0.5, f'{orig_mean:.2f}', ha='center')
+            plt.text(1, adap_mean + 0.5, f'{adap_mean:.2f}', ha='center')
+            
+            # Save the plot
+            plt.savefig(os.path.join(output_dir, 'nasa_tlx_overall_comparison.png'))
+            plt.close()
+            print("Generated: nasa_tlx_overall_comparison.png")
 
 def generate_standard_visualizations(df, numeric_cols_from_main, output_dir='visualizations'):
     print(f"\n--- Generating Standard Visualizations (saving to ./{output_dir}) ---")
@@ -37,30 +100,67 @@ def generate_standard_visualizations(df, numeric_cols_from_main, output_dir='vis
 
     # 2. Overall TLX Scores Comparison (Bar and Box)
     if 'Original_TLX_Overall' in df.columns and 'Adaptive_TLX_Overall' in df.columns:
-        plt.figure(figsize=(10, 6))
-        
-        plt.subplot(1, 2, 1)
-        tlx_means = df[['Original_TLX_Overall', 'Adaptive_TLX_Overall']].mean()
-        tlx_means.plot(kind='bar', color=['skyblue', 'lightcoral'])
-        plt.title('Mean Overall NASA-TLX Scores')
-        plt.ylabel('Mean TLX Score')
-        plt.xticks(rotation=0)
-        # Assuming TLX scores are roughly 1-20 or 0-100 after scaling, adjust if needed
-        # For now, let's use a dynamic upper limit based on data, or a common TLX range.
-        # If raw TLX subscales are 1-20, average is also 1-20. If weighted/scaled, it might be 0-100.
-        # Our current TLX is an average of 1-5 ratings, so it's 1-5.
-        plt.ylim(1, 5) 
+        # Check if we have any non-NaN TLX data before attempting to plot
+        tlx_data = df[['Original_TLX_Overall', 'Adaptive_TLX_Overall']].dropna(how='all')
+        if not tlx_data.empty and not tlx_data.isna().all().all():
+            plt.figure(figsize=(10, 6))
+            
+            plt.subplot(1, 2, 1)
+            tlx_means = tlx_data.mean()
+            tlx_means.plot(kind='bar', color=['skyblue', 'lightcoral'])
+            plt.title('Mean Overall NASA-TLX Scores')
+            plt.ylabel('Mean TLX Score')
+            plt.xticks(rotation=0)
+            # NASA TLX uses a 0-21 scale for each dimension
+            # The overall TLX score is the average of all dimensions, so it's also 0-21
+            plt.ylim(0, 21) 
 
-        plt.subplot(1, 2, 2)
-        sns.boxplot(data=df[['Original_TLX_Overall', 'Adaptive_TLX_Overall']].rename(columns={'Original_TLX_Overall': 'Original', 'Adaptive_TLX_Overall': 'Adaptive'}))
-        plt.title('Distribution of Overall TLX Scores')
-        plt.ylabel('Overall TLX Score')
-        plt.ylim(1, 5)
+            plt.subplot(1, 2, 2)
+            try:
+                renamed_data = tlx_data.rename(columns={'Original_TLX_Overall': 'Original', 'Adaptive_TLX_Overall': 'Adaptive'})
+                sns.boxplot(data=renamed_data)
+                plt.title('Distribution of Overall TLX Scores')
+                plt.ylabel('Overall TLX Score')
+                plt.ylim(0, 21)
+            except Exception as e:
+                print(f"Error creating TLX boxplot: {e}")
+                # Create a simple text plot instead
+                plt.text(0.5, 0.5, 'Insufficient data for boxplot', 
+                         horizontalalignment='center', verticalalignment='center')
+                plt.title('Distribution of Overall TLX Scores (No Data)')
 
-        plt.tight_layout()
-        plt.savefig(os.path.join(output_dir, 'tlx_overall_scores_comparison.png'))
-        plt.close()
-        print("Generated: tlx_overall_scores_comparison.png")
+            plt.tight_layout()
+            plt.savefig(os.path.join(output_dir, 'tlx_overall_scores_comparison.png'))
+            plt.close()
+            print("Generated: tlx_overall_scores_comparison.png")
+        else:
+            print("Skipping TLX overall scores comparison: insufficient non-NaN data.")
+
+    # 2.1. NASA TLX Overall Scores Boxplot
+    if 'Original_TLX_Overall' in df.columns and 'Adaptive_TLX_Overall' in df.columns:
+        # Check if we have any non-NaN TLX data before attempting to plot
+        tlx_data = df[['Original_TLX_Overall', 'Adaptive_TLX_Overall']].dropna(how='all')
+        if not tlx_data.empty and not tlx_data.isna().all().all():
+            plt.figure(figsize=(10, 6))
+            try:
+                sns.boxplot(data=tlx_data)
+                plt.title('NASA TLX Overall Scores: Original vs Adaptive')
+                plt.ylabel('NASA TLX Overall Score (0-21)')
+                plt.ylim(0, 21)  # Set y-axis limits for the 0-21 scale
+                plt.grid(True)
+            except Exception as e:
+                print(f"Error creating NASA TLX overall boxplot: {e}")
+                # Create a simple text plot instead
+                plt.text(0.5, 0.5, 'Insufficient data for boxplot', 
+                         horizontalalignment='center', verticalalignment='center')
+                plt.title('NASA TLX Overall Scores (No Data)')
+            
+            plt.tight_layout()
+            plt.savefig(os.path.join(output_dir, 'nasa_tlx_overall_boxplot.png'))
+            plt.close()
+            print("Generated: nasa_tlx_overall_boxplot.png")
+        else:
+            print("Skipping NASA TLX overall boxplot: insufficient non-NaN data.")
 
     # # 3. Performance Metrics Comparison (Automated)
     # print("\n--- Generating Performance Metric Visualizations ---")
@@ -117,56 +217,15 @@ def generate_standard_visualizations(df, numeric_cols_from_main, output_dir='vis
     #         else:
     #             print(f"Skipping plots for performance metric '{stem}': Original or Adaptive column missing.")
 
-    # 4. Individual NASA-TLX Subscale Comparisons
-    print("\n--- Generating Individual NASA-TLX Subscale Visualizations ---")
-    for subscale in NASA_TLX_SUBSCALES_PAPER:
-        orig_col = f"Original_TLX_{subscale}"
-        adap_col = f"Adaptive_TLX_{subscale}"
-        subscale_title_name = subscale.replace('_', ' ').title()
-
-        if orig_col in df.columns and adap_col in df.columns:
-            plt.figure(figsize=(10, 6))
-
-            # Ensure columns are numeric
-            df[orig_col] = pd.to_numeric(df[orig_col], errors='coerce')
-            df[adap_col] = pd.to_numeric(df[adap_col], errors='coerce')
-
-            # Bar Chart of Means
-            plt.subplot(1, 2, 1)
-            try:
-                subscale_means = df[[orig_col, adap_col]].mean()
-                subscale_means.plot(kind='bar', color=['skyblue', 'lightcoral'])
-                plt.title(f'Mean TLX {subscale_title_name}')
-                plt.ylabel('Mean Rating (1-5)')
-                plt.xticks(rotation=0)
-                plt.ylim(1, 5) # Raw TLX subscale ratings are 1-5
-            except Exception as e:
-                print(f"Could not plot bar chart for TLX {subscale_title_name}: {e}")
-                plt.title(f'Mean TLX {subscale_title_name} (Error)')
-
-            # Box Plot of Distributions
-            plt.subplot(1, 2, 2)
-            try:
-                sns.boxplot(data=df[[orig_col, adap_col]].rename(columns={orig_col: 'Original', adap_col: 'Adaptive'}))
-                plt.title(f'Distribution of TLX {subscale_title_name}')
-                plt.ylabel('Rating (1-5)')
-                plt.ylim(1, 5)
-            except Exception as e:
-                print(f"Could not plot boxplot for TLX {subscale_title_name}: {e}")
-                plt.title(f'Distribution of TLX {subscale_title_name} (Error)')
-            
-            plt.tight_layout()
-            plot_filename = f'tlx_subscale_{subscale.lower()}.png'
-            plt.savefig(os.path.join(output_dir, plot_filename))
-            plt.close()
-            print(f"Generated: {plot_filename}")
-        else:
-            print(f"Skipping plots for TLX subscale '{subscale_title_name}': Original or Adaptive column missing.")
-
-    # # 5. Visualizing Distributions of Change Scores (COMMENTED OUT as per user request to reduce visual clutter)
+    # 4. NASA TLX Subscales Comparison
+    print("\n--- Generating NASA TLX Subscale Visualizations ---")
+    plot_nasa_tlx_subscales(df, output_dir)
+    print("Generated: nasa_tlx_subscales.png and nasa_tlx_overall.png")
+        
+    # Commented out section for change score distributions
     # print("\n--- Generating Visualizations for Change Score Distributions ---")
     # change_score_columns = [col for col in df.columns if col.endswith('_Change')]
-
+    # 
     # if not change_score_columns:
     #     print("No '..._Change' columns found to visualize their distributions.")
     # else:

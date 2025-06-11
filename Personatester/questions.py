@@ -43,18 +43,34 @@ Now, please rate your experience with the described dashboard using the System U
 Please list your scores clearly, one per line, like 'SUS_1: [score]', 'SUS_2: [score]', etc., up to 'SUS_10: [score]'.
 """
 
-# NASA-TLX Subscales for the paper
-NASA_TLX_SUBSCALES_PAPER = [
-    "Mental_Demand",
-    "Effort",
-    "Frustration",
-    "Perceived_Performance"
+# NASA-TLX Subscales for the paper - all six standard dimensions with their valence
+# A "-" dimension means lower is better (less workload)
+# A "+" dimension means higher is better (better performance)
+NASA_TLX_SUBSCALES = [
+    {"name": "Mental_Demand", "valence": "-", "left_anchor": "Very Low", "right_anchor": "Very High"},
+    {"name": "Physical_Demand", "valence": "-", "left_anchor": "Very Low", "right_anchor": "Very High"},
+    {"name": "Temporal_Demand", "valence": "-", "left_anchor": "Very Low", "right_anchor": "Very High"},
+    {"name": "Performance", "valence": "+", "left_anchor": "Perfect", "right_anchor": "Failure"},
+    {"name": "Effort", "valence": "-", "left_anchor": "Very Low", "right_anchor": "Very High"},
+    {"name": "Frustration", "valence": "-", "left_anchor": "Very Low", "right_anchor": "Very High"}
 ]
+
+# Extract just the names for backward compatibility
+NASA_TLX_SUBSCALES_PAPER = [subscale["name"] for subscale in NASA_TLX_SUBSCALES]
 
 # Instructions for NASA-TLX ratings
 NASA_TLX_PROMPT_INSTRUCTIONS = f"""
-Finally, please rate the following aspects of your experience with the described dashboard on a 1 to 5 scale (1 being very low, 5 being very high).
-Please list your scores clearly, one per line, like 'TLX_Mental_Demand: [score]', 'TLX_Effort: [score]', etc. for all subscales provided.
+Finally, please rate the following aspects of your experience with the described dashboard on a 0 to 21 scale (where 0 is the leftmost tick and 21 is the rightmost tick).
+
+For each dimension:
+- Mental Demand: 0 = Very Low, 21 = Very High
+- Physical Demand: 0 = Very Low, 21 = Very High
+- Temporal Demand: 0 = Very Low, 21 = Very High
+- Performance: 0 = Perfect, 21 = Failure
+- Effort: 0 = Very Low, 21 = Very High
+- Frustration: 0 = Very Low, 21 = Very High
+
+Please list your scores clearly, one per line, like 'TLX_Mental_Demand: [score]', 'TLX_Physical_Demand: [score]', etc. for all subscales provided.
 """
 
 # This can be used to dynamically build the prompt for TLX
