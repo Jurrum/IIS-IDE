@@ -1,5 +1,5 @@
 id,name,age,role,experience_years,tech_savvy,stress_tolerance,shift,outlook,openness,conscientiousness,extraversion,agreeableness,neuroticism,learning_style,region,education,gender,prior_tech_experience,prior_change_experience,Original_Errors_Subtask1_count,Original_Errors_Subtask2_count,Original_Errors_Subtask3_count,Original_SUS_1,Original_SUS_10,Original_SUS_2,Original_SUS_3,Original_SUS_4,Original_SUS_5,Original_SUS_6,Original_SUS_7,Original_SUS_8,Original_SUS_9,Original_SUS_Score,Original_TLX_Effort,Original_TLX_Frustration,Original_TLX_Mental_Demand,Original_TLX_Overall,Original_TLX_Performance,Original_TLX_Physical_Demand,Original_TLX_Temporal_Demand,Original_Time_Subtask1_seconds,Original_Time_Subtask2_seconds,Original_Time_Subtask3_seconds,Adaptive_Errors_Subtask1_count,Adaptive_Errors_Subtask2_count,Adaptive_Errors_Subtask3_count,Adaptive_SUS_1,Adaptive_SUS_10,Adaptive_SUS_2,Adaptive_SUS_3,Adaptive_SUS_4,Adaptive_SUS_5,Adaptive_SUS_6,Adaptive_SUS_7,Adaptive_SUS_8,Adaptive_SUS_9,Adaptive_SUS_Score,Adaptive_TLX_Effort,Adaptive_TLX_Frustration,Adaptive_TLX_Mental_Demand,Adaptive_TLX_Overall,Adaptive_TLX_Performance,Adaptive_TLX_Physical_Demand,Adaptive_TLX_Temporal_Demand,Adaptive_Time_Subtask1_seconds,Adaptive_Time_Subtask2_seconds,Adaptive_Time_Subtask3_seconds,Errors_Subtask1_count_Change,Errors_Subtask2_count_Change,Errors_Subtask3_count_Change,SUS_Score_Change,TLX_Effort_Change,TLX_Frustration_Change,TLX_Mental_Demand_Change,TLX_Overall_Change,TLX_Performance_Change,TLX_Physical_Demand_Change,TLX_Temporal_Demand_Change,Time_Subtask1_seconds_Change,Time_Subtask2_seconds_Change,Time_Subtask3_seconds_Change,Adaptive_Raw_Performance,Adaptive_Raw_SUS,Adaptive_Raw_TLX,Original_Raw_Performance,Original_Raw_SUS,Original_Raw_TLX
-0,Persona_0,60,Operator,1,High,Medium,Day,optimistic,2,1,5,1,5,Reading/Writing,North America,High School,Male,6,None,0,0,1,3,5,5,4,4,3,5,4,5,4,35.00,13.32,12.55,13.89,14.37,15.51,17.49,13.48,45,60,40,0,1,0,5,2,2,5,2,5,2,5,2,5,87.50,9.22,6.67,9.76,7.88,6.07,6.38,9.17,45,60,40,0,1,-1,52.50,-4.09,-5.88,-4.12,-6.49,-9.44,-11.11,-4.31,0,0,0,"Time_Subtask1_seconds: 45
+0,Persona_0,60,Operator,1,High,Medium,Day,optimistic,2,1,5,1,5,Reading/Writing,North America,High School,Male,6,None,0,0,1,4,4,5,3,4,3,4,4,5,3,37.50,13.21,13.14,14.58,15.43,16.98,17.87,16.83,45,60,40,0,1,0,5,2,2,5,2,5,2,5,2,5,87.50,8.18,10.02,8.30,8.28,7.88,9.07,6.23,45,60,40,0,1,-1,50.00,-5.03,-3.12,-6.28,-7.15,-9.11,-8.80,-10.60,0,0,0,"Time_Subtask1_seconds: 45
 Errors_Subtask1_count: 0
 Time_Subtask2_seconds: 60
 Errors_Subtask2_count: 1
@@ -16,9 +16,48 @@ SUS_9: 5
 SUS_10: 1","TLX_Mental_Demand: 10
 TLX_Physical_Demand: 5
 TLX_Temporal_Demand: 8
-TLX_Performance: 3
+TLX_Performance: 5
 TLX_Effort: 12
-TLX_Frustration: 7","Time_Subtask1_seconds: 45
+TLX_Frustration: 6","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 3
+SUS_2: 4
+SUS_3: 2
+SUS_4: 3
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 3","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 18
+TLX_Performance: 14
+TLX_Effort: 17
+TLX_Frustration: 15"
+1,Persona_1,52,Supervisor,1,High,Low,Night,optimistic,4,5,3,1,2,Reading/Writing,Asia,Bachelor's,Male,6,Some,0,0,1,4,5,5,5,5,4,5,5,5,4,42.50,12.78,16.18,13.27,15.99,17.90,17.92,17.89,45,60,40,0,1,0,5,3,3,5,3,5,3,5,3,5,75.00,6.33,7.20,8.91,8.34,10.43,9.97,7.20,45,60,40,0,1,-1,32.50,-6.46,-8.98,-4.36,-7.65,-7.46,-7.95,-10.69,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 7
+TLX_Temporal_Demand: 10
+TLX_Performance: 5
+TLX_Effort: 14
+TLX_Frustration: 8","Time_Subtask1_seconds: 45
 Errors_Subtask1_count: 0
 Time_Subtask2_seconds: 60
 Errors_Subtask2_count: 0
@@ -31,14 +70,365 @@ SUS_5: 2
 SUS_6: 4
 SUS_7: 3
 SUS_8: 4
-SUS_9: 3
-SUS_10: 4","TLX_Mental_Demand: 18
-TLX_Physical_Demand: 10
-TLX_Temporal_Demand: 16
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 17"
+2,Persona_2,26,Operator,13,Low,Medium,Night,pessimistic,3,1,4,5,1,Reading/Writing,North America,PhD,Female,26,Extensive,0,0,1,2,4,4,2,4,3,4,3,4,2,30.00,16.30,16.33,13.61,15.73,12.78,17.60,17.72,45,60,40,0,0,0,5,1,1,5,1,5,1,5,1,5,100.00,7.34,10.50,9.65,8.89,6.57,11.06,8.24,45,60,40,0,0,-1,70.00,-8.96,-5.83,-3.96,-6.83,-6.21,-6.54,-9.49,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 10
+TLX_Performance: 6
+TLX_Effort: 11
+TLX_Frustration: 7","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 2
+SUS_4: 4
+SUS_5: 3
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 9
+TLX_Temporal_Demand: 18
 TLX_Performance: 15
 TLX_Effort: 17
-TLX_Frustration: 19"
-1,Persona_1,52,Supervisor,1,High,Low,Night,optimistic,4,5,3,1,2,Reading/Writing,Asia,Bachelor's,Male,6,Some,0,1,0,4,5,5,5,5,4,5,5,5,4,42.50,17.99,12.28,15.93,15.62,17.39,14.75,15.37,45,60,40,0,1,0,5,3,3,5,3,5,3,5,3,5,75.00,7.60,8.61,10.75,9.57,10.32,8.29,11.83,45,60,40,0,0,0,32.50,-10.38,-3.67,-5.18,-6.05,-7.06,-6.46,-3.54,0,0,0,"Time_Subtask1_seconds: 45
+TLX_Frustration: 14"
+3,Persona_3,59,Technician,19,Low,High,Day,optimistic,2,3,1,2,1,Reading/Writing,Asia,Master's,Other,26,Some,0,1,0,3,5,5,4,5,3,4,4,5,4,35.00,17.51,16.38,16.97,15.50,16.94,12.79,12.41,45,60,40,0,1,0,5,2,2,5,2,5,2,5,2,5,87.50,8.73,6.97,6.22,7.80,10.55,8.25,6.08,45,60,40,0,0,0,52.50,-8.79,-9.41,-10.75,-7.70,-6.39,-4.55,-6.33,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 14
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 12
+TLX_Performance: 6
+TLX_Effort: 10
+TLX_Frustration: 9","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 12"
+4,Persona_4,30,Technician,12,Low,High,Night,pessimistic,1,5,2,5,2,Auditory,South America,Master's,Female,29,Extensive,0,0,1,1,2,2,1,2,1,2,1,2,1,37.50,17.07,13.59,14.03,15.15,14.23,17.16,14.79,45,60,50,0,0,1,3,1,1,3,1,3,1,3,1,3,75.00,9.36,7.72,7.65,8.14,6.28,9.88,7.93,45,60,50,0,0,0,37.50,-7.70,-5.87,-6.37,-7.01,-7.96,-7.28,-6.86,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 10
+TLX_Performance: 5
+TLX_Effort: 8
+TLX_Frustration: 9","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 16"
+5,Persona_5,55,Operator,22,Medium,Low,Day,optimistic,3,4,3,1,2,Kinesthetic,Europe,Master's,Female,28,Extensive,0,0,1,4,5,5,5,5,4,5,5,5,4,42.50,13.94,13.69,15.47,14.66,15.78,15.41,13.69,45,60,50,0,1,0,5,3,3,5,3,5,3,5,3,5,75.00,9.72,7.50,6.86,9.31,11.11,9.65,11.00,45,60,40,0,1,-1,32.50,-4.22,-6.19,-8.60,-5.36,-4.67,-5.76,-2.69,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 13
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 11
+TLX_Performance: 5
+TLX_Effort: 14
+TLX_Frustration: 10","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 15
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 12
+TLX_Performance: 17
+TLX_Effort: 14
+TLX_Frustration: 16"
+6,Persona_6,49,Operator,9,Low,Low,Night,pessimistic,5,4,5,4,3,Auditory,Europe,PhD,Female,2,None,0,1,0,3,5,5,4,5,3,5,4,5,3,30.00,12.13,13.43,15.40,14.68,15.87,14.19,17.07,45,60,40,0,1,0,5,2,2,5,2,5,2,5,2,5,87.50,8.84,11.04,9.65,9.07,9.98,7.79,7.14,45,60,40,0,0,0,57.50,-3.29,-2.39,-5.74,-5.61,-5.89,-6.40,-9.93,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 14
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 12
+TLX_Performance: 6
+TLX_Effort: 11
+TLX_Frustration: 9","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 18
+TLX_Performance: 15
+TLX_Effort: 17
+TLX_Frustration: 14"
+7,Persona_7,27,Operator,21,Low,High,Night,pessimistic,1,4,4,5,4,Kinesthetic,Africa,High School,Other,23,None,0,0,0,1,2,2,1,2,1,2,1,2,1,37.50,15.52,12.30,14.91,14.71,15.49,16.10,13.96,60,45,50,0,0,0,3,1,1,3,1,3,1,3,1,3,75.00,9.94,10.14,10.16,9.00,7.02,6.65,10.06,45,60,40,0,0,0,37.50,-5.58,-2.15,-4.75,-5.72,-8.47,-9.45,-3.90,-15,15,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 14
+TLX_Physical_Demand: 7
+TLX_Temporal_Demand: 12
+TLX_Performance: 5
+TLX_Effort: 10
+TLX_Frustration: 8","Time_Subtask1_seconds: 60
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 45
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 17
+TLX_Physical_Demand: 11
+TLX_Temporal_Demand: 16
+TLX_Performance: 14
+TLX_Effort: 15
+TLX_Frustration: 18"
+8,Persona_8,54,Technician,25,High,Medium,Day,neutral,4,2,4,1,3,Auditory,Africa,High School,Other,9,Extensive,0,0,1,4,4,5,3,4,3,4,4,5,3,37.50,17.50,15.43,14.06,15.41,13.55,16.58,15.32,45,60,50,0,1,0,5,3,2,5,2,5,2,5,2,5,85.00,10.30,7.77,6.23,8.10,8.15,6.38,9.76,45,60,40,0,1,-1,47.50,-7.21,-7.66,-7.83,-7.31,-5.41,-10.19,-5.56,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 4
+SUS_10: 2","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 9
+TLX_Performance: 4
+TLX_Effort: 10
+TLX_Frustration: 7","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 3
+SUS_2: 4
+SUS_3: 2
+SUS_4: 3
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 3","TLX_Mental_Demand: 15
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 16
+TLX_Effort: 12
+TLX_Frustration: 13"
+9,Persona_9,52,Supervisor,7,Low,Medium,Day,pessimistic,5,1,5,3,4,Visual,North America,Bachelor's,Female,7,None,0,1,0,2,4,4,3,4,2,4,3,4,3,32.50,16.65,17.04,16.10,16.07,16.88,17.73,12.05,45,60,50,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,6.68,10.52,11.34,9.43,8.63,11.93,7.49,45,60,40,0,0,0,67.50,-9.96,-6.52,-4.76,-6.64,-8.25,-5.80,-4.55,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 14
+TLX_Physical_Demand: 7
+TLX_Temporal_Demand: 10
+TLX_Performance: 5
+TLX_Effort: 12
+TLX_Frustration: 8","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 17"
+10,Persona_10,35,Supervisor,3,Low,High,Night,optimistic,5,2,2,4,5,Auditory,Asia,PhD,Other,13,None,0,0,1,2,4,4,3,4,2,4,3,4,3,32.50,17.08,12.92,12.29,14.04,12.13,16.62,13.20,60,45,50,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,10.56,6.19,7.99,9.08,9.73,9.84,10.16,45,60,40,0,1,-1,67.50,-6.52,-6.73,-4.30,-4.96,-2.40,-6.78,-3.04,-15,15,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 14
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 12
+TLX_Performance: 5
+TLX_Effort: 10
+TLX_Frustration: 7","Time_Subtask1_seconds: 60
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 45
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 17
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 15
+TLX_Performance: 19
+TLX_Effort: 16
+TLX_Frustration: 18"
+11,Persona_11,54,Supervisor,23,Low,High,Night,neutral,3,4,5,4,1,Auditory,Europe,High School,Female,0,Extensive,0,0,0,4,5,5,5,5,4,5,5,5,5,45.00,17.16,14.16,12.60,13.97,12.39,12.10,15.38,90,60,45,0,1,0,5,3,3,5,3,5,3,5,3,5,75.00,7.33,10.88,7.43,9.36,11.27,11.17,8.07,45,60,40,0,1,0,30.00,-9.83,-3.28,-5.17,-4.61,-1.12,-0.93,-7.32,-45,0,-5,"Time_Subtask1_seconds: 45
 Errors_Subtask1_count: 0
 Time_Subtask2_seconds: 60
 Errors_Subtask2_count: 1
@@ -55,9 +445,243 @@ SUS_9: 5
 SUS_10: 1","TLX_Mental_Demand: 12
 TLX_Physical_Demand: 6
 TLX_Temporal_Demand: 10
-TLX_Performance: 5
-TLX_Effort: 14
+TLX_Performance: 4
+TLX_Effort: 9
+TLX_Frustration: 7","Time_Subtask1_seconds: 90
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 45
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 17
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 15
+TLX_Performance: 12
+TLX_Effort: 16
+TLX_Frustration: 14"
+12,Persona_12,55,Operator,19,Low,Low,Day,pessimistic,1,2,1,1,3,Visual,Africa,Associate Degree,Female,21,Some,0,1,0,1,1,1,1,1,1,1,1,1,1,50.00,17.76,14.57,16.70,15.45,17.41,12.41,13.82,45,60,40,0,1,0,2,1,1,2,1,2,1,2,1,2,62.50,8.05,6.61,10.47,7.67,6.56,7.57,6.77,45,60,40,0,0,0,12.50,-9.72,-7.95,-6.23,-7.77,-10.86,-4.84,-7.05,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 14
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 12
+TLX_Performance: 6
+TLX_Effort: 10
+TLX_Frustration: 9","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 10
+TLX_Temporal_Demand: 18
+TLX_Performance: 15
+TLX_Effort: 17
+TLX_Frustration: 14"
+13,Persona_13,33,Supervisor,5,High,High,Night,optimistic,4,4,2,1,1,Reading/Writing,Asia,Master's,Female,14,Extensive,0,0,0,4,5,5,5,5,4,5,5,5,5,45.00,14.24,13.77,14.76,14.46,14.66,13.57,15.74,45,60,40,0,0,1,5,3,3,5,3,5,3,5,3,5,75.00,10.98,11.21,11.53,10.53,10.89,10.27,8.30,45,60,40,0,0,1,30.00,-3.26,-2.56,-3.23,-3.93,-3.77,-3.31,-7.44,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 5
+TLX_Temporal_Demand: 8
+TLX_Performance: 3
+TLX_Effort: 10
+TLX_Frustration: 6","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 12"
+14,Persona_14,23,Supervisor,21,High,Low,Day,neutral,3,1,2,2,2,Reading/Writing,Europe,Master's,Male,8,Some,0,1,0,2,4,4,3,4,2,3,3,4,2,32.50,17.65,15.97,12.75,14.36,12.77,12.24,14.78,45,60,40,0,1,0,5,2,1,5,1,5,1,5,1,4,95.00,11.79,10.44,11.38,10.26,7.10,11.35,9.53,45,60,40,0,0,0,62.50,-5.86,-5.54,-1.36,-4.10,-5.68,-0.88,-5.25,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 4
+SUS_10: 2","TLX_Mental_Demand: 13
+TLX_Physical_Demand: 5
+TLX_Temporal_Demand: 9
+TLX_Performance: 4
+TLX_Effort: 11
+TLX_Frustration: 7","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 12"
+15,Persona_15,35,Operator,15,High,Low,Day,pessimistic,5,1,1,2,2,Reading/Writing,South America,Master's,Male,27,Some,0,1,0,1,3,3,2,3,1,3,2,3,1,30.00,14.37,15.60,17.15,15.41,17.43,12.36,15.55,45,60,50,0,1,0,4,1,1,4,1,4,1,4,1,3,85.00,7.75,11.19,6.12,8.04,8.40,7.79,7.00,45,60,40,0,0,0,55.00,-6.62,-4.41,-11.02,-7.37,-9.03,-4.57,-8.55,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 4
+SUS_10: 2","TLX_Mental_Demand: 14
+TLX_Physical_Demand: 9
+TLX_Temporal_Demand: 12
+TLX_Performance: 6
+TLX_Effort: 11
 TLX_Frustration: 8","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 15
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 17
+TLX_Performance: 14
+TLX_Effort: 16
+TLX_Frustration: 13"
+16,Persona_16,23,Operator,13,Low,Medium,Night,neutral,3,4,5,4,2,Auditory,Asia,Associate Degree,Male,18,Extensive,0,0,1,4,5,5,5,5,4,5,5,5,5,45.00,12.61,13.20,14.65,14.85,16.98,16.74,14.96,45,60,40,0,0,1,5,3,3,5,3,5,3,5,3,5,75.00,9.13,10.45,10.90,10.02,11.77,6.90,10.94,45,60,40,0,0,0,30.00,-3.47,-2.74,-3.74,-4.84,-5.20,-9.84,-4.02,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 9
+TLX_Performance: 4
+TLX_Effort: 11
+TLX_Frustration: 7","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 15
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 16
+TLX_Performance: 13
+TLX_Effort: 14
+TLX_Frustration: 12"
+17,Persona_17,54,Operator,24,Medium,Low,Day,pessimistic,4,5,5,2,1,Visual,Europe,High School,Other,2,Extensive,0,1,0,3,5,5,4,4,3,5,4,5,3,32.50,13.81,12.15,12.00,13.94,13.99,15.04,16.64,45,60,40,0,1,0,5,2,2,5,2,5,2,5,2,5,87.50,10.21,9.37,7.82,8.90,7.63,10.59,7.79,45,60,40,0,0,0,55.00,-3.60,-2.79,-4.19,-5.04,-6.36,-4.45,-8.85,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 9
+TLX_Performance: 4
+TLX_Effort: 10
+TLX_Frustration: 7","Time_Subtask1_seconds: 45
 Errors_Subtask1_count: 0
 Time_Subtask2_seconds: 60
 Errors_Subtask2_count: 1
@@ -71,13 +695,637 @@ SUS_6: 4
 SUS_7: 3
 SUS_8: 4
 SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 17"
+18,Persona_18,35,Technician,4,High,Low,Day,pessimistic,1,4,5,5,5,Kinesthetic,Asia,Associate Degree,Other,22,Some,0,0,1,1,2,2,1,2,1,2,1,2,1,37.50,12.82,13.02,17.75,14.13,12.26,15.77,13.17,45,60,40,0,1,0,3,1,1,3,1,3,1,3,1,3,75.00,6.27,7.43,7.68,8.14,8.31,11.40,7.74,45,60,40,0,1,-1,37.50,-6.54,-5.60,-10.07,-5.99,-3.94,-4.37,-5.43,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 10
+TLX_Performance: 5
+TLX_Effort: 11
+TLX_Frustration: 7","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 18
+TLX_Physical_Demand: 10
+TLX_Temporal_Demand: 16
+TLX_Performance: 15
+TLX_Effort: 17
+TLX_Frustration: 19"
+19,Persona_19,35,Technician,13,Low,High,Night,neutral,3,1,1,4,5,Visual,North America,PhD,Male,16,Some,0,0,1,1,2,2,1,2,1,1,1,2,1,40.00,12.95,13.75,13.21,14.51,14.77,15.01,17.40,60,45,50,0,1,0,3,1,1,3,1,3,1,3,1,3,75.00,6.98,10.71,8.95,9.82,11.10,10.83,10.37,45,60,40,0,1,-1,35.00,-5.96,-3.05,-4.26,-4.69,-3.66,-4.17,-7.04,-15,15,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 14
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 10
+TLX_Performance: 5
+TLX_Effort: 12
+TLX_Frustration: 8","Time_Subtask1_seconds: 60
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 45
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 17"
+20,Persona_20,28,Technician,29,Low,Low,Night,neutral,2,4,5,3,5,Visual,Oceania,PhD,Female,29,Extensive,0,1,0,2,4,4,3,4,2,4,3,4,3,32.50,17.69,12.49,16.13,15.06,13.01,14.49,16.56,45,60,40,0,0,0,5,1,1,5,1,5,1,5,1,5,100.00,6.84,10.79,10.18,9.83,10.80,10.81,9.58,45,60,40,0,-1,0,67.50,-10.85,-1.70,-5.95,-5.23,-2.21,-3.68,-6.98,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 14
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 12
+TLX_Performance: 6
+TLX_Effort: 10
+TLX_Frustration: 9","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 18
+TLX_Performance: 14
+TLX_Effort: 15
+TLX_Frustration: 17"
+21,Persona_21,26,Operator,9,Low,Low,Day,neutral,3,5,2,3,2,Kinesthetic,Africa,Master's,Female,28,None,0,0,0,2,4,4,3,4,2,3,3,4,2,32.50,16.75,17.06,12.79,15.29,15.44,16.21,13.47,90,60,75,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,10.30,7.73,6.59,8.69,9.89,9.60,8.03,45,60,40,0,1,0,67.50,-6.45,-9.34,-6.20,-6.60,-5.55,-6.61,-5.44,-45,0,-35,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 14
+TLX_Physical_Demand: 9
+TLX_Temporal_Demand: 12
+TLX_Performance: 5
+TLX_Effort: 11
+TLX_Frustration: 8","Time_Subtask1_seconds: 90
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 75
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 10
+TLX_Temporal_Demand: 15
+TLX_Performance: 18
+TLX_Effort: 14
+TLX_Frustration: 17"
+22,Persona_22,25,Supervisor,14,Medium,Low,Day,neutral,2,3,2,4,5,Reading/Writing,Africa,High School,Male,2,Extensive,0,0,1,1,2,2,1,2,1,1,1,2,1,40.00,17.76,13.85,15.90,14.83,16.93,12.49,12.04,45,60,50,0,1,0,3,1,1,3,1,3,1,3,1,3,75.00,10.33,9.99,11.21,10.60,10.78,9.96,11.33,45,60,40,0,1,-1,35.00,-7.43,-3.86,-4.69,-4.23,-6.15,-2.53,-0.71,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 14
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 12
+TLX_Performance: 6
+TLX_Effort: 10
+TLX_Frustration: 7","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 17"
+23,Persona_23,29,Supervisor,2,Medium,High,Day,neutral,2,1,3,3,1,Kinesthetic,Europe,Associate Degree,Other,3,Some,0,1,0,3,5,5,4,4,3,5,4,5,4,35.00,15.90,14.38,12.95,14.55,14.37,15.22,14.46,45,35,40,0,1,0,5,2,2,5,2,5,2,5,2,5,87.50,6.64,11.56,6.81,8.96,6.68,10.08,11.97,45,60,40,0,0,0,52.50,-9.25,-2.83,-6.15,-5.59,-7.69,-5.13,-2.49,0,25,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 14
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 12
+TLX_Performance: 6
+TLX_Effort: 11
+TLX_Frustration: 9","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 35
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 10
+TLX_Temporal_Demand: 18
+TLX_Performance: 14
+TLX_Effort: 15
+TLX_Frustration: 17"
+24,Persona_24,55,Technician,20,High,Low,Day,optimistic,2,4,1,2,3,Reading/Writing,Oceania,Associate Degree,Female,5,Extensive,0,0,0,2,4,4,3,4,2,3,3,4,2,32.50,13.05,14.93,17.60,14.47,12.18,15.70,13.40,45,60,40,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,9.67,8.33,11.85,9.73,10.18,10.33,8.06,45,60,40,0,1,0,67.50,-3.38,-6.61,-5.75,-4.74,-2.00,-5.37,-5.34,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 14
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 12
+TLX_Performance: 6
+TLX_Effort: 10
+TLX_Frustration: 7","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
 SUS_10: 4","TLX_Mental_Demand: 15
+TLX_Physical_Demand: 7
+TLX_Temporal_Demand: 16
+TLX_Performance: 14
+TLX_Effort: 13
+TLX_Frustration: 12"
+25,Persona_25,26,Technician,28,Low,Medium,Day,optimistic,4,3,3,2,2,Visual,Oceania,Associate Degree,Female,10,Some,0,1,0,4,5,5,5,5,4,5,5,5,4,42.50,17.81,15.97,13.64,15.21,16.10,13.66,14.08,45,60,40,0,1,0,5,4,3,5,3,5,3,5,3,5,72.50,7.13,11.74,8.66,9.20,6.35,9.93,11.41,45,60,40,0,0,0,30.00,-10.69,-4.23,-4.99,-6.01,-9.75,-3.73,-2.67,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 4
+SUS_10: 2","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 5
+TLX_Temporal_Demand: 10
+TLX_Performance: 4
+TLX_Effort: 8
+TLX_Frustration: 6","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 3","TLX_Mental_Demand: 15
 TLX_Physical_Demand: 8
 TLX_Temporal_Demand: 16
 TLX_Performance: 12
 TLX_Effort: 14
-TLX_Frustration: 10"
-2,Persona_2,26,Operator,13,Low,Medium,Night,pessimistic,3,1,4,5,1,Reading/Writing,North America,PhD,Female,26,Extensive,0,0,1,2,4,4,3,4,2,4,3,4,3,32.50,15.06,12.66,14.37,13.94,14.40,13.59,13.58,60,45,50,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,9.85,8.72,8.53,10.06,10.09,11.98,11.16,45,60,40,0,1,-1,67.50,-5.21,-3.94,-5.84,-3.89,-4.31,-1.61,-2.41,-15,15,-10,"Time_Subtask1_seconds: 45
+TLX_Frustration: 13"
+26,Persona_26,24,Technician,12,High,High,Night,pessimistic,5,3,1,1,3,Auditory,Africa,Bachelor's,Male,3,Extensive,0,0,1,1,3,3,2,3,1,3,2,3,2,32.50,16.16,12.55,15.93,14.76,13.04,13.86,17.04,45,60,40,0,0,1,4,1,1,4,1,4,1,4,1,4,87.50,11.58,11.85,10.95,11.03,11.65,11.98,8.16,45,60,40,0,0,0,55.00,-4.58,-0.69,-4.97,-3.73,-1.38,-1.87,-8.88,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 15
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 12
+TLX_Performance: 6
+TLX_Effort: 14
+TLX_Frustration: 9","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 9
+TLX_Temporal_Demand: 15
+TLX_Performance: 18
+TLX_Effort: 17
+TLX_Frustration: 14"
+27,Persona_27,47,Technician,24,Medium,Medium,Day,neutral,5,2,3,1,4,Visual,Africa,PhD,Other,23,Extensive,0,0,1,2,4,4,3,4,2,3,3,4,3,35.00,17.57,15.26,13.50,15.33,13.29,15.07,17.26,45,60,50,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,8.36,7.88,7.62,7.58,6.96,7.56,7.13,45,60,40,0,1,-1,65.00,-9.22,-7.39,-5.89,-7.74,-6.33,-7.51,-10.13,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 10
+TLX_Performance: 4
+TLX_Effort: 11
+TLX_Frustration: 6","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 12"
+28,Persona_28,32,Technician,14,Low,High,Night,pessimistic,3,1,3,5,3,Reading/Writing,Asia,Master's,Other,9,Extensive,0,0,1,1,3,3,2,3,1,2,2,3,2,35.00,16.72,13.11,14.23,14.69,13.12,13.22,17.71,60,45,50,0,1,0,4,1,1,4,1,4,1,4,1,4,87.50,8.74,9.31,8.50,9.21,8.50,8.51,11.69,45,60,40,0,1,-1,52.50,-7.98,-3.80,-5.73,-5.48,-4.63,-4.71,-6.02,-15,15,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 15
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 12
+TLX_Performance: 7
+TLX_Effort: 13
+TLX_Frustration: 10","Time_Subtask1_seconds: 60
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 45
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 17"
+29,Persona_29,28,Operator,14,High,Medium,Day,pessimistic,5,3,4,5,1,Kinesthetic,Asia,Associate Degree,Female,25,Extensive,0,0,1,3,5,5,4,4,3,5,4,5,4,35.00,13.34,17.31,17.42,15.10,13.68,16.85,12.01,45,60,40,0,0,0,5,2,2,5,2,5,2,5,2,5,87.50,10.69,6.08,9.87,9.34,9.54,8.33,11.51,45,60,40,0,0,-1,52.50,-2.65,-11.24,-7.55,-5.76,-4.13,-8.52,-0.50,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 10
+TLX_Performance: 4
+TLX_Effort: 8
+TLX_Frustration: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 10
+TLX_Temporal_Demand: 18
+TLX_Performance: 14
+TLX_Effort: 15
+TLX_Frustration: 13"
+30,Persona_30,58,Supervisor,11,Medium,Medium,Night,pessimistic,2,5,4,2,1,Kinesthetic,Africa,PhD,Female,2,None,0,1,0,2,4,4,3,4,2,3,2,4,2,30.00,15.53,14.22,12.99,15.20,17.30,15.22,15.94,45,60,50,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,10.30,7.51,7.13,8.40,10.81,6.21,8.42,45,60,40,0,0,0,70.00,-5.23,-6.71,-5.87,-6.80,-6.49,-9.01,-7.52,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 14
+TLX_Physical_Demand: 9
+TLX_Temporal_Demand: 12
+TLX_Performance: 5
+TLX_Effort: 11
+TLX_Frustration: 8","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 2
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 12
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 17"
+31,Persona_31,39,Operator,26,Low,Low,Day,optimistic,2,4,5,1,4,Reading/Writing,Oceania,PhD,Male,22,Extensive,0,0,1,3,5,5,4,5,3,5,4,5,3,30.00,13.05,14.67,14.38,14.29,12.21,14.34,17.09,45,60,50,0,0,1,5,2,2,5,2,5,2,5,2,5,87.50,6.65,9.72,7.27,8.55,10.07,10.25,7.37,45,60,40,0,0,0,57.50,-6.41,-4.95,-7.11,-5.74,-2.14,-4.10,-9.72,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 5
+TLX_Temporal_Demand: 10
+TLX_Performance: 4
+TLX_Effort: 9
+TLX_Frustration: 6","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 9
+TLX_Temporal_Demand: 17
+TLX_Performance: 14
+TLX_Effort: 18
+TLX_Frustration: 15"
+32,Persona_32,44,Technician,13,Low,Low,Day,optimistic,4,2,2,5,4,Visual,Africa,Associate Degree,Male,14,None,0,0,0,2,4,4,3,4,2,3,3,4,3,35.00,13.84,13.58,13.83,14.86,15.72,15.81,16.36,90,60,45,0,0,0,5,1,1,5,1,5,1,5,1,5,100.00,8.49,10.69,10.94,9.50,7.09,9.43,10.36,45,60,40,0,0,0,65.00,-5.35,-2.89,-2.89,-5.36,-8.63,-6.37,-6.00,-45,0,-5,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 13
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 10
+TLX_Performance: 4
+TLX_Effort: 12
+TLX_Frustration: 8","Time_Subtask1_seconds: 90
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 45
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 10
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 16"
+33,Persona_33,49,Supervisor,17,High,High,Night,neutral,5,5,4,5,4,Auditory,Oceania,Master's,Female,8,None,0,0,0,3,5,5,4,5,3,5,4,5,4,32.50,16.13,14.79,16.20,15.04,13.47,17.01,12.62,45,60,40,0,0,0,5,2,2,5,2,5,2,5,2,5,87.50,11.56,11.22,10.45,9.24,8.28,7.14,6.79,45,60,50,0,0,0,55.00,-4.57,-3.57,-5.75,-5.80,-5.20,-9.87,-5.84,0,0,10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 10
+TLX_Physical_Demand: 5
+TLX_Temporal_Demand: 7
+TLX_Performance: 4
+TLX_Effort: 6
+TLX_Frustration: 8","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 12
+TLX_Effort: 15
+TLX_Frustration: 13"
+34,Persona_34,60,Technician,25,High,Medium,Day,neutral,4,1,3,2,3,Kinesthetic,Asia,PhD,Male,4,None,0,1,0,2,4,4,3,4,2,3,2,4,3,32.50,12.76,13.36,13.40,14.09,13.77,16.09,15.18,45,60,40,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,11.02,10.98,10.56,10.25,8.15,10.36,10.40,45,60,40,0,0,0,67.50,-1.74,-2.38,-2.85,-3.85,-5.62,-5.73,-4.77,0,0,0,"Time_Subtask1_seconds: 45
 Errors_Subtask1_count: 0
 Time_Subtask2_seconds: 60
 Errors_Subtask2_count: 1
@@ -96,7 +1344,1801 @@ TLX_Physical_Demand: 6
 TLX_Temporal_Demand: 10
 TLX_Performance: 4
 TLX_Effort: 8
-TLX_Frustration: 5","Time_Subtask1_seconds: 60
+TLX_Frustration: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 2
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 10
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 12"
+35,Persona_35,34,Technician,23,Low,High,Day,optimistic,4,4,3,5,4,Reading/Writing,North America,Associate Degree,Female,12,Extensive,0,0,0,3,5,5,4,4,3,5,4,5,4,35.00,16.37,13.61,15.93,14.37,14.47,12.40,13.43,60,45,50,0,0,1,5,2,2,5,2,5,2,5,2,5,87.50,9.53,11.47,11.20,9.21,6.17,7.33,9.54,45,60,40,0,0,1,52.50,-6.84,-2.14,-4.73,-5.16,-8.30,-5.06,-3.89,-15,15,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 10
+TLX_Performance: 4
+TLX_Effort: 8
+TLX_Frustration: 7","Time_Subtask1_seconds: 60
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 45
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 15
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 16
+TLX_Performance: 12
+TLX_Effort: 14
+TLX_Frustration: 13"
+36,Persona_36,21,Supervisor,13,Medium,Low,Night,neutral,4,4,5,5,5,Auditory,South America,Associate Degree,Female,13,Some,0,0,1,2,4,4,3,4,2,4,3,4,3,32.50,17.69,12.37,16.22,15.46,15.30,16.19,14.95,45,60,40,0,0,0,5,1,1,5,1,5,1,5,1,5,100.00,10.63,10.23,10.93,9.69,10.11,9.21,7.01,45,60,40,0,0,-1,67.50,-7.06,-2.14,-5.30,-5.77,-5.20,-6.98,-7.94,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 11
+TLX_Physical_Demand: 7
+TLX_Temporal_Demand: 9
+TLX_Performance: 4
+TLX_Effort: 8
+TLX_Frustration: 6","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 17"
+37,Persona_37,21,Technician,11,High,High,Night,pessimistic,2,4,2,5,5,Visual,South America,PhD,Other,21,None,0,0,0,1,1,1,1,1,1,1,1,1,1,50.00,17.69,16.51,12.01,14.55,12.37,16.38,12.36,45,60,50,0,0,0,2,1,1,2,1,2,1,2,1,2,62.50,8.70,9.89,9.09,9.60,11.03,10.71,8.20,45,60,40,0,0,0,12.50,-8.99,-6.63,-2.91,-4.95,-1.33,-5.67,-4.16,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 10
+TLX_Performance: 5
+TLX_Effort: 14
+TLX_Frustration: 9","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 12
+TLX_Temporal_Demand: 18
+TLX_Performance: 15
+TLX_Effort: 17
+TLX_Frustration: 19"
+38,Persona_38,25,Supervisor,14,Low,Medium,Day,optimistic,3,4,3,2,4,Kinesthetic,Asia,Master's,Female,24,Some,0,1,0,2,4,4,3,4,2,4,3,4,2,30.00,14.35,16.00,14.86,15.66,13.68,17.08,17.98,45,60,40,0,1,0,5,2,1,5,1,5,1,5,1,4,95.00,9.95,10.53,6.95,10.10,11.84,11.44,9.90,45,60,40,0,0,0,65.00,-4.40,-5.47,-7.91,-5.56,-1.84,-5.64,-8.08,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 4
+SUS_10: 2","TLX_Mental_Demand: 14
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 12
+TLX_Performance: 6
+TLX_Effort: 10
+TLX_Frustration: 9","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 10
+TLX_Temporal_Demand: 18
+TLX_Performance: 14
+TLX_Effort: 15
+TLX_Frustration: 17"
+39,Persona_39,36,Operator,16,Low,High,Day,neutral,2,1,1,1,2,Auditory,North America,PhD,Male,7,None,0,0,1,1,3,3,2,3,1,2,2,3,2,35.00,17.97,12.51,12.80,14.12,12.82,12.35,16.27,120,90,60,0,0,0,4,1,1,4,1,4,1,4,1,4,87.50,11.74,9.28,7.87,8.65,6.78,10.03,6.22,45,60,40,0,0,-1,52.50,-6.23,-3.23,-4.93,-5.47,-6.04,-2.32,-10.05,-75,-30,-20,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 14
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 12
+TLX_Performance: 16
+TLX_Effort: 13
+TLX_Frustration: 10","Time_Subtask1_seconds: 120
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 90
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 60
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 13"
+40,Persona_40,50,Supervisor,4,High,Low,Night,pessimistic,3,3,2,5,5,Visual,Europe,Bachelor's,Male,18,None,0,1,0,1,2,2,1,2,1,2,1,2,1,37.50,17.79,14.06,13.36,13.91,13.20,12.52,12.56,45,60,40,0,1,0,3,1,1,3,1,3,1,3,1,3,75.00,6.81,9.62,9.04,9.55,11.52,9.04,11.26,45,60,40,0,0,0,37.50,-10.98,-4.44,-4.32,-4.36,-1.67,-3.47,-1.30,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 8
+TLX_Performance: 4
+TLX_Effort: 10
+TLX_Frustration: 7","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 17
+TLX_Physical_Demand: 7
+TLX_Temporal_Demand: 16
+TLX_Performance: 19
+TLX_Effort: 15
+TLX_Frustration: 18"
+41,Persona_41,39,Supervisor,22,Medium,Medium,Day,optimistic,5,2,1,3,5,Visual,Africa,High School,Female,17,Some,0,1,0,2,4,4,3,3,2,4,3,4,3,35.00,12.19,15.25,16.08,15.49,17.31,14.61,17.53,45,60,40,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,8.99,10.66,6.81,8.62,6.68,11.07,7.53,45,60,40,0,0,0,65.00,-3.20,-4.59,-9.27,-6.87,-10.63,-3.53,-9.99,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 9
+TLX_Performance: 4
+TLX_Effort: 11
+TLX_Frustration: 8","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 12
+TLX_Effort: 15
+TLX_Frustration: 13"
+42,Persona_42,43,Operator,17,High,Medium,Day,neutral,4,1,4,3,4,Auditory,South America,Associate Degree,Other,16,Extensive,0,0,1,2,4,4,3,3,2,4,3,4,3,35.00,15.61,17.82,12.06,15.46,15.15,14.72,17.38,45,60,40,0,0,1,5,2,1,5,1,5,1,5,1,4,95.00,9.18,11.79,11.11,10.13,8.47,11.04,9.21,45,60,40,0,0,0,60.00,-6.43,-6.04,-0.95,-5.33,-6.69,-3.68,-8.18,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 4
+SUS_10: 2","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 10
+TLX_Performance: 4
+TLX_Effort: 8
+TLX_Frustration: 7","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 18
+TLX_Performance: 14
+TLX_Effort: 15
+TLX_Frustration: 17"
+43,Persona_43,37,Supervisor,26,High,Medium,Night,neutral,5,3,3,2,1,Kinesthetic,South America,Associate Degree,Female,18,Extensive,0,0,1,4,5,5,5,5,4,5,5,5,4,42.50,17.53,15.54,16.17,15.97,15.78,15.65,15.12,45,60,50,0,1,0,5,3,3,5,3,5,3,5,3,5,75.00,6.29,7.77,11.28,8.19,6.28,11.26,6.29,45,60,40,0,1,-1,32.50,-11.23,-7.77,-4.90,-7.77,-9.51,-4.39,-8.83,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 10
+TLX_Performance: 4
+TLX_Effort: 8
+TLX_Frustration: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 10
+TLX_Temporal_Demand: 15
+TLX_Performance: 18
+TLX_Effort: 14
+TLX_Frustration: 17"
+44,Persona_44,44,Technician,1,Medium,Medium,Day,neutral,2,3,3,3,3,Kinesthetic,Africa,High School,Other,30,None,0,0,1,2,4,4,3,3,2,4,3,4,3,35.00,17.81,15.32,16.90,16.15,16.81,13.86,16.21,45,60,40,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,11.61,7.06,6.17,8.58,7.57,7.09,11.97,45,60,40,0,1,-1,65.00,-6.19,-8.26,-10.73,-7.57,-9.24,-6.77,-4.24,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 13
+TLX_Physical_Demand: 7
+TLX_Temporal_Demand: 10
+TLX_Performance: 5
+TLX_Effort: 12
+TLX_Frustration: 8","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 12"
+45,Persona_45,25,Operator,24,Medium,Medium,Day,pessimistic,4,4,4,1,1,Kinesthetic,Europe,Master's,Other,7,Some,0,1,0,3,5,5,4,5,3,5,4,5,3,30.00,13.33,17.04,17.93,15.96,16.77,16.45,14.23,45,60,40,0,1,0,5,2,2,5,2,5,2,5,2,5,87.50,11.03,10.10,7.16,8.79,7.89,6.59,9.97,45,60,40,0,0,0,57.50,-2.29,-6.95,-10.77,-7.17,-8.88,-9.86,-4.26,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 14
+TLX_Physical_Demand: 7
+TLX_Temporal_Demand: 10
+TLX_Performance: 6
+TLX_Effort: 12
+TLX_Frustration: 8","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 10
+TLX_Temporal_Demand: 18
+TLX_Performance: 14
+TLX_Effort: 17
+TLX_Frustration: 15"
+46,Persona_46,57,Technician,16,High,High,Night,neutral,5,3,3,4,3,Kinesthetic,Asia,Associate Degree,Male,23,None,0,0,1,3,5,5,4,4,3,5,4,5,4,35.00,15.39,16.91,14.53,16.51,17.94,16.44,17.85,45,60,40,0,1,0,5,2,2,5,2,5,2,5,2,5,87.50,8.90,7.12,11.00,8.99,10.23,6.77,9.92,45,60,40,0,1,-1,52.50,-6.50,-9.79,-3.54,-7.52,-7.71,-9.68,-7.93,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 8
+TLX_Performance: 4
+TLX_Effort: 10
+TLX_Frustration: 9","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 15
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 12
+TLX_Performance: 16
+TLX_Effort: 14
+TLX_Frustration: 13"
+47,Persona_47,40,Operator,24,High,High,Day,optimistic,2,4,3,5,5,Kinesthetic,North America,Associate Degree,Female,7,Some,0,0,0,2,4,4,3,3,2,4,3,4,3,35.00,17.62,14.51,12.79,14.47,16.69,12.72,12.51,45,60,40,0,0,0,5,1,1,5,1,5,1,5,1,5,100.00,9.05,7.04,11.02,8.48,10.07,7.55,6.12,45,60,40,0,0,0,65.00,-8.57,-7.47,-1.77,-6.00,-6.62,-5.16,-6.39,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 7
+TLX_Temporal_Demand: 10
+TLX_Performance: 5
+TLX_Effort: 9
+TLX_Frustration: 6","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 12
+TLX_Effort: 15
+TLX_Frustration: 13"
+48,Persona_48,31,Technician,1,High,High,Day,neutral,1,1,5,3,2,Reading/Writing,North America,High School,Other,9,Some,0,0,1,3,5,5,4,4,3,5,4,5,4,35.00,12.84,15.21,12.42,13.91,14.15,16.25,12.57,45,60,50,0,0,1,5,2,2,5,2,5,2,5,2,5,87.50,11.53,9.08,7.50,9.95,10.61,10.85,10.14,45,60,40,0,0,0,52.50,-1.32,-6.13,-4.93,-3.96,-3.55,-5.40,-2.43,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 10
+TLX_Physical_Demand: 4
+TLX_Temporal_Demand: 8
+TLX_Performance: 5
+TLX_Effort: 12
+TLX_Frustration: 6","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 12
+TLX_Effort: 15
+TLX_Frustration: 13"
+49,Persona_49,50,Technician,11,Low,Low,Night,neutral,1,1,4,4,1,Visual,Europe,Associate Degree,Other,30,Some,0,1,0,3,5,5,4,5,3,5,4,5,4,32.50,16.47,17.20,14.30,15.37,15.27,16.21,12.80,120,90,60,0,1,0,5,2,2,5,2,5,2,5,2,5,87.50,7.06,8.26,8.74,8.77,9.46,10.58,8.50,45,60,40,0,0,0,55.00,-9.41,-8.94,-5.56,-6.61,-5.81,-5.63,-4.30,-75,-30,-20,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 10
+TLX_Performance: 4
+TLX_Effort: 10
+TLX_Frustration: 6","Time_Subtask1_seconds: 120
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 90
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 60
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 12
+TLX_Effort: 15
+TLX_Frustration: 13"
+50,Persona_50,25,Operator,4,High,Medium,Day,pessimistic,4,4,4,3,5,Reading/Writing,Asia,PhD,Other,1,Extensive,0,0,1,1,3,3,2,3,1,3,2,3,2,32.50,13.43,14.85,16.38,14.91,14.91,12.98,16.92,45,60,40,0,1,0,4,1,1,4,1,4,1,4,1,3,85.00,9.47,8.57,11.51,9.05,9.39,7.10,8.28,45,60,40,0,1,-1,52.50,-3.96,-6.28,-4.88,-5.86,-5.52,-5.88,-8.64,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 4
+SUS_10: 2","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 8
+TLX_Performance: 4
+TLX_Effort: 10
+TLX_Frustration: 7","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 17
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 15
+TLX_Performance: 16
+TLX_Effort: 18
+TLX_Frustration: 19"
+51,Persona_51,26,Operator,21,Low,Medium,Day,optimistic,2,2,5,1,2,Visual,South America,Master's,Other,19,Some,0,0,1,4,5,5,5,5,4,5,5,5,4,42.50,17.89,17.29,12.61,15.91,17.48,17.72,12.45,45,60,50,0,1,0,5,3,3,5,3,5,3,5,3,5,75.00,10.38,9.34,10.23,10.20,11.87,10.08,9.28,45,60,40,0,1,-1,32.50,-7.51,-7.95,-2.39,-5.71,-5.61,-7.64,-3.17,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 13
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 10
+TLX_Performance: 5
+TLX_Effort: 12
+TLX_Frustration: 7","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 17
+TLX_Effort: 15
+TLX_Frustration: 13"
+52,Persona_52,38,Operator,8,Medium,High,Night,pessimistic,4,1,2,3,5,Auditory,South America,High School,Other,7,Extensive,0,0,1,1,2,2,1,2,1,1,1,2,1,40.00,13.01,14.86,13.88,14.55,15.01,15.14,15.41,45,60,50,0,0,1,2,1,1,3,1,3,1,2,1,2,67.50,6.77,6.78,7.64,8.01,10.02,8.01,8.85,45,60,40,0,0,0,27.50,-6.24,-8.08,-6.24,-6.54,-5.00,-7.12,-6.56,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 4
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 4
+SUS_8: 1
+SUS_9: 4
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 10
+TLX_Performance: 6
+TLX_Effort: 11
+TLX_Frustration: 9","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 18
+TLX_Performance: 14
+TLX_Effort: 17
+TLX_Frustration: 15"
+53,Persona_53,29,Technician,27,Low,Low,Day,optimistic,3,5,5,3,4,Visual,South America,Bachelor's,Other,12,Some,0,1,0,4,5,5,5,5,4,5,5,5,5,45.00,17.31,12.47,17.29,15.45,14.33,16.70,14.61,45,60,50,0,1,0,5,3,3,5,3,5,3,5,3,5,75.00,8.32,9.50,10.94,8.38,8.03,6.54,6.92,45,60,40,0,0,0,30.00,-8.99,-2.97,-6.34,-7.08,-6.30,-10.16,-7.69,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 10
+TLX_Performance: 5
+TLX_Effort: 9
+TLX_Frustration: 8","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 12"
+54,Persona_54,52,Supervisor,16,Medium,Low,Day,neutral,3,5,3,1,1,Auditory,Oceania,PhD,Other,30,None,0,1,0,3,5,5,4,5,3,5,4,5,3,30.00,12.53,17.42,12.82,14.99,13.08,16.32,17.79,45,60,40,0,0,1,5,2,2,5,2,5,2,5,2,5,87.50,9.60,7.53,9.03,8.93,9.14,8.13,10.17,45,60,40,0,-1,1,57.50,-2.93,-9.89,-3.79,-6.06,-3.94,-8.19,-7.61,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 14
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 10
+TLX_Performance: 5
+TLX_Effort: 12
+TLX_Frustration: 9","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 18
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 16
+TLX_Performance: 15
+TLX_Effort: 17
+TLX_Frustration: 14"
+55,Persona_55,37,Supervisor,2,Low,Medium,Night,neutral,2,5,4,4,1,Reading/Writing,Asia,Master's,Female,10,Extensive,0,0,1,3,5,5,4,5,3,4,4,5,4,35.00,16.25,16.29,16.64,14.92,13.91,13.00,13.42,45,60,50,0,0,0,5,2,2,5,2,5,2,5,2,5,87.50,11.30,7.98,9.81,9.92,10.20,10.47,9.78,45,60,40,0,0,-1,52.50,-4.96,-8.30,-6.83,-5.00,-3.71,-2.54,-3.64,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 7
+TLX_Temporal_Demand: 10
+TLX_Performance: 5
+TLX_Effort: 14
+TLX_Frustration: 8","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 12"
+56,Persona_56,26,Operator,11,Medium,High,Night,neutral,4,5,1,4,1,Kinesthetic,Asia,Bachelor's,Male,24,Some,0,0,1,2,4,4,3,3,2,4,3,4,3,35.00,15.83,15.01,16.52,14.50,13.31,12.76,13.57,45,60,50,0,0,1,5,1,1,5,1,5,1,5,1,5,100.00,9.02,10.26,6.74,8.04,6.57,7.84,7.81,45,60,40,0,0,0,65.00,-6.81,-4.75,-9.78,-6.46,-6.74,-4.92,-5.76,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 10
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 8
+TLX_Performance: 4
+TLX_Effort: 7
+TLX_Frustration: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 17"
+57,Persona_57,52,Operator,22,High,Medium,Night,optimistic,2,5,3,5,4,Reading/Writing,North America,Associate Degree,Female,17,None,0,0,0,2,4,4,3,3,2,4,3,4,3,35.00,17.32,17.40,12.80,15.91,17.37,16.69,13.89,45,60,40,0,0,0,5,1,1,5,1,5,1,5,1,5,100.00,8.31,6.93,6.18,8.68,9.97,10.73,9.97,45,60,40,0,0,0,65.00,-9.01,-10.47,-6.62,-7.23,-7.40,-5.96,-3.92,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 10
+TLX_Performance: 4
+TLX_Effort: 8
+TLX_Frustration: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 15
+TLX_Physical_Demand: 7
+TLX_Temporal_Demand: 14
+TLX_Performance: 12
+TLX_Effort: 16
+TLX_Frustration: 13"
+58,Persona_58,38,Technician,29,High,Medium,Day,optimistic,5,2,2,3,5,Visual,Africa,Master's,Male,7,None,0,1,0,2,4,4,3,3,2,4,3,4,3,35.00,14.68,16.80,17.96,16.09,16.67,13.61,16.80,45,60,40,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,11.88,6.92,8.23,8.75,7.49,7.99,9.97,45,60,40,0,0,0,65.00,-2.80,-9.88,-9.72,-7.34,-9.18,-5.62,-6.83,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 10
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 8
+TLX_Performance: 4
+TLX_Effort: 7
+TLX_Frustration: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 17
+TLX_Physical_Demand: 10
+TLX_Temporal_Demand: 15
+TLX_Performance: 16
+TLX_Effort: 18
+TLX_Frustration: 14"
+59,Persona_59,49,Operator,21,Low,Medium,Night,pessimistic,3,4,4,4,2,Reading/Writing,Africa,Associate Degree,Female,6,Extensive,0,1,0,2,4,4,3,4,2,4,3,4,3,32.50,13.59,16.07,12.86,14.73,12.35,17.32,16.20,45,60,40,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,11.50,7.94,9.56,8.71,8.07,7.56,7.62,45,60,40,0,0,0,67.50,-2.10,-8.13,-3.29,-6.02,-4.28,-9.76,-8.58,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 14
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 10
+TLX_Performance: 5
+TLX_Effort: 12
+TLX_Frustration: 8","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 15
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 17
+TLX_Performance: 13
+TLX_Effort: 16
+TLX_Frustration: 14"
+60,Persona_60,52,Supervisor,29,Low,Low,Night,neutral,3,5,3,1,3,Kinesthetic,Africa,PhD,Other,15,None,0,1,0,2,4,4,3,4,2,3,3,4,2,32.50,13.50,15.72,15.18,15.90,17.95,16.63,16.41,45,60,40,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,10.57,6.31,7.07,8.57,10.06,7.76,9.63,45,60,40,0,0,0,67.50,-2.92,-9.42,-8.12,-7.33,-7.89,-8.86,-6.78,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 10
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 8
+TLX_Performance: 4
+TLX_Effort: 12
+TLX_Frustration: 7","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 14
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 16
+TLX_Performance: 12
+TLX_Effort: 15
+TLX_Frustration: 13"
+61,Persona_61,48,Supervisor,16,Medium,Medium,Night,neutral,3,2,2,5,4,Auditory,South America,High School,Female,23,Some,0,0,1,1,3,3,2,2,1,3,2,3,2,35.00,12.41,12.72,12.05,13.07,15.18,12.18,13.91,45,60,40,0,1,0,4,1,1,4,1,4,1,4,1,4,87.50,7.64,11.59,11.22,9.45,8.31,11.11,6.82,45,60,40,0,1,-1,52.50,-4.77,-1.13,-0.83,-3.62,-6.87,-1.07,-7.09,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 10
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 8
+TLX_Performance: 4
+TLX_Effort: 7
+TLX_Frustration: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 15
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 12
+TLX_Effort: 16
+TLX_Frustration: 13"
+62,Persona_62,44,Technician,22,High,Low,Night,optimistic,2,5,5,3,1,Reading/Writing,North America,PhD,Female,0,Extensive,0,0,1,5,5,5,5,5,5,5,5,5,5,50.00,13.54,16.54,15.90,15.51,16.60,16.84,13.63,45,60,40,0,0,0,5,4,4,5,4,5,4,5,4,5,62.50,11.78,9.69,9.52,10.31,11.03,8.82,10.98,45,60,40,0,0,-1,12.50,-1.76,-6.85,-6.38,-5.20,-5.57,-8.02,-2.65,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 7
+TLX_Temporal_Demand: 10
+TLX_Performance: 4
+TLX_Effort: 13
+TLX_Frustration: 8","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 12"
+63,Persona_63,29,Technician,28,High,Low,Day,neutral,3,3,5,4,1,Kinesthetic,Oceania,PhD,Female,30,Some,0,0,1,4,5,5,5,5,4,5,5,5,5,45.00,12.65,13.04,14.64,14.07,18.00,13.63,12.45,45,60,50,0,1,0,5,3,3,5,3,5,3,5,3,5,75.00,11.82,9.97,8.10,9.51,9.35,11.20,6.63,45,60,40,0,1,-1,30.00,-0.83,-3.07,-6.54,-4.56,-8.65,-2.43,-5.82,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 9
+TLX_Performance: 4
+TLX_Effort: 10
+TLX_Frustration: 8","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 15
+TLX_Performance: 14
+TLX_Effort: 17
+TLX_Frustration: 13"
+64,Persona_64,60,Supervisor,29,Medium,High,Day,pessimistic,1,2,3,2,1,Reading/Writing,North America,High School,Female,5,Extensive,0,0,1,1,3,3,2,2,1,3,2,3,2,35.00,12.01,17.91,16.33,14.95,17.84,12.38,13.22,45,60,50,0,1,0,4,1,1,4,1,4,1,4,1,4,87.50,8.72,8.94,6.98,9.40,11.93,9.50,10.31,45,60,40,0,1,-1,52.50,-3.29,-8.96,-9.35,-5.55,-5.92,-2.88,-2.90,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 10
+TLX_Performance: 4
+TLX_Effort: 8
+TLX_Frustration: 9","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 17"
+65,Persona_65,39,Operator,2,Medium,Low,Night,neutral,3,4,2,2,5,Reading/Writing,Africa,Associate Degree,Male,5,None,0,1,0,1,2,2,1,2,1,1,1,2,1,40.00,14.32,17.83,15.77,15.58,12.60,16.27,16.68,45,60,40,0,1,0,3,1,1,3,1,3,1,3,1,3,75.00,6.80,9.44,11.37,8.72,6.33,11.67,6.71,45,60,40,0,0,0,35.00,-7.52,-8.40,-4.40,-6.86,-6.27,-4.61,-9.97,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 14
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 12
+TLX_Performance: 5
+TLX_Effort: 10
+TLX_Frustration: 7","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 15
+TLX_Physical_Demand: 9
+TLX_Temporal_Demand: 16
+TLX_Performance: 12
+TLX_Effort: 14
+TLX_Frustration: 17"
+66,Persona_66,59,Technician,20,High,Low,Night,pessimistic,2,2,4,3,4,Kinesthetic,Oceania,High School,Female,28,Some,0,1,0,1,3,3,2,3,1,3,2,3,1,30.00,16.40,16.85,12.91,15.51,15.94,15.46,15.51,45,60,40,0,1,0,4,1,1,4,1,4,1,4,1,4,87.50,8.48,8.15,10.49,8.35,9.86,6.43,6.68,45,60,40,0,0,0,57.50,-7.92,-8.70,-2.41,-7.16,-6.08,-9.03,-8.82,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 14
+TLX_Physical_Demand: 7
+TLX_Temporal_Demand: 10
+TLX_Performance: 3
+TLX_Effort: 12
+TLX_Frustration: 8","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 10
+TLX_Temporal_Demand: 18
+TLX_Performance: 14
+TLX_Effort: 15
+TLX_Frustration: 17"
+67,Persona_67,54,Operator,3,Medium,Medium,Night,pessimistic,4,3,4,3,2,Reading/Writing,South America,High School,Male,12,Extensive,0,0,1,2,4,4,3,3,2,4,3,4,3,35.00,17.81,12.76,14.47,14.01,13.60,12.46,12.93,45,60,50,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,10.20,10.70,10.13,9.33,6.94,11.34,6.64,45,60,40,0,1,-1,65.00,-7.61,-2.05,-4.34,-4.68,-6.66,-1.13,-6.29,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 10
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 8
+TLX_Performance: 4
+TLX_Effort: 12
+TLX_Frustration: 7","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 9
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 17"
+68,Persona_68,42,Supervisor,10,High,Medium,Day,pessimistic,4,3,1,5,1,Reading/Writing,Asia,Associate Degree,Other,25,Some,0,1,0,1,3,3,2,3,1,3,2,3,2,32.50,17.31,14.54,16.12,15.43,16.90,14.73,12.99,45,60,40,0,1,0,4,1,1,4,1,4,1,4,1,4,87.50,10.49,7.91,7.71,8.90,11.09,9.00,7.19,45,60,40,0,0,0,55.00,-6.82,-6.63,-8.41,-6.53,-5.80,-5.73,-5.79,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 8
+TLX_Performance: 4
+TLX_Effort: 9
+TLX_Frustration: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 15
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 16
+TLX_Effort: 12
+TLX_Frustration: 13"
+69,Persona_69,34,Supervisor,7,High,Medium,Day,pessimistic,1,1,3,4,1,Kinesthetic,Oceania,Associate Degree,Male,29,Some,0,1,0,1,3,3,2,2,1,3,2,3,2,35.00,14.96,17.93,17.16,16.08,17.50,14.16,14.80,45,60,40,0,0,0,4,1,1,4,1,4,1,4,1,3,85.00,7.79,7.32,8.32,8.82,11.11,11.20,7.20,45,60,40,0,-1,0,50.00,-7.17,-10.61,-8.84,-7.26,-6.39,-2.96,-7.60,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 4
+SUS_10: 1","TLX_Mental_Demand: 10
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 8
+TLX_Performance: 4
+TLX_Effort: 7
+TLX_Frustration: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 17"
+70,Persona_70,40,Supervisor,14,Low,Low,Day,pessimistic,3,5,5,3,2,Kinesthetic,South America,Bachelor's,Other,27,Some,0,1,0,2,4,4,3,4,2,4,3,4,2,30.00,14.27,14.61,12.52,13.86,12.34,15.00,14.44,90,60,45,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,10.21,7.10,6.98,8.56,11.22,8.29,7.58,45,60,40,0,0,0,70.00,-4.06,-7.51,-5.54,-5.30,-1.12,-6.71,-6.86,-45,0,-5,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 10
+TLX_Performance: 6
+TLX_Effort: 11
+TLX_Frustration: 9","Time_Subtask1_seconds: 90
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 45
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 10
+TLX_Temporal_Demand: 18
+TLX_Performance: 14
+TLX_Effort: 15
+TLX_Frustration: 17"
+71,Persona_71,27,Technician,3,Low,Low,Night,pessimistic,3,1,4,1,3,Visual,South America,Bachelor's,Other,23,Extensive,0,1,0,2,4,4,3,4,2,4,3,4,2,30.00,15.28,17.98,12.60,15.74,17.98,15.40,15.22,45,60,50,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,11.16,6.41,9.43,8.40,6.45,7.79,9.14,45,60,40,0,0,0,70.00,-4.11,-11.57,-3.17,-7.35,-11.53,-7.61,-6.08,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 10
+TLX_Performance: 4
+TLX_Effort: 8
+TLX_Frustration: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 10
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 17"
+72,Persona_72,36,Supervisor,13,High,Medium,Day,pessimistic,2,4,1,5,5,Kinesthetic,Africa,Associate Degree,Other,2,Extensive,0,0,1,1,1,1,1,1,1,1,1,1,1,50.00,12.61,15.76,16.51,15.03,13.32,14.21,17.79,45,60,40,0,0,1,2,1,1,2,1,2,1,2,1,2,62.50,10.27,9.03,11.79,8.93,8.95,6.32,7.21,45,60,40,0,0,0,12.50,-2.34,-6.73,-4.73,-6.10,-4.37,-7.88,-10.58,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 10
+TLX_Performance: 6
+TLX_Effort: 14
+TLX_Frustration: 7","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 10
+TLX_Temporal_Demand: 18
+TLX_Performance: 15
+TLX_Effort: 14
+TLX_Frustration: 17"
+73,Persona_73,49,Supervisor,10,High,Medium,Day,optimistic,1,1,3,4,1,Visual,Europe,PhD,Male,12,Some,0,0,1,4,5,5,3,4,3,5,4,5,4,35.00,14.88,17.00,15.54,15.21,17.08,13.53,13.25,45,60,40,0,0,1,5,2,2,5,2,5,2,5,2,5,87.50,11.61,8.50,11.14,10.01,7.45,11.13,10.22,45,60,40,0,0,0,52.50,-3.26,-8.51,-4.39,-5.21,-9.63,-2.41,-3.03,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 10
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 12
+TLX_Performance: 5
+TLX_Effort: 9
+TLX_Frustration: 7","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 3
+SUS_2: 4
+SUS_3: 2
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 15
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 16
+TLX_Performance: 13
+TLX_Effort: 14
+TLX_Frustration: 12"
+74,Persona_74,43,Supervisor,24,High,High,Night,pessimistic,2,4,1,4,5,Reading/Writing,Asia,High School,Other,11,None,0,1,0,1,1,1,1,1,1,1,1,1,1,50.00,17.18,13.55,14.30,14.71,16.78,12.62,13.85,45,60,40,0,0,1,2,1,1,2,1,2,1,2,1,2,62.50,9.80,9.22,9.88,9.22,11.82,6.82,7.77,45,60,40,0,-1,1,12.50,-7.39,-4.33,-4.42,-5.49,-4.96,-5.79,-6.08,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 14
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 12
+TLX_Performance: 5
+TLX_Effort: 16
+TLX_Frustration: 10","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 17"
+75,Persona_75,48,Technician,8,Medium,Low,Night,pessimistic,3,1,4,3,2,Visual,South America,High School,Other,6,Extensive,0,1,0,2,4,4,3,4,2,4,3,4,2,30.00,15.91,17.46,17.78,15.72,14.13,15.44,13.59,45,60,40,0,1,0,5,2,1,5,1,5,1,5,1,4,95.00,7.21,6.55,10.07,7.26,6.30,7.20,6.24,45,60,40,0,0,0,65.00,-8.70,-10.91,-7.71,-8.46,-7.83,-8.24,-7.35,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 4
+SUS_10: 2","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 10
+TLX_Performance: 4
+TLX_Effort: 8
+TLX_Frustration: 9","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 17"
+76,Persona_76,60,Supervisor,1,Low,Medium,Day,optimistic,5,2,1,5,2,Auditory,Europe,Bachelor's,Male,25,Extensive,0,0,1,3,5,5,4,5,3,5,4,5,4,32.50,16.12,17.49,13.89,15.60,17.04,16.34,12.72,45,60,50,0,1,0,5,2,2,5,2,5,2,5,2,5,87.50,9.75,7.33,7.61,8.24,7.34,8.46,8.98,45,60,40,0,1,-1,55.00,-6.38,-10.16,-6.27,-7.36,-9.70,-7.88,-3.74,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 10
+TLX_Performance: 5
+TLX_Effort: 8
+TLX_Frustration: 7","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 10
+TLX_Temporal_Demand: 18
+TLX_Performance: 14
+TLX_Effort: 15
+TLX_Frustration: 17"
+77,Persona_77,20,Technician,28,Low,Low,Night,optimistic,1,1,2,1,3,Auditory,Africa,Bachelor's,Male,5,Some,0,1,0,2,4,4,3,4,2,3,3,4,2,32.50,12.98,12.40,12.84,13.60,17.07,13.37,12.95,45,60,50,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,7.74,7.28,8.46,8.33,9.86,9.42,7.25,45,60,40,0,0,0,67.50,-5.23,-5.12,-4.38,-5.27,-7.21,-3.95,-5.70,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 10
+TLX_Performance: 5
+TLX_Effort: 14
+TLX_Frustration: 7","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 15
+TLX_Effort: 17
+TLX_Frustration: 13"
+78,Persona_78,23,Operator,24,Medium,High,Day,pessimistic,1,4,4,3,5,Visual,South America,PhD,Male,30,Extensive,0,0,1,1,2,2,1,2,1,2,1,2,1,37.50,12.44,14.33,13.66,14.11,13.06,15.05,16.12,45,60,50,0,1,0,3,1,1,3,1,3,1,3,1,3,75.00,8.07,7.99,6.12,8.94,8.42,11.44,11.60,45,60,40,0,1,-1,37.50,-4.37,-6.34,-7.54,-5.17,-4.64,-3.61,-4.52,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 9
+TLX_Performance: 4
+TLX_Effort: 10
+TLX_Frustration: 8","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 18
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 15
+TLX_Performance: 16
+TLX_Effort: 17
+TLX_Frustration: 19"
+79,Persona_79,22,Supervisor,26,High,High,Night,neutral,1,1,4,4,4,Visual,South America,Master's,Male,28,None,0,0,0,2,3,3,1,2,1,3,2,3,2,35.00,17.07,14.38,12.51,14.79,15.56,12.26,16.96,45,60,40,0,0,0,4,1,1,4,1,4,1,4,1,4,87.50,10.03,8.16,10.68,8.84,7.41,8.75,7.98,45,60,40,0,0,0,52.50,-7.04,-6.22,-1.82,-5.95,-8.15,-3.52,-8.97,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 10
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 7
+TLX_Performance: 4
+TLX_Effort: 8
+TLX_Frustration: 5","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 3
+SUS_2: 4
+SUS_3: 2
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 17"
+80,Persona_80,40,Supervisor,5,Low,Low,Night,pessimistic,5,5,3,4,5,Kinesthetic,South America,PhD,Other,13,None,0,0,1,1,3,3,2,3,1,3,2,3,1,30.00,13.77,13.96,15.32,15.54,16.84,17.18,16.18,60,45,50,0,1,0,4,1,1,4,1,4,1,4,1,4,87.50,11.89,7.31,10.61,8.75,8.75,7.90,6.02,45,60,40,0,1,-1,57.50,-1.88,-6.65,-4.71,-6.79,-8.08,-9.28,-10.16,-15,15,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 14
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 12
+TLX_Performance: 6
+TLX_Effort: 10
+TLX_Frustration: 9","Time_Subtask1_seconds: 60
 Errors_Subtask1_count: 0
 Time_Subtask2_seconds: 45
 Errors_Subtask2_count: 0
@@ -109,10 +3151,751 @@ SUS_5: 2
 SUS_6: 4
 SUS_7: 3
 SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 18
+TLX_Physical_Demand: 10
+TLX_Temporal_Demand: 16
+TLX_Performance: 15
+TLX_Effort: 17
+TLX_Frustration: 19"
+81,Persona_81,27,Supervisor,21,High,High,Day,neutral,4,2,4,3,4,Reading/Writing,South America,High School,Female,13,Some,0,0,1,2,4,4,3,4,2,4,3,4,3,32.50,13.91,13.66,15.60,14.18,16.19,13.47,12.24,45,60,40,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,9.90,10.52,6.05,9.60,10.81,10.29,10.03,45,60,40,0,1,-1,67.50,-4.01,-3.14,-9.55,-4.58,-5.38,-3.17,-2.21,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 14
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 12
+TLX_Performance: 5
+TLX_Effort: 11
+TLX_Frustration: 7","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
 SUS_9: 3
-SUS_10: 4","TLX_Mental_Demand: 17
+SUS_10: 4","TLX_Mental_Demand: 15
 TLX_Physical_Demand: 8
 TLX_Temporal_Demand: 16
+TLX_Performance: 13
+TLX_Effort: 14
+TLX_Frustration: 12"
+82,Persona_82,36,Technician,5,High,Medium,Day,optimistic,1,1,4,1,3,Auditory,Africa,High School,Other,30,Extensive,0,0,0,3,5,5,4,5,3,4,4,5,4,35.00,17.71,14.75,15.65,16.24,17.48,14.83,17.02,25,20,15,0,0,0,5,2,2,5,2,5,2,5,2,5,87.50,11.75,9.18,11.47,10.53,8.69,10.67,11.44,25,20,15,0,0,0,52.50,-5.96,-5.57,-4.18,-5.70,-8.80,-4.16,-5.57,0,0,0,"Time_Subtask1_seconds: 25
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 20
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 15
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 11
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 9
+TLX_Performance: 4
+TLX_Effort: 7
+TLX_Frustration: 5","Time_Subtask1_seconds: 25
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 20
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 15
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 12"
+83,Persona_83,55,Technician,22,Low,Medium,Night,pessimistic,4,1,3,5,3,Kinesthetic,North America,PhD,Other,6,None,2,1,0,1,3,3,2,3,1,3,2,3,1,30.00,12.45,17.24,16.67,14.47,12.17,14.30,13.97,120,90,60,0,1,0,4,1,1,4,1,4,1,4,1,4,87.50,9.02,11.98,9.88,10.33,11.14,8.93,11.01,45,60,40,-2,0,0,57.50,-3.42,-5.26,-6.79,-4.14,-1.03,-5.37,-2.96,-75,-30,-20,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 10
+TLX_Performance: 5
+TLX_Effort: 11
+TLX_Frustration: 7","Time_Subtask1_seconds: 120
+Errors_Subtask1_count: 2
+Time_Subtask2_seconds: 90
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 60
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 18
+TLX_Physical_Demand: 10
+TLX_Temporal_Demand: 16
+TLX_Performance: 15
+TLX_Effort: 17
+TLX_Frustration: 19"
+84,Persona_84,50,Operator,28,Low,Medium,Night,optimistic,3,5,2,4,5,Visual,Africa,Bachelor's,Male,5,Some,0,1,0,2,4,4,3,4,2,4,3,4,3,32.50,13.02,16.72,16.14,14.59,16.20,12.90,12.55,45,60,40,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,10.17,10.94,9.61,9.87,8.68,9.79,10.01,45,60,40,0,0,0,67.50,-2.85,-5.78,-6.54,-4.72,-7.52,-3.11,-2.53,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 10
+TLX_Performance: 5
+TLX_Effort: 11
+TLX_Frustration: 9","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 17"
+85,Persona_85,39,Technician,12,Low,Low,Day,pessimistic,4,1,2,1,1,Auditory,South America,Master's,Female,10,None,2,3,2,2,4,4,3,4,2,4,2,4,2,27.50,14.25,15.74,17.09,15.97,17.69,17.59,13.49,90,120,60,0,1,0,4,2,1,5,1,5,1,4,1,4,90.00,7.93,11.89,6.05,7.76,6.71,7.06,6.89,45,60,50,-2,-2,-2,62.50,-6.32,-3.85,-11.04,-8.22,-10.97,-10.53,-6.59,-45,-60,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 0","SUS_1: 4
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 4
+SUS_8: 1
+SUS_9: 4
+SUS_10: 2","TLX_Mental_Demand: 15
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 12
+TLX_Performance: 5
+TLX_Effort: 14
+TLX_Frustration: 10","Time_Subtask1_seconds: 90
+Errors_Subtask1_count: 2
+Time_Subtask2_seconds: 120
+Errors_Subtask2_count: 3
+Time_Subtask3_seconds: 60
+Errors_Subtask3_count: 2","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 2
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 17"
+86,Persona_86,43,Technician,24,Medium,High,Day,optimistic,2,2,5,1,1,Kinesthetic,South America,Master's,Female,19,Some,0,0,1,5,5,5,5,5,5,5,5,5,5,50.00,16.39,15.14,15.95,15.69,15.38,17.14,14.13,45,60,50,0,0,0,5,4,4,5,4,5,4,5,4,5,62.50,6.69,6.05,7.51,7.60,8.98,9.81,6.54,45,60,40,0,0,-1,12.50,-9.70,-9.08,-8.44,-8.09,-6.40,-7.34,-7.59,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 7
+TLX_Temporal_Demand: 9
+TLX_Performance: 5
+TLX_Effort: 10
+TLX_Frustration: 8","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 13"
+87,Persona_87,46,Technician,7,High,Low,Night,neutral,1,3,5,4,5,Kinesthetic,North America,Associate Degree,Female,19,None,0,1,0,1,3,3,2,3,1,2,2,3,2,35.00,15.28,14.52,13.81,14.90,15.38,15.32,15.08,45,60,40,0,1,0,4,1,1,4,1,4,1,4,1,4,87.50,8.11,10.01,10.83,9.00,9.92,6.03,9.07,45,60,40,0,0,0,52.50,-7.17,-4.50,-2.98,-5.90,-5.46,-9.29,-6.01,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 14
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 12
+TLX_Performance: 6
+TLX_Effort: 10
+TLX_Frustration: 9","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 17"
+88,Persona_88,20,Operator,10,Low,Low,Night,neutral,3,1,1,4,4,Auditory,Europe,Master's,Other,22,None,0,1,0,1,2,2,1,2,1,1,1,2,1,40.00,17.39,14.49,15.11,15.61,13.13,17.48,16.06,90,120,60,0,1,0,3,1,1,3,1,3,1,3,1,3,75.00,8.88,8.67,7.83,8.33,6.62,7.64,10.34,45,60,40,0,0,0,35.00,-8.51,-5.81,-7.27,-7.28,-6.51,-9.84,-5.72,-45,-60,-20,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 9
+TLX_Performance: 5
+TLX_Effort: 11
+TLX_Frustration: 7","Time_Subtask1_seconds: 90
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 120
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 60
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 12"
+89,Persona_89,52,Supervisor,27,High,Medium,Day,neutral,1,4,1,4,1,Kinesthetic,Africa,Master's,Other,12,Extensive,0,0,1,1,3,3,2,3,1,3,2,3,2,32.50,12.56,12.89,15.06,14.74,17.93,16.44,13.56,45,60,50,0,1,0,4,1,1,4,1,4,1,4,1,4,87.50,9.42,11.43,11.80,9.72,8.47,10.57,6.61,45,60,40,0,1,-1,55.00,-3.13,-1.46,-3.25,-5.02,-9.45,-5.88,-6.95,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 13
+TLX_Physical_Demand: 7
+TLX_Temporal_Demand: 10
+TLX_Performance: 6
+TLX_Effort: 12
+TLX_Frustration: 8","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 10
+TLX_Temporal_Demand: 18
 TLX_Performance: 14
-TLX_Effort: 18
-TLX_Frustration: 15"
+TLX_Effort: 15
+TLX_Frustration: 17"
+90,Persona_90,60,Technician,10,Low,Medium,Day,neutral,2,5,4,3,1,Reading/Writing,North America,Associate Degree,Female,18,Some,0,1,0,3,5,5,4,5,3,4,4,5,4,35.00,15.56,15.53,16.49,16.22,17.29,14.52,17.94,90,120,60,0,1,0,5,3,2,5,2,5,2,5,2,5,85.00,10.00,9.68,9.86,8.91,9.34,7.01,7.54,45,60,40,0,0,0,50.00,-5.56,-5.85,-6.63,-7.32,-7.95,-7.50,-10.41,-45,-60,-20,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 4
+SUS_10: 2","TLX_Mental_Demand: 10
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 8
+TLX_Performance: 4
+TLX_Effort: 7
+TLX_Frustration: 5","Time_Subtask1_seconds: 90
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 120
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 60
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 15
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 16
+TLX_Performance: 12
+TLX_Effort: 14
+TLX_Frustration: 11"
+91,Persona_91,53,Operator,13,Medium,High,Night,optimistic,3,2,1,5,1,Auditory,Asia,Bachelor's,Other,30,Extensive,0,0,1,3,5,5,4,4,3,5,4,5,4,35.00,15.68,16.55,13.77,14.51,14.95,13.93,12.19,45,60,40,0,0,0,5,2,2,5,2,5,2,5,2,5,87.50,8.50,9.73,8.54,8.46,6.00,10.59,7.39,45,60,40,0,0,-1,52.50,-7.18,-6.82,-5.23,-6.05,-8.95,-3.34,-4.80,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 10
+TLX_Performance: 5
+TLX_Effort: 9
+TLX_Frustration: 6","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 9
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 12"
+92,Persona_92,29,Operator,4,Low,Medium,Day,optimistic,5,2,1,2,4,Reading/Writing,Africa,PhD,Female,21,Extensive,0,1,0,2,4,4,3,4,2,4,3,4,2,30.00,14.90,17.64,12.33,14.61,13.85,14.50,14.43,45,60,40,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,10.49,11.75,8.26,9.65,6.55,8.94,11.93,45,60,40,0,0,0,70.00,-4.41,-5.88,-4.07,-4.95,-7.31,-5.56,-2.49,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 14
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 12
+TLX_Performance: 7
+TLX_Effort: 13
+TLX_Frustration: 10","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 10
+TLX_Temporal_Demand: 18
+TLX_Performance: 15
+TLX_Effort: 17
+TLX_Frustration: 14"
+93,Persona_93,60,Supervisor,11,High,Medium,Day,neutral,1,4,4,3,3,Visual,Asia,PhD,Male,9,Some,0,0,1,2,4,4,3,3,2,4,3,4,3,35.00,12.19,17.55,17.39,15.52,14.94,16.32,14.71,45,60,40,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,11.05,10.10,8.09,9.54,9.63,10.58,7.78,45,60,40,0,1,-1,65.00,-1.14,-7.45,-9.30,-5.98,-5.32,-5.74,-6.94,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 13
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 11
+TLX_Performance: 6
+TLX_Effort: 10
+TLX_Frustration: 9","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 17
+TLX_Effort: 15
+TLX_Frustration: 13"
+94,Persona_94,48,Operator,2,Medium,Medium,Day,pessimistic,1,5,5,5,4,Reading/Writing,Africa,PhD,Other,28,None,0,0,1,1,3,3,2,3,1,3,2,3,2,32.50,17.65,15.38,17.73,15.57,12.54,13.63,16.49,45,60,50,0,0,0,4,1,1,4,1,4,1,4,1,4,87.50,7.72,7.93,7.51,8.03,9.71,6.53,8.79,45,60,40,0,0,-1,55.00,-9.94,-7.45,-10.22,-7.54,-2.83,-7.10,-7.70,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 14
+TLX_Physical_Demand: 7
+TLX_Temporal_Demand: 10
+TLX_Performance: 5
+TLX_Effort: 12
+TLX_Frustration: 8","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 17"
+95,Persona_95,48,Supervisor,21,Low,Medium,Night,pessimistic,2,1,4,1,3,Visual,Africa,Associate Degree,Male,7,Extensive,0,0,1,1,3,3,2,3,1,3,2,3,1,30.00,12.99,12.61,14.97,13.32,13.40,12.47,13.50,90,60,45,0,1,0,4,1,1,4,1,4,1,4,1,3,85.00,11.08,11.50,8.80,9.25,7.83,9.69,6.60,45,60,40,0,1,-1,55.00,-1.91,-1.11,-6.17,-4.07,-5.57,-2.78,-6.90,-45,0,-5,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 4
+SUS_10: 2","TLX_Mental_Demand: 15
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 12
+TLX_Performance: 5
+TLX_Effort: 14
+TLX_Frustration: 10","Time_Subtask1_seconds: 90
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 45
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 2
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 10
+TLX_Temporal_Demand: 18
+TLX_Performance: 14
+TLX_Effort: 15
+TLX_Frustration: 17"
+96,Persona_96,48,Technician,17,High,High,Day,neutral,3,3,4,4,3,Visual,Oceania,Bachelor's,Male,10,None,0,0,1,2,4,4,3,3,2,4,3,4,3,35.00,17.34,13.72,12.68,14.34,13.31,14.24,14.77,45,60,50,0,0,0,5,1,1,5,1,5,1,5,1,5,100.00,10.85,11.67,10.06,9.75,9.05,9.80,7.05,45,60,40,0,0,-1,65.00,-6.49,-2.05,-2.61,-4.60,-4.26,-4.44,-7.72,0,0,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 8
+TLX_Performance: 4
+TLX_Effort: 10
+TLX_Frustration: 7","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 3
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 14
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 16
+TLX_Performance: 12
+TLX_Effort: 13
+TLX_Frustration: 11"
+97,Persona_97,55,Supervisor,13,Medium,Medium,Day,neutral,1,5,2,3,3,Reading/Writing,Europe,PhD,Other,30,None,0,1,0,1,3,3,2,3,1,2,2,3,2,35.00,12.94,15.21,15.00,15.02,15.16,15.01,16.82,45,60,40,0,1,0,4,1,1,4,1,4,1,4,1,4,87.50,9.14,8.32,10.95,8.38,7.24,8.42,6.24,45,60,40,0,0,0,52.50,-3.81,-6.90,-4.05,-6.64,-7.92,-6.59,-10.59,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 10
+TLX_Performance: 4
+TLX_Effort: 9
+TLX_Frustration: 7","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 9
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 13"
+98,Persona_98,39,Supervisor,13,High,Medium,Day,pessimistic,5,1,4,5,3,Visual,Asia,Bachelor's,Male,30,None,0,0,1,2,4,4,3,4,2,4,3,4,3,32.50,12.61,14.06,15.56,14.08,12.00,17.41,12.84,45,60,40,0,1,0,5,1,1,5,1,5,1,5,1,5,100.00,6.15,9.24,8.38,8.89,10.03,11.79,7.74,45,60,40,0,1,-1,67.50,-6.46,-4.82,-7.18,-5.19,-1.98,-5.62,-5.10,0,0,0,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 1
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 14
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 10
+TLX_Performance: 5
+TLX_Effort: 12
+TLX_Frustration: 7","Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 1","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 4
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 14
+TLX_Performance: 18
+TLX_Effort: 15
+TLX_Frustration: 17"
+99,Persona_99,41,Technician,7,Low,Low,Day,optimistic,3,1,5,5,5,Visual,Oceania,Bachelor's,Other,4,Extensive,0,0,0,3,5,5,4,5,3,4,4,5,4,35.00,13.23,14.47,15.17,14.25,17.51,13.08,12.07,60,45,50,0,0,0,5,2,2,5,2,5,2,5,2,5,87.50,6.87,7.70,6.61,8.67,11.70,8.30,10.81,45,60,40,0,0,0,52.50,-6.36,-6.77,-8.56,-5.59,-5.81,-4.78,-1.26,-15,15,-10,"Time_Subtask1_seconds: 45
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 60
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 40
+Errors_Subtask3_count: 0","SUS_1: 5
+SUS_2: 1
+SUS_3: 5
+SUS_4: 1
+SUS_5: 5
+SUS_6: 1
+SUS_7: 5
+SUS_8: 1
+SUS_9: 5
+SUS_10: 1","TLX_Mental_Demand: 12
+TLX_Physical_Demand: 6
+TLX_Temporal_Demand: 8
+TLX_Performance: 4
+TLX_Effort: 10
+TLX_Frustration: 7","Time_Subtask1_seconds: 60
+Errors_Subtask1_count: 0
+Time_Subtask2_seconds: 45
+Errors_Subtask2_count: 0
+Time_Subtask3_seconds: 50
+Errors_Subtask3_count: 0","SUS_1: 2
+SUS_2: 4
+SUS_3: 3
+SUS_4: 4
+SUS_5: 2
+SUS_6: 3
+SUS_7: 3
+SUS_8: 4
+SUS_9: 3
+SUS_10: 4","TLX_Mental_Demand: 16
+TLX_Physical_Demand: 8
+TLX_Temporal_Demand: 18
+TLX_Performance: 14
+TLX_Effort: 15
+TLX_Frustration: 12"
